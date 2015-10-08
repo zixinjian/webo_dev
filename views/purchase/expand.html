@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../../asserts/3rd/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="../../asserts/3rd/bootstrap-table/bootstrap-table.css">
+<link rel="stylesheet" href="../../asserts/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css">
+<link rel="stylesheet" href="../../asserts/css/overwrite.css">
+
+</head>
+<body>
+<div>
+    <div class="toolbar" style="line-height: 20px">
+        <div class="form-group">
+            {{str2html .buyers}}
+        </div>
+    </div>
+    <table id="item_table"
+           data-show-refresh="true"
+           data-show-columns="true"
+           data-search="true"
+           data-query-params="queryParams"
+           data-row-style="rowStyle"
+           data-show-footer="true"
+           data-toolbar=".toolbar">
+        <thead>
+        <tr>
+            <th data-field="check" data-checkbox = "true" data-align="center"></th>
+            <th data-field="action"
+                data-align="center"
+                data-formatter="actionFormatter"
+                data-events="actionEvents"
+                data-width="75px" data-footer-formatter="optFootFormat">  [ 操作 ]  </th>
+            <th data-field="sn"  data-sortable="true" data-footer-formatter="snFootFormat">编号</th>
+            <th data-field="category"  data-sortable="true">类别</th>
+            <th data-field="product"  data-sortable="true">商品</th>
+            <th data-field="model"  data-sortable="true">型号</th>
+            <th data-field="num"  data-sortable="true" data-footer-formatter="numFootFormat">数量</th>
+            <th data-field="unitprice"  data-sortable="true">单价</th>
+            <th data-field="productprice"  data-sortable="true">参考价</th>
+            <th data-field="totalprice"  data-sortable="true"  data-footer-formatter="totalPriceFootFormat">金额</th>
+            <th data-field="pricedifference"  data-sortable="true" data-formatter="priceDifferenceFormat"
+                data-footer-formatter="priceDifferenceFootFormat">总差价</th>
+            <th data-field="buyer"  data-sortable="true">采购人</th>
+            <th data-field="mark"  data-sortable="true">备注</th>
+        </tr>
+        </thead>
+    </table>
+    <div id="print_div" style="display: none;">
+        <table id = "print_table">
+            <thead>
+            <tr>
+                <th>编号</th>
+                <th>类别</th>
+                <th>商品</th>
+                <th>型号</th>
+                <th>数量</th>
+                <th>单价</th>
+                <th>参考价</th>
+                <th>金额</th>
+                <th>总差价</th>
+                <th>采购人</th>
+                <th>备注</th>
+            </tr>
+            </thead>
+            <tbody id="print_tbody">
+
+            </tbody>
+        </table>
+    </div>
+</div>
+<script src="../../asserts/3rd/jquery/jquery.js"></script>
+<script src="../../asserts/3rd/jquery/jquery-migrate.min.js"></script>
+<script src="../../asserts/3rd/bootstrap/js/bootstrap.min.js"></script>
+<script src="../../asserts/3rd/bootstrap-table/bootstrap-table.js"></script>
+<script src="../../asserts/3rd/bootstrap-table/locale/bootstrap-table-zh-CN.js"></script>
+<script src="../../asserts/3rd/bootstrap-table/extensions/editable/bootstrap-table-editable.js"></script>
+<script src="../../asserts/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js"></script>
+<script src="../../asserts/3rd/moment/moment.js"></script>
+<script src="../../asserts/3rd/jqprint/jquery.jqprint.js"></script>
+<script src="../../asserts/webo/util.js"></script>
+<script src="../../asserts/js/ui.js"></script>
+{{str2html .queryParams}}
+<script>
+    var $table = $("#item_table")
+    $.fn.bootstrapTable.methods.push("resetFooter")
+    $(function(){
+        $table.bootstrapTable({url:"{{.listUrl}}", method:"post", sidePagination:"server", pagination:true,
+            height:getTableHeight(), sortName:"requireddate", sortOrder:"{{.sortOrder}}"});
+        $("#add_item").on("click", function(){
+            top.showTopModal({url:"{{.addUrl}}", refreshContent:refreshContent});
+        })
+        $(window).resize(function () {
+            $table.bootstrapTable('resetView', {
+                height: getTableHeight()
+            });
+        });
+    });
+    function refreshContent(options){
+        top.hideTopModal()
+        $table.bootstrapTable("refresh")
+    }
+
+    function actionFormatter(value, row) {
+        return [
+            '<a class="update" href="javascript:" title="修改" style="margin-right: 5px;"><i class="glyphicon glyphicon-edit"></i></a>',
+            wbSprintf('<a class="file" href="/static/files/purchase/%s" target="_blank" title="附件" data-toggle="poplayer" data-placement="bottom" data-url="/static"><i class="glyphicon glyphicon-file"></i></a>', row.sn),
+        ].join('');
+    }
+
+    function priceDifferenceFormat(value, row){
+        return getPriceDifferenceStr(row)
+    }
+    function optFootFormat(data){
+        return '<a href="javascript:" onclick="print()" id="add_item" class="print btn btn-primary btn-sm">打印</a>'
+    }
+    function snFootFormat(data){
+        return '<p id="total_sn">选中: 0 条</p>'
+    }
+    function numFootFormat(data){
+        return '<p id="total_num">0</p>'
+    }
+    function totalPriceFootFormat(data){
+        return '<p id="total_price">0</p>'
+    }
+    function priceDifferenceFootFormat(data){
+        return '<p id="total_price_difference">0</p>'
+    }
+    function getSelectTotal(attr){
+        rows = $table.bootstrapTable("getSelections")
+        var total = 0;
+        $.each(rows, function (i, row) {
+            total += +(row[attr]);
+        });
+        return total;
+    }
+    function GetSelectPriceDifference() {
+        rows = $table.bootstrapTable("getSelections")
+        var total = 0;
+        $.each(rows, function (i, row) {
+            total += getPriceDifference(row)
+        });
+        return total;
+    }
+    function getPriceDifferenceStr(row){
+        if (!row){
+            return ""
+        }
+        if (!row.totalprice || !row.num || !row.productprice){
+            return ""
+        }
+        return getPriceDifference(row)
+    }
+    function getPriceDifference(row){
+        if (!row){
+            return 0
+        }
+        if (!row.totalprice || !row.num || !row.productprice){
+            return 0
+        }
+        return row.totalprice - (row.productprice * row.num)
+    }
+    function print(){
+        rows = $table.bootstrapTable("getSelections")
+        printTable = $("#print_table")
+        printTbody = $("#print_tbody")
+        trs = []
+        for(i in rows){
+            var row = rows[i]
+            tr = wbSprintf('<tr><td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td></tr>',
+            row.sn, row.category, row.product, row.model, row.num, row.unitprice, row.productprice, row.totalprice, getPriceDifferenceStr(row), row.buyer, row.mark)
+            trs.push(tr)
+        }
+        trs.push(wbSprintf('<tr><td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td></tr>',
+                "总共: " + rows.length + " 条", "", "", "", getSelectTotal("num"), "", "", getSelectTotal("totalprice"), GetSelectPriceDifference(), "", ""))
+        printTbody.html(trs.join(''))
+        printTable.bootstrapTable()
+        printTable.jqprint({operaSupport:false})
+
+    }
+    window.actionEvents = {
+        'click .update': function (e, value, row) {
+            top.showTopModal({url:"{{.updateUrl}}?sn=" + row.sn, refreshContent:refreshContent});
+        }
+    }
+    $(function(){
+        $("[data-model='buyers']").on("change", function(){
+            var selectedValue = $("input[name='buyers']:checked").val();
+            if (selectedValue == "all"){
+                $table.bootstrapTable("refresh")
+            }else{
+                $table.bootstrapTable("refresh", {query: {buyer: selectedValue}})
+            }
+        })
+        $table.on('check.bs.table uncheck.bs.table ' +
+        'check-all.bs.table uncheck-all.bs.table', function () {
+            rows = $table.bootstrapTable("getSelections")
+            $("#total_sn").html("选中: " + rows.length + " 条")
+            $("#total_num").html(getSelectTotal("num"))
+            $("#total_price").html(getSelectTotal("totalprice"))
+            $("#total_price_difference").html(GetSelectPriceDifference())
+        });
+    });
+    function rowStyle(row, index) {
+        if(getPriceDifference(row) > 0){
+            return {classes: "warning"};
+        }
+        return {}
+    }
+    function getHeight() {
+        return $(window).height()-50;
+    }
+</script>
+</body>
+</html>

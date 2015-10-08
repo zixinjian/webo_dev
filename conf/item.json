@@ -1,0 +1,258 @@
+{
+  "user":{
+  "name":"user",
+  "fields":[
+    {
+      "name":"name",
+      "label":"姓名",
+      "require":"true"
+    },
+    {
+      "name":"username",
+      "label":"用户名",
+      "require":"true",
+      "unique":"true"
+    },
+    {
+      "name":"password",
+      "label":"密码",
+      "require":"true",
+      "input":"password",
+      "model":"password"
+    },
+    {
+      "name":"department",
+      "label":"部门",
+      "input":"select",
+      "model":"enum",
+      "default": "",
+      "enum":[
+        "department_purchase",
+        "department_sale",
+        "department_product"
+      ]
+    },
+    {
+      "name":"role",
+      "type":"string",
+      "label":"权限",
+      "require":"false",
+      "unique":"false",
+      "input":"select",
+      "model":"enum",
+      "default": "role_user",
+      "enum":[
+        "role_user",
+        "role_admin"
+      ]
+    },
+    {
+      "name":"flag",
+      "type":"string",
+      "label":"状态",
+      "require":"false",
+      "unique":"false",
+      "input":"select",
+      "model":"enum",
+      "default": "flag_available",
+      "enum":[
+        "flag_available",
+        "flag_delete"
+      ]
+    }
+  ]
+  },
+  "supplier":{
+    "name":"supplier",
+    "fields":[
+      {
+        "name":"name",
+        "type": "string",
+        "label":"姓名",
+        "require":"true",
+        "unique":"false",
+        "input":"text",
+        "model":"text",
+        "default": ""
+      },
+      {
+        "name":"keyword",
+        "type":"string",
+        "label":"关键字",
+        "require":"true",
+        "unique":"false",
+        "input":"text",
+        "model":"text",
+        "default": ""
+      },
+      {
+        "name":"category",
+        "type":"string",
+        "label":"类别",
+        "require":"true",
+        "unique":"true",
+        "input":"text",
+        "model":"text",
+        "default": ""
+      },
+      {
+        "name":"spscope",
+        "type":"string",
+        "label":"经营内容",
+        "require":"false",
+        "unique":"false",
+        "input":"text",
+        "model":"text",
+        "default": ""
+      },
+      {
+        "name":"contact",
+        "type":"string",
+        "label":"联系人",
+        "require":"false",
+        "unique":"false",
+        "input":"text",
+        "model":"text",
+        "default": ""
+      },
+      {
+        "name":"jobtitle",
+        "type":"string",
+        "label":"职位",
+        "require":"false",
+        "unique":"false",
+        "input":"text",
+        "model":"text",
+        "default": ""
+      },
+      {
+        "name":"phone",
+        "type":"string",
+        "label":"电话",
+        "require":"false",
+        "unique":"false",
+        "input":"text",
+        "model":"text",
+        "default": ""
+      },
+      {
+        "name":"webchat",
+        "type":"string",
+        "label":"微信",
+        "require":"false",
+        "unique":"false",
+        "input":"text",
+        "model":"text",
+        "default": ""
+      },
+      {
+        "name":"qq",
+        "type":"string",
+        "label":"QQ",
+        "require":"false",
+        "unique":"false",
+        "input":"text",
+        "model":"text",
+        "default": ""
+      },{
+        "name":"contact2",
+        "type":"string",
+        "label":"联系人",
+        "require":"false",
+        "unique":"false",
+        "input":"text",
+        "model":"text",
+        "default": ""
+      },
+      {
+        "name":"jobtitle2",
+        "type":"string",
+        "label":"职位",
+        "require":"false",
+        "unique":"false",
+        "input":"text",
+        "model":"text",
+        "default": ""
+      },
+      {
+        "name":"phone2",
+        "type":"string",
+        "label":"电话",
+        "require":"false",
+        "unique":"false",
+        "input":"text",
+        "model":"text",
+        "default": ""
+      },
+      {
+        "name":"webchat2",
+        "type":"string",
+        "label":"微信",
+        "require":"false",
+        "unique":"false",
+        "input":"text",
+        "model":"text",
+        "default": ""
+      },
+      {
+        "name":"qq2",
+        "type":"string",
+        "label":"QQ",
+        "require":"false",
+        "unique":"false",
+        "input":"text",
+        "model":"text",
+        "default": ""
+      },{
+        "name":"contact3",
+        "type":"string",
+        "label":"联系人",
+        "require":"false",
+        "unique":"false",
+        "input":"text",
+        "model":"text",
+        "default": ""
+      },
+      {
+        "name":"jobtitle3",
+        "type":"string",
+        "label":"职位",
+        "require":"false",
+        "unique":"false",
+        "input":"text",
+        "model":"text",
+        "default": ""
+      },
+      {
+        "name":"phone3",
+        "type":"string",
+        "label":"电话",
+        "require":"false",
+        "unique":"false",
+        "input":"text",
+        "model":"text",
+        "default": ""
+      },
+      {
+        "name":"webchat3",
+        "type":"string",
+        "label":"微信",
+        "require":"false",
+        "unique":"false",
+        "input":"text",
+        "model":"text",
+        "default": ""
+      },
+      {
+        "name":"qq3",
+        "type":"string",
+        "label":"QQ",
+        "require":"false",
+        "unique":"false",
+        "input":"text",
+        "model":"text",
+        "default": ""
+      }
+    ]
+  }
+}

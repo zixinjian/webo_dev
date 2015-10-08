@@ -1,0 +1,6 @@
+field,showInList,sortable,order,visible
+sn,true,,,
+orderdate,,true,desc,
+file,,,,false
+paymentamount,,,,false
+paymentdate,,,,false

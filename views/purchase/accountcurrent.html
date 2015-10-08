@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../../asserts/3rd/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="../../asserts/3rd/bootstrap-table/bootstrap-table.css">
+<link rel="stylesheet" href="../../asserts/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css">
+<link rel="stylesheet" href="../../asserts/3rd/jquery-ui/jquery-ui.min.css">
+<link rel="stylesheet" href="../../asserts/css/overwrite.css">
+
+</head>
+<body>
+<div>
+    <div class="alert" role="alert" style="display: none;margin-top:20px"></div>
+    <div class="toolbar" style="line-height: 20px">
+        <div class="form-inline">
+            <div class="form-group">
+                <label for="supplier_key">供应商关键字</label>
+                <input type="text" class="form-control" id="supplier_key" placeholder="请输入关键字">
+                <label for="supplier_name">名称</label>
+                <input type="text" class="form-control" id="supplier_name" placeholder="自动联想" readonly>
+                <input type="hidden" id="supplier">
+            </div>
+            <button type="button" id="queryBtn" class="btn btn-default btn-primary">查询</button>
+        </div>
+    </div>
+    <table id="item_table"
+           data-show-refresh="true"
+           data-show-columns="true"
+           data-search="true"
+           data-query-params="queryParams"
+           data-row-style="rowStyle"
+           data-show-footer="true"
+           data-toolbar=".toolbar">
+        <thead>
+        <tr>
+            <!--<th data-field="sn"  data-sortable="true" data-footer-formatter="snFootFormat">编号</th>-->
+            <th data-field="godowndate"  data-sortable="true">入库日期</th>
+            <th data-field="category"  data-sortable="true">类别</th>
+            <th data-field="product"  data-sortable="true">商品</th>
+            <th data-field="model"  data-sortable="true">型号</th>
+            <th data-field="num"  data-sortable="true" data-footer-formatter="numFootFormat">数量</th>
+            <th data-field="unitprice"  data-sortable="true">单价</th>
+            <th data-field="totalprice"  data-sortable="true" data-footer-formatter="totalPriceFootFormat">总价</th>
+            <th data-field="paymentamount" data-sortable="true" data-footer-formatter="paymentamountFootFormat">付款金额</th>
+            <th data-field="paymentdate" data-sortable="true">付款日期</th>
+            <th data-field="arrears"  data-sortable="true" data-formatter="arrearsFormat"
+                data-footer-formatter="arrearsFootFormat">欠款金额</th>
+            <th data-field="mark"  data-sortable="true">备注</th>
+        </tr>
+        </thead>
+    </table>
+    <div id="print_div" style="display: none;">
+        <table id = "print_table">
+            <thead>
+            <tr>
+                <th data-field="sn">编号</th>
+                <th data-field="godowndate">入库日期</th>
+                <th data-field="category">类别</th>
+                <th data-field="product">商品</th>
+                <th data-field="model">型号</th>
+                <th data-field="num">数量</th>
+                <th data-field="unitprice">单价</th>
+                <th data-field="totalprice">总价</th>
+                <th data-field="paymentamount">付款金额</th>
+                <th data-field="paymentdate">付款日期</th>
+                <th data-field="arrears">欠款金额</th>
+                <th data-field="mark">备注</th>
+            </tr>
+            </thead>
+            <tbody id="print_tbody">
+            </tbody>
+        </table>
+    </div>
+</div>
+<script src="../../asserts/3rd/jquery/jquery.js"></script>
+<script src="../../asserts/3rd/jquery/jquery-migrate.min.js"></script>
+<script src="../../asserts/3rd/bootstrap/js/bootstrap.min.js"></script>
+<script src="../../asserts/3rd/bootstrap-table/bootstrap-table.js"></script>
+<script src="../../asserts/3rd/bootstrap-table/locale/bootstrap-table-zh-CN.js"></script>
+<script src="../../asserts/3rd/bootstrap-table/extensions/editable/bootstrap-table-editable.js"></script>
+<script src="../../asserts/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js"></script>
+<script src="../../asserts/3rd/jquery-ui/jquery-ui.min.js"></script>
+<script src="../../asserts/3rd/moment/moment.js"></script>
+<script src="../../asserts/3rd/jqprint/jquery.jqprint.js"></script>
+<script src="../../asserts/webo/util.js"></script>
+<script src="../../asserts/js/ui.js"></script>
+<script>
+    var $table = $("#item_table")
+    $(function(){
+        $table.bootstrapTable({url:"/item/list/purchase", method:"post", sidePagination:"server", pagination:true,
+            height:getTableHeight(), sortName:"requireddate", sortOrder:"{{.sortOrder}}"});
+        $("#add_item").on("click", function(){
+            top.showTopModal({url:"{{.addUrl}}", refreshContent:refreshContent});
+        })
+        $(window).resize(function () {
+            $table.bootstrapTable('resetView', {
+                height: getTableHeight()
+            });
+        });
+    });
+    function actionFormatter(value, row) {
+        return [
+            '<a class="update" href="javascript:" title="修改" style="margin-right: 5px;"><i class="glyphicon glyphicon-edit"></i></a>',
+            wbSprintf('<a class="file" href="/static/files/purchase/%s" target="_blank" title="附件" data-toggle="poplayer" data-placement="bottom" data-url="/static"><i class="glyphicon glyphicon-file"></i></a>', row.sn),
+        ].join('');
+    }
+    function arrearsFormat(value, row){
+        return getArrearsStr(row)
+    }
+    function snFootFormat(data){
+        return '<p id="total_sn">选中: 0 条</p>'
+    }
+    function numFootFormat(data){
+        return '<p id="total_num">0</p>'
+    }
+    function totalPriceFootFormat(data){
+        return '<p id="total_price">0</p>'
+    }
+    function paymentamountFootFormat(data){
+        return '<p id="total_paymentamount">0</p>'
+    }
+    function arrearsFootFormat(value, row){
+        return '<p id="total_arrears">0</p>'
+    }
+    function getSelectTotal(attr){
+        rows = $table.bootstrapTable("getSelections")
+        var total = 0;
+        $.each(rows, function (i, row) {
+            total += +(row[attr]);
+        });
+        return total;
+    }
+    function GetSelectArrears() {
+        rows = $table.bootstrapTable("getSelections")
+        var total = 0;
+        $.each(rows, function (i, row) {
+            total += getArrears(row)
+        });
+        return total;
+    }
+    function getArrearsStr(row){
+        if (!row){
+            return ""
+        }
+        if (!row.totalprice || !row.paymentamount){
+            return ""
+        }
+        return getArrears(row)
+    }
+    function getArrears(row){
+        if (!row){
+            return 0
+        }
+        if (!row.totalprice || !row.paymentamount){
+            return 0
+        }
+        return row.totalprice - row.paymentamount
+    }
+    function print(){
+//        rows = $table.bootstrapTable("getSelections")
+//        printTable = $("#print_table")
+//        printTbody = $("#print_tbody")
+//        trs = []
+//        for(i in rows){
+//            var row = rows[i]
+//            tr = wbSprintf('<tr><td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td></tr>',
+//            row.sn, row.category, row.product, row.model, row.num, row.unitprice, row.productprice, row.totalprice, getPriceDifferenceStr(row), row.buyer, row.mark)
+//            trs.push(tr)
+//        }
+//        trs.push(wbSprintf('<tr><td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td> <td>%s</td></tr>',
+//                "总共: " + rows.length + " 条", "", "", "", getSelectTotal("num"), "", "", getSelectTotal("totalprice"), GetSelectPriceDifference(), "", ""))
+//        printTbody.html(trs.join(''))
+//        printTable.bootstrapTable()
+//        printTable.jqprint({operaSupport:false})
+    }
+    window.actionEvents = {
+        'click .update': function (e, value, row) {
+            top.showTopModal({url:"{{.updateUrl}}?sn=" + row.sn, refreshContent:refreshContent});
+        }
+    }
+    $(function(){
+        $("#queryBtn").on("click", function(){
+            $table.bootstrapTable('refresh', {query:{supplier:$("supplier").val()}})
+        });
+        $("#supplier_key").autocomplete({
+            source: "/item/autocomplete/supplier",
+            autoFocus:true,
+            focus: function( event, ui ) {
+                $( "#supplier_key" ).val(ui.item.keyword );
+                $( "#supplier_name" ).val(ui.item.name);
+                $( "#supplier" ).val(ui.item.sn);
+                return false;
+            },
+            minLength: 1,
+            select: function( event, ui) {
+                $( "#supplier_key" ).val(ui.item.keyword);
+                $( "#supplier_name" ).val(ui.item.name);
+                $( "#supplier" ).val(ui.item.sn);
+                return false;
+            },
+            change: function( event, ui ) {
+                if(!ui.item){
+                    $( "#supplier_key" ).val("");
+                    $( "#supplier_name" ).val(ui.item.name);
+                    $( "#supplier" ).val("");
+                }
+            }
+        }).autocomplete( "instance" )._renderItem = function( ul, item ) {
+            return $( "<li>" )
+                    .append(item.keyword + "(" + item.name + ")")
+                    .appendTo( ul );
+        };
+        $table.on('check.bs.table uncheck.bs.table ' +
+        'check-all.bs.table uncheck-all.bs.table', function () {
+            rows = $table.bootstrapTable("getSelections")
+            $("#total_sn").html("选中: " + rows.length + " 条")
+            $("#total_num").html(getSelectTotal("num"))
+            $("#total_price").html(getSelectTotal("totalprice"))
+            $("#total_paymentamount").html(getSelectTotal("paymentamount"))
+            $("#total_arrears").html(getSelectTotal("arrears"))
+        });
+    });
+    function rowStyle(row, index) {
+        if(getArrears(row) > 0){
+            return {classes: "warning"};
+        }
+        return {}
+    }
+</script>
+</body>
+</html>
