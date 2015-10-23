@@ -1,4 +1,4 @@
-item,journalaccount ,,,,,,,,,
+item,journal,,,,,,,,,
 title,name,type,label,require,unique,input,model,default,enum,
 field,incident,string,付款事由,true,false,text,text,,,
 field,supplier,string,收款方,true,false,autocomplete,text,,/item/autocomplete/supplier,

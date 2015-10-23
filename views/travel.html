@@ -2,6 +2,7 @@
 <html>
   <meta charset="UTF-8">
     <link rel="stylesheet" href="../asserts/3rd/bootstrap/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="../asserts/angularadmin/css/app.min.css">-->
     <link rel="stylesheet" href="../asserts/3rd/bootstrap-table/bootstrap-table.css">
     <link rel="stylesheet" href="../asserts/css/main.css">
     <link rel="stylesheet" href="../asserts/css/overwrite.css">
@@ -32,13 +33,13 @@
     <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
             <ul class="nav nav-sidebar">
-                <li class="active"><a href="/travel/ui/list" target="frame-content">出差派遣</a></li>
+                {{str2html .travelNav}}
             </ul>
             {{str2html .userMgr}}
         </div>
 
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" style="padding: 0;">
-            <iframe name = "frame-content" src="/travel/ui/list" layout-auto-height="-20" style="width:100%;border:none"></iframe>
+            <iframe name = "frame-content" src="/travel/ui/myCreate" layout-auto-height="-20" style="width:100%;border:none"></iframe>
         </div>
     </div>
 </div>

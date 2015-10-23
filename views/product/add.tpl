@@ -31,7 +31,14 @@
 <script src="../../asserts/3rd/jquery-ui/jquery-ui.min.js"></script>
 <script src="../../asserts/js/validateExtend.js"></script>
 <script src="../../asserts/js/ui.js"></script>
+<script src="../../asserts/webo/util.js"></script>
 <script>
+    cateNoName = {
+        cate_engine:"柴油机",
+        cate_generator:"电机",
+        cate_waterbox:"水箱"
+    }
+    cateNameValues = wbGetMapValue(cateNoName)
     function showResponse(resp) {
         if(resp.ret == "success"){
             top.hideTopModal()
@@ -47,8 +54,6 @@
         if(options.refreshContent){
             refreshContent = options.refreshContent
         }
-//        console.log("onTopModalOk")
-//        console.log("valid", $("#item_form").valid());
         if (! $("#item_form").valid()){
             return
         }
@@ -59,12 +64,29 @@
         });
     }
     $(function() {
+        $("#power").wrapAll('<div class="input-group"></div>')
+        $("#power").after('<span class="input-group-addon">KW</span>')
+        var selectCate = $('#category').val()
+        if(selectCate in cateNoName && $('#name').val() == ""){
+            $('#name').val(cateNoName[selectCate]);
+        }
+        $('#category').change(function(){
+            var selectCate = $('#category').val()
+            if(selectCate in cateNoName){
+                $('#name').val(cateNoName[selectCate]);
+                $('#name').attr("readonly", true)
+            }else{
+                if($('#name').val() in cateNameValues){
+                    $('#name').val("")
+                }
+                $('#name').attr("readonly", false)
+            }
+        })
         $('#file_upload').uploadify({
             'swf'      : '../../asserts/3rd/uploadify/uploadify.swf',
             'uploader' : '/item/upload/product?sn=' + $("#sn").val(),
             'cancelImg': '../../asserts/3rd/uploadify/uploadify-cancel.png',
             'fileObjName':'uploadFile'
-            // Put your options here
         });
     });
 </script>

@@ -19,11 +19,6 @@
            data-toolbar=".toolbar">
         <thead>
         <tr>
-            <th data-field="action"
-                data-align="center"
-                data-formatter="actionFormatter"
-                data-events="actionEvents"
-                data-width="75px">  [ 操作 ]  </th>
             <th data-field="sn" data-visible="false" >编号</th>
             <th data-field="traveler"  data-sortable="true">出差人</th>
             <th data-field="task"  data-sortable="true">任务</th>
@@ -68,12 +63,6 @@
         top.hideTopModal()
         $table.bootstrapTable("refresh")
     }
-    function actionFormatter(value, row) {
-        return [
-            '<a class="update" href="javascript:" title="修改" style="margin-right: 5px;">审批</a>',
-//            wbSprintf('<a class="file" href="/static/files/{{.item}}/%s" target="_blank" title="附件" data-toggle="poplayer" data-placement="bottom" data-url="/static"><i class="glyphicon glyphicon-file"></i></a>', row.sn),
-        ].join('');
-    }
     function diffexpenseFormat(value, row){
         if (row.actualexpenses == 0 && row.expenses == 0){
             return 0
@@ -86,19 +75,14 @@
     function diffrateFormat(value, row){
         return row.expayrat *100 + "%"
     }
+    function getDiffexpenese(row){
+        return wbToMoney(parseFloat(row.actualexpenses) - parseFloat(row.expenses))
+    }
     function rowStyle(row, index) {
         if(getDiffexpenese() > 0){
             return {classes: "warning"};
         }
         return {}
-    }
-    function getDiffexpenese(row){
-        return wbToMoney(parseFloat(row.actualexpenses) - parseFloat(row.expenses))
-    }
-    window.actionEvents = {
-        'click .update': function (e, value, row) {
-            top.showTopModal({url:"{{.updateUrl}}?sn=" + row.sn, refreshContent:refreshContent});
-        }
     }
 </script>
 </body>

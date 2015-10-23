@@ -21,7 +21,7 @@ function layoutAutoHeight(){
         var outHeight = $(this).attr("layout-auto-height")
         //console.log("outHeight", outHeight)
         $(this).height($(window).height() + parseInt(outHeight))
-    });
+});
 }
 
 //$(function(){

@@ -10,10 +10,34 @@ import (
 	"webo/models/t"
 	"webo/models/u"
 	"webo/models/userMgr"
+	"fmt"
 )
 
 type TravelController struct {
 	BaseController
+}
+func (this *TravelController) Travel() {
+	userName := this.GetCurUser()
+	userRole := this.GetCurRole()
+	beego.Info(fmt.Sprintf("User:%s login as role:%s", userName, userRole))
+	this.Data["userName"] = userName
+	switch userRole {
+	case "role_admin", "role_manager":
+		navs := []ui.NavLiValue{
+			{"active", "/travel/ui/myCreate", "我的申请"},
+			{"", "/travel/ui/list", "待我审批的申请"},
+			{"", "/travel/ui/list", "出差申请列表"},
+		}
+		this.Data["travelNav"] = ui.BuildNavs(navs)
+		this.Data["userMgr"] = userMgrHtml
+	default:
+		navs := []ui.NavLiValue{
+			{"active", "/travel/ui/list", "我的申请"},
+		}
+		this.Data["travelNav"] = ui.BuildNavs(navs)
+		this.Data["userMgr"] = ""
+	}
+	this.TplNames = "travel.html"
 }
 
 func (this *TravelController) UiList() {
@@ -27,6 +51,14 @@ func (this *TravelController) UiList() {
 	this.Data["addUrl"] = "/travel/ui/add"
 	this.Data["updateUrl"] = "/travel/ui/update"
 	this.TplNames = "travel/list.html"
+}
+func (this *TravelController) MyCreate() {
+	item := s.Travel
+	this.Data["item"] = item
+	this.Data["listUrl"] = "/travel/item/list"
+	this.Data["addUrl"] = "/travel/ui/add"
+	this.Data["updateUrl"] = "/travel/ui/update"
+	this.TplNames = "travel/myCreate.html"
 }
 
 func (this *TravelController) UiAdd() {

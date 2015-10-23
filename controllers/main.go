@@ -40,20 +40,4 @@ func (this *MainController) Get() {
 	this.TplNames = "main.html"
 }
 
-func (this *MainController) Travel() {
-	userName := this.GetCurUser()
-	userRole := this.GetCurRole()
-	beego.Info(fmt.Sprintf("User:%s login as role:%s", userName, userRole))
-	this.Data["userName"] = userName
-	switch userRole {
-	case "role_admin", "role_manager":
-		beego.Debug("Show role", userRole)
-		this.Data["orderNav"] = managerNavHtml
-		this.Data["userMgr"] = userMgrHtml
 
-	default:
-		this.Data["orderNav"] = userNavHtml
-		this.Data["userMgr"] = ""
-	}
-	this.TplNames = "travel.html"
-}

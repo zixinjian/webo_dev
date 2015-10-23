@@ -23,3 +23,11 @@ var wbToMoney = function (str){
     a = a.toFixed(2)
     return parseFloat(a)
 }
+
+var wbGetMapValue = function (map){
+    lst = []
+    for (k in map){
+        lst.push(map[k])
+    }
+    return lst
+}

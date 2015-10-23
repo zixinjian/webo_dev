@@ -1,0 +1,70 @@
+2015/10/21 10:27:40 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/10/21 10:27:40 [staticfile.go:61] [W] Can't find the file: asserts/js/ui.js stat asserts/js/ui.js: no such file or directory 
+2015/10/21 10:27:40 [staticfile.go:61] [W] Can't find the file: asserts/js/ui.js stat asserts/js/ui.js: no such file or directory 
+2015/10/21 10:27:40 [staticfile.go:61] [W] Can't find the file: asserts/css/overwrite.css stat asserts/css/overwrite.css: no such file or directory 
+2015/10/21 10:27:44 [staticfile.go:61] [W] Can't find the file: asserts/css/overwrite.css stat asserts/css/overwrite.css: no such file or directory 
+2015/10/21 10:27:44 [staticfile.go:61] [W] Can't find the file: asserts/js/ui.js stat asserts/js/ui.js: no such file or directory 
+2015/10/21 10:27:45 [staticfile.go:61] [W] Can't find the file: asserts/css/overwrite.css stat asserts/css/overwrite.css: no such file or directory 
+2015/10/21 10:27:45 [staticfile.go:61] [W] Can't find the file: asserts/js/ui.js stat asserts/js/ui.js: no such file or directory 
+2015/10/21 10:27:46 [staticfile.go:61] [W] Can't find the file: asserts/css/overwrite.css stat asserts/css/overwrite.css: no such file or directory 
+2015/10/21 10:27:46 [staticfile.go:61] [W] Can't find the file: asserts/js/ui.js stat asserts/js/ui.js: no such file or directory 
+2015/10/21 10:27:50 [main.go:28] [I] User:gdj login as role:role_manager 
+2015/10/21 10:27:50 [staticfile.go:61] [W] Can't find the file: asserts/css/overwrite.css stat asserts/css/overwrite.css: no such file or directory 
+2015/10/21 10:27:50 [staticfile.go:61] [W] Can't find the file: asserts/js/ui.js stat asserts/js/ui.js: no such file or directory 
+2015/10/21 10:27:51 [staticfile.go:61] [W] Can't find the file: asserts/css/overwrite.css stat asserts/css/overwrite.css: no such file or directory 
+2015/10/21 10:27:51 [staticfile.go:61] [W] Can't find the file: asserts/js/ui.js stat asserts/js/ui.js: no such file or directory 
+2015/10/21 10:27:51 [staticfile.go:61] [W] Can't find the file: asserts/js/purchase.js stat asserts/js/purchase.js: no such file or directory 
+2015/10/21 10:27:56 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/10/21 10:27:56 [staticfile.go:61] [W] Can't find the file: asserts/js/ui.js stat asserts/js/ui.js: no such file or directory 
+2015/10/21 10:27:56 [staticfile.go:61] [W] Can't find the file: asserts/css/overwrite.css stat asserts/css/overwrite.css: no such file or directory 
+2015/10/21 10:28:10 [staticfile.go:61] [W] Can't find the file: asserts/css/overwrite.css stat asserts/css/overwrite.css: no such file or directory 
+2015/10/21 10:29:40 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/10/21 10:29:40 [staticfile.go:61] [W] Can't find the file: asserts/3rd/angularadmin/css/app.min.css stat asserts/3rd/angularadmin/css/app.min.css: no such file or directory 
+2015/10/21 10:29:40 [staticfile.go:61] [W] Can't find the file: asserts/css/main.css stat asserts/css/main.css: no such file or directory 
+2015/10/21 10:29:40 [staticfile.go:61] [W] Can't find the file: asserts/css/overwrite.css stat asserts/css/overwrite.css: no such file or directory 
+2015/10/21 10:29:40 [staticfile.go:61] [W] Can't find the file: asserts/js/ui.js stat asserts/js/ui.js: no such file or directory 
+2015/10/21 10:30:18 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/10/21 10:30:19 [staticfile.go:61] [W] Can't find the file: asserts/css/main.css stat asserts/css/main.css: no such file or directory 
+2015/10/21 10:30:19 [staticfile.go:61] [W] Can't find the file: asserts/css/overwrite.css stat asserts/css/overwrite.css: no such file or directory 
+2015/10/21 10:30:19 [staticfile.go:61] [W] Can't find the file: asserts/js/ui.js stat asserts/js/ui.js: no such file or directory 
+2015/10/21 10:30:34 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/10/21 10:30:34 [staticfile.go:61] [W] Can't find the file: asserts/css/main.css stat asserts/css/main.css: no such file or directory 
+2015/10/21 10:30:34 [staticfile.go:61] [W] Can't find the file: asserts/css/overwrite.css stat asserts/css/overwrite.css: no such file or directory 
+2015/10/21 10:30:34 [staticfile.go:61] [W] Can't find the file: asserts/js/ui.js stat asserts/js/ui.js: no such file or directory 
+2015/10/21 10:30:57 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/10/21 10:30:57 [staticfile.go:61] [W] Can't find the file: asserts/js/ui.js stat asserts/js/ui.js: no such file or directory 
+2015/10/21 10:30:57 [staticfile.go:61] [W] Can't find the file: asserts/css/overwrite.css stat asserts/css/overwrite.css: no such file or directory 
+2015/10/21 10:31:45 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/10/21 10:31:45 [staticfile.go:61] [W] Can't find the file: asserts/webo/css/main.css stat asserts/webo/css/main.css: no such file or directory 
+2015/10/21 10:31:45 [staticfile.go:61] [W] Can't find the file: asserts/webo/css/overwrite.css stat asserts/webo/css/overwrite.css: no such file or directory 
+2015/10/21 10:31:56 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/10/21 10:32:46 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/10/21 10:32:58 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/10/21 10:33:14 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/10/21 10:33:27 [main.go:28] [I] User:gdj login as role:role_manager 
+2015/10/21 10:33:32 [main.go:28] [I] User:gdj login as role:role_manager 
+2015/10/21 10:33:47 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/10/21 10:33:47 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/10/21 10:34:12 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/10/21 10:34:35 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/10/21 10:34:43 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/10/21 10:36:04 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/10/21 10:36:10 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/10/21 10:36:24 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/10/21 10:37:11 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/10/21 10:37:40 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/10/21 10:38:16 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/10/21 10:38:57 [main.go:28] [I] User:gdj login as role:role_manager 
+2015/10/21 10:54:10 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/10/21 13:42:29 [main.go:28] [I] User:gdj login as role:role_manager 
+2015/10/21 13:42:30 [purchase.go:59] [I] UiCurList 
+2015/10/21 13:42:31 [purchase.go:59] [I] UiCurList 
+2015/10/21 13:42:42 [purchase.go:59] [I] UiCurList 
+2015/10/21 13:42:42 [purchase.go:59] [I] UiCurList 
+2015/10/21 13:42:42 [purchase.go:59] [I] UiCurList 
+2015/10/21 13:42:42 [main.go:28] [I] User:gdj login as role:role_manager 
+2015/10/21 13:42:43 [purchase.go:59] [I] UiCurList 
+2015/10/21 13:42:43 [purchase.go:59] [I] UiCurList 
+2015/10/21 13:42:46 [purchase.go:59] [I] UiCurList 
+2015/10/21 13:42:47 [purchase.go:59] [I] UiCurList 
+2015/10/21 13:42:47 [purchase.go:59] [I] UiCurList 
