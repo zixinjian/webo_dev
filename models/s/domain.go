@@ -1,5 +1,16 @@
 package s
 
+//domain
+const (
+	User     = "user"
+	Journal	 = "journal"
+	Product  = "product"
+	Supplier = "supplier"
+	Purchase = "purchase"
+	Travel   = "travel"
+)
+
+//sqlconst
 const (
 	Limit  = "limit"
 	Offset = "offset"
@@ -9,10 +20,11 @@ const (
 	Desc   = "desc"
 	Like   = "LIKE"
 )
-
+// attribute
 const (
 	Sn                 = "sn"
 	Name               = "name"
+	Role			   = "role"
 	Key				   = "key"
 	UserName           = "username"
 	Category           = "category"
@@ -23,6 +35,7 @@ const (
 	TotalPrice         = "totalprice"
 	Keyword            = "keyword"
 	Password           = "password"
+	Percent			   = "percent"
 	CurTime            = "curtime"
 	Creater            = "creater"
 	Price              = "price"
@@ -32,6 +45,7 @@ const (
 	CreaterTime        = "createtime"
 	CurUser            = "curuser"
 	Flag               = "flag"
+	FlagAvailable	   =  "flag_available"
 	Mark               = "mark"
 	AccountCurrent     = "accountcurrent"
 	Department         = "department"
@@ -52,18 +66,14 @@ const (
 	ApproverName       = "approvername"
 )
 
-// Field的Type定义目前支持这几种类型
+// Type定义目前支持这几种类型
 const (
-	TypeString = "string"
-	TypeInt    = "int"
-	TypeFloat  = "float"
-)
-const (
-	Float = "float"
+	TString = "string"
+	TInt = "int"
+	TFloat = "float"
 )
 
 const (
-	RoleAdmin   = "role_admin"
 	RoleManager = "role_manager"
 	RoleUser    = "role_user"
 )
@@ -75,15 +85,7 @@ const (
 	Hidden 		 = "hidden"
 )
 
-const (
-	User     = "user"
-	Product  = "product"
-	ProductName  = "productname"
-	Supplier = "supplier"
-	SupplierKey = "supplierkey"
-	Purchase = "purchase"
-	Travel   = "travel"
-)
+
 
 const (
 	EKey   = "_key"

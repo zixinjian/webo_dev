@@ -23,6 +23,16 @@ function layoutAutoHeight(){
         $(this).height($(window).height() + parseInt(outHeight))
 });
 }
+function wbGetParentFromGroup(selecter){
+    return wbGetParent(selecter, ".form-group")
+}
+
+function wbGetParent(selecter, parentSelecter){
+    $self = $(selecter)
+    $parent = $self.closest(parentSelecter)
+    return $parent
+}
+
 
 //$(function(){
 //    $(window).resize(function () {

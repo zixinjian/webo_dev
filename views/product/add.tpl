@@ -45,7 +45,11 @@
             refreshContent()
         }else{
             if(resp.ret == "duplicated_value"){
-                showError("添加失败! 重复的" + resp.result +  "。")
+                if (resp.result == "product.model, product.name"){
+                    showError("添加失败! 重复的" + "型号" +  "。")
+                }else{
+                    showError("添加失败! 重复的" + resp.result +  "。")
+                }
             }
         }
     }
@@ -63,23 +67,26 @@
             success: showResponse
         });
     }
+    var $power = $("#power")
     $(function() {
         $("#power").wrapAll('<div class="input-group"></div>')
         $("#power").after('<span class="input-group-addon">KW</span>')
+
         var selectCate = $('#category').val()
         if(selectCate in cateNoName && $('#name').val() == ""){
             $('#name').val(cateNoName[selectCate]);
+            $('#name').attr("readonly", true)
         }
         $('#category').change(function(){
             var selectCate = $('#category').val()
             if(selectCate in cateNoName){
                 $('#name').val(cateNoName[selectCate]);
                 $('#name').attr("readonly", true)
+                $power.val("")
             }else{
-                if($('#name').val() in cateNameValues){
-                    $('#name').val("")
-                }
                 $('#name').attr("readonly", false)
+                $('#name').val("")
+                $power.val("0")
             }
         })
         $('#file_upload').uploadify({

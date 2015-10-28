@@ -62,9 +62,6 @@
         });
     }
     $(function(){
-        $("#expayrat").wrapAll('<div class="input-group"></div>')
-        $("#expayrat").after('<span class="input-group-addon">%</span>')
-        $("#payment").wrapAll('<div class="input-group"></div>')
         $("#payment").after('<a class="btn btn-sm input-group-addon" id="calc">计算</a>')
         $("#calc").click(calPayment)
     });

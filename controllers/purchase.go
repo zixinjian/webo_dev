@@ -15,6 +15,7 @@ import (
 	"webo/models/t"
 	"webo/models/u"
 	"encoding/json"
+	"webo/models/userMgr"
 )
 
 type PurchaseController struct {
@@ -93,15 +94,10 @@ func (this *PurchaseController) PriceAnalyze() {
 // 添加
 func (this *PurchaseController) UiAdd() {
 	item := s.Purchase
-	oItemDef, _ := itemDef.EntityDefMap[item]
-	addItemDef := fillBuyerEnum(getAddPurchaseDef(oItemDef))
 	this.Data["Service"] = "/item/add/" + item
-	statusMap := map[string]string{
-		s.ProductPrice: s.ReadOnly,
-		s.Power:s.Disabled,
-	}
-	this.Data["Form"] = ui.BuildAddFormWithStatus(addItemDef, u.TUId(), statusMap)
-	this.Data["Onload"] = ui.BuildAddOnLoadJs(addItemDef)
+	buyers := userMgr.GetUsersByDepartment("department_purchase")
+	this.Data["sn"] = u.TUId()
+	this.Data["Buyers"] = buyers
 	this.TplNames = "purchase/add.tpl"
 }
 
@@ -304,10 +300,10 @@ func fillBuyerEnum(oItemDef itemDef.ItemDef) itemDef.ItemDef {
 	}
 	return FillUserEnum(s.Buyer, oItemDef, queryParams, orderParams)
 }
-func getAddPurchaseDef(oItemDef itemDef.ItemDef) itemDef.ItemDef {
-	names := []string{s.Sn, s.Category, s.Product, s.Model, s.Power, s.ProductPrice, s.Buyer, s.Num, s.PlaceDate, s.Requireddate, s.Requireddepartment, s.Mark}
-	return makeFields(oItemDef, names)
-}
+//func getAddPurchaseDef(oItemDef itemDef.ItemDef) itemDef.ItemDef {
+//	names := []string{s.Sn, s.Category, s.Product, s.Model, s.Power, s.ProductPrice, s.Buyer, s.Num, s.PlaceDate, s.Requireddate, s.Requireddepartment, s.Mark}
+//	return makeFields(oItemDef, names)
+//}
 
 func getExpandListDef(oItemDef itemDef.ItemDef) itemDef.ItemDef {
 	names := []string{s.Sn, s.Category, s.Product, s.Model, s.Power, s.Num, s.UintPrice, s.ProductPrice, s.TotalPrice, s.Buyer, s.Mark}

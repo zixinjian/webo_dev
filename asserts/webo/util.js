@@ -31,3 +31,7 @@ var wbGetMapValue = function (map){
     }
     return lst
 }
+
+var wbHideParentDiv = function (select){
+
+}

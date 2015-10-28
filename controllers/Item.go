@@ -47,7 +47,7 @@ func (this *ItemController) List() {
 
 func (this *ItemController) Add() {
 	item, ok := this.Ctx.Input.Params[":hi"]
-	beego.Debug("params", this.Ctx.Input.Params, this.Ctx.Input)
+//	beego.Debug("params", this.Ctx.Input.Params, this.Ctx.Input)
 	if !ok {
 		beego.Error(stat.ParamItemError)
 		this.Data["json"] = JsonResult{stat.ParamItemError, stat.ParamItemError}
@@ -150,7 +150,9 @@ func (this *ItemController) Autocomplete() {
 	}
 	var keyword string
 	switch item {
-	case s.Supplier, s.Product:
+	case s.Product:
+		keyword = s.Model
+	case s.Supplier:
 		keyword = s.Keyword
 	case s.User:
 		keyword = s.UserName

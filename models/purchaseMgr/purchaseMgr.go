@@ -4,7 +4,6 @@ import (
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
 	"strings"
-	"webo/models/productMgr"
 	"webo/models/s"
 	"webo/models/stat"
 	"webo/models/supplierMgr"
@@ -13,6 +12,7 @@ import (
 	"webo/models/u"
 	"webo/models/wborm"
 	"fmt"
+	"webo/models/lang"
 )
 
 const purchaseListSql = "SELECT purchase.*, user.name as user_name, user.username as user_username FROM purchase, user WHERE user.sn = purchase.buyer"
@@ -161,17 +161,12 @@ func transPurchaseMap(oldMap orm.Params) t.ItemMap {
 	if userName, ok := oldMap["user_name"]; ok {
 		retMap["buyer"] = userName
 	}
+	catagory, _ := retMap[s.Category].(string)
+	retMap[s.Category] = lang.GetLabel(catagory)
 	if supplierSn, ok := retMap[s.Supplier]; ok && !u.IsNullStr(supplierSn) {
 		if supplierMap, sok := supplierMgr.Get(supplierSn.(string)); sok {
 			retMap[s.Supplier + s.Name] = u.GetStringValue(supplierMap, s.Name)
 			retMap[s.Supplier + s.Key] = u.GetStringValue(supplierMap, s.Keyword)
-		}
-	}
-	if productSn, ok := retMap[s.Product]; ok && !u.IsNullStr(productSn) {
-		if productMap, sok := productMgr.Get(productSn.(string)); sok {
-			retMap[s.Product + s.Name] = u.GetStringValue(productMap, s.Name)
-			retMap[s.Product + s.Brand] = u.GetStringValue(productMap, s.Brand)
-			retMap[s.Product + s.Model] = u.GetStringValue(productMap, s.Model)
 		}
 	}
 	return retMap

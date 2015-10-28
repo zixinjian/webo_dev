@@ -15,6 +15,11 @@ type LoginController struct {
 }
 
 func (this *LoginController) Get() {
+	_, ok := this.GetSession(SessionUser).(string)
+	if this.Ctx.Input.Url()== "/" && ok{
+		this.Redirect("/main", 302)
+		return
+	}
 	redirectUrl := "/main"
 	redirectUrlB64 := this.GetString("redirect")
 	if redirectUrlB64 != "" {
