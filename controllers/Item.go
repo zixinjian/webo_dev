@@ -98,6 +98,35 @@ func (this *ItemController) Update() {
 	this.ServeJson()
 }
 
+func (this *ItemController) Delete() {
+	beego.Debug("Update requestBody: ", this.Ctx.Input.RequestBody)
+	beego.Debug("Update params:", this.Ctx.Input.Params)
+	item, ok := this.Ctx.Input.Params[":hi"]
+	if !ok {
+		beego.Error(stat.ParamItemError)
+		this.Data["json"] = JsonResult{stat.ParamItemError, stat.ParamItemError}
+		this.ServeJson()
+		return
+	}
+	oEntityDef, ok := itemDef.EntityDefMap[item]
+	if !ok {
+		beego.Error(fmt.Sprintf("Item %s not define", item))
+		this.Data["json"] = JsonResult{stat.ItemNotDefine, stat.ItemNotDefine}
+		this.ServeJson()
+		return
+	}
+	svcParams := this.GetFormValues(oEntityDef)
+	sn, ok := svcParams[s.Sn]
+	if !ok {
+		beego.Error(fmt.Sprintf("Item %s Sn not define", item))
+		this.Data["json"] = JsonResult{stat.ItemNotDefine, stat.ItemNotDefine}
+		this.ServeJson()
+	}
+	status := svc.Delete(item, sn.(string), this.GetCurUserSn())
+	this.Data["json"] = &JsonResult{status, ""}
+	this.ServeJson()
+}
+
 func (this *ItemController) Upload() {
 	item, ok := this.Ctx.Input.Params[":hi"]
 	if !ok {
@@ -177,11 +206,9 @@ func (this *ItemController) BaseAutocomplete(item string, keyword string) {
 	orderByParams := t.Params{
 		keyword: s.Asc,
 	}
-
-	queryParams := t.Params{
-		"%" + keyword: term,
-	}
-	_, _, resultMaps := svc.List(oItemDef.Name, queryParams, limitParams, orderByParams)
+	addParams := this.GetFormValues(oItemDef)
+	addParams["%" + keyword] = term
+	_, _, resultMaps := svc.List(oItemDef.Name, addParams, limitParams, orderByParams)
 	retList := TransAutocompleteList(resultMaps, keyword)
 	this.Data["json"] = &retList
 	this.ServeJson()

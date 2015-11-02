@@ -23,7 +23,7 @@ const activeUrlFormat = `<iframe name = "frame-content" src="%s" layout-auto-hei
 `
 
 func (this *MainController) Get() {
-	userName := this.GetCurUser()
+	userName := this.GetCurUserUserName()
 	userRole := this.GetCurRole()
 	beego.Info(fmt.Sprintf("User:%s login as role:%s", userName, userRole))
 	department := this.GetCurDepartment()

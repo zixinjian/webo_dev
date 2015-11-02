@@ -2,10 +2,10 @@
 <html>
 <head lang="zh">
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../../asserts/3rd/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="../../asserts/3rd/datetimepicker/jquery.datetimepicker.css">
-    <link rel="stylesheet" href="../../asserts/3rd/uploadify/uploadify.css" />
-    <link rel="stylesheet" href="../../asserts/3rd/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="../../lib/3rd/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../../lib/3rd/datetimepicker/jquery.datetimepicker.css">
+    <link rel="stylesheet" href="../../lib/3rd/uploadify/uploadify.css" />
+    <link rel="stylesheet" href="../../lib/3rd/jquery-ui/jquery-ui.min.css">
 </head>
 <body>
 <div class="container-fluid">
@@ -21,17 +21,17 @@
     </form>
 </div>
 
-<script src="../../asserts/3rd/jquery/jquery.js"></script>
-<script src="../../asserts/3rd/bootstrap/js/bootstrap.min.js"></script>
-<script src="../../asserts/3rd/jquery/jquery.form.js"></script>
-<script src="../../asserts/3rd/jquery/validate/jquery.metadata.js"></script>
-<script src="../../asserts/3rd/jquery/validate/jquery.validate.js"></script>
-<script src="../../asserts/3rd/uploadify/jquery.uploadify.js"></script>
-<script src="../../asserts/3rd/datetimepicker/jquery.datetimepicker.js"></script>
-<script src="../../asserts/3rd/jquery-ui/jquery-ui.min.js"></script>
-<script src="../../asserts/js/validateExtend.js"></script>
-<script src="../../asserts/js/ui.js"></script>
-<script src="../../asserts/webo/util.js"></script>
+<script src="../../lib/3rd/jquery/jquery.js"></script>
+<script src="../../lib/3rd/bootstrap/js/bootstrap.min.js"></script>
+<script src="../../lib/3rd/jquery/jquery.form.js"></script>
+<script src="../../lib/3rd/jquery/validate/jquery.metadata.js"></script>
+<script src="../../lib/3rd/jquery/validate/jquery.validate.js"></script>
+<script src="../../lib/3rd/uploadify/jquery.uploadify.js"></script>
+<script src="../../lib/3rd/datetimepicker/jquery.datetimepicker.js"></script>
+<script src="../../lib/3rd/jquery-ui/jquery-ui.min.js"></script>
+<script src="../../lib/webo/js/validateExtend.js"></script>
+<script src="../../lib/webo/js/ui.js"></script>
+<script src="../../lib/webo/util.js"></script>
 <script>
     cateNoName = {
         cate_engine:"柴油机",
@@ -83,9 +83,11 @@
                 $('#name').val(cateNoName[selectCate]);
                 $('#name').attr("readonly", true)
                 $power.val("")
+                wbGetParentFromGroup("#power").show()
             }else{
                 $('#name').attr("readonly", false)
                 $('#name').val("")
+                wbGetParentFromGroup("#power").hide()
                 $power.val("0")
             }
         })

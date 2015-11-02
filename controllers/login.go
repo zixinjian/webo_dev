@@ -15,7 +15,7 @@ type LoginController struct {
 }
 
 func (this *LoginController) Get() {
-	_, ok := this.GetSession(SessionUser).(string)
+	_, ok := this.GetSession(SessionUserUserName).(string)
 	if this.Ctx.Input.Url()== "/" && ok{
 		this.Redirect("/main", 302)
 		return
@@ -54,7 +54,7 @@ func (this *LoginController) Post() {
 	}
 	loginRet = this.setSessionFromUser(user)
 	if loginRet.Ret == "success" {
-		this.SetSession(SessionUser, username)
+		this.SetSession(SessionUserUserName, username)
 	}
 	this.Data["json"] = &loginRet
 	this.ServeJson()
@@ -99,7 +99,7 @@ type LogoutController struct {
 }
 
 func (this *LogoutController) Get() {
-	this.DelSession(SessionUser)
+	this.DelSession(SessionUserUserName)
 	this.DelSession(SessionUserRole)
 	this.DelSession(SessionUserDepartment)
 	this.DelSession(SessionUserSn)

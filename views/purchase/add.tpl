@@ -2,13 +2,13 @@
 <html>
 <head lang="zh">
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../../asserts/3rd/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="../../asserts/3rd/datetimepicker/jquery.datetimepicker.css">
-    <link rel="stylesheet" href="../../asserts/3rd/uploadify/uploadify.css" />
-    <link rel="stylesheet" href="../../asserts/3rd/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="../../lib/3rd/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../../lib/3rd/datetimepicker/jquery.datetimepicker.css">
+    <link rel="stylesheet" href="../../lib/3rd/uploadify/uploadify.css" />
+    <link rel="stylesheet" href="../../lib/3rd/jquery-ui/jquery-ui.min.css">
     <style>
         .ui-autocomplete-loading {
-            background: white url("../../asserts/webo/images/ui-anim_basic_16x16.gif") right center no-repeat;
+            background: white url("../../lib/webo/images/ui-anim_basic_16x16.gif") right center no-repeat;
         }
     </style>
 </head>
@@ -20,7 +20,7 @@
         <div class="form-group">
         <label class="col-sm-3 control-label">类别</label>
         <div class="col-sm-6">
-            <select class="input-block-level form-control" data-validate="{required: true, messages:{required:'请输入类别'}}" name="category" id="category" autocomplete="off" value="" >
+            <select class="input-block-level form-control" name="category" id="category" autocomplete="off" value="" >
                 <option value="cate_engine">柴油机</option>
                 <option value="cate_generator">电机</option>
                 <option value="cate_waterbox">水箱</option>
@@ -36,13 +36,15 @@
         <div class="form-group">
             <label class="col-sm-3 control-label">商品名称</label>
             <div class="col-sm-6">
-                <input type="text" class="input-block-level form-control" id="productname" name="productname" data-validate="{required: true, messages:{required:'请输入正确的商品名称!'}}" value="">
+                <input type="text" class="input-block-level form-control" id="productname" name="productname" value=""
+                       data-rule-required="true"/>
             </div>
         </div>
         <div class="form-group">
             <label class="col-sm-3 control-label">型号</label>
             <div class="col-sm-6">
-                <input type="text" class="input-block-level form-control" data-validate="{required: true, messages:{required:'请输入正确的型号!'}}" name="model" id="model" autocomplete="off" value="" />
+                <input type="text" class="input-block-level form-control" name="model" id="model" autocomplete="off" value=""
+                       data-rule-required="true"/>
             </div>
         </div>
         <div class="form-group">
@@ -54,19 +56,21 @@
         <div class="form-group">
             <label class="col-sm-3 control-label">功率</label>
             <div class="col-sm-6">
-                <input type="text" class="input-block-level form-control" data-validate="{required: true, number:true, messages:{required:'请输入正确的功率!'}}" name="power" id="power" autocomplete="off" value="" readonly/>
+                <input type="text" class="input-block-level form-control" name="power" id="power" autocomplete="off" value="" readonly
+                       data-rule-required="true" data-rule-number="true" data-msg-number="请输入正确的功率!" />
             </div>
         </div>
         <div class="form-group">
             <label class="col-sm-3 control-label">参考价</label>
             <div class="col-sm-6">
-                <input type="text" class="input-block-level form-control" data-validate="{required: false, number:true, messages:{required:'请输入正确的参考价!'}}" name="productprice" id="productprice" autocomplete="off" value="" readonly='true'/>
+                <input type="text" class="input-block-level form-control" name="productprice" id="productprice" autocomplete="off" value="" readonly='true'/>
             </div>
         </div>
         <div class="form-group">
             <label class="col-sm-3 control-label">采购人</label>
             <div class="col-sm-6">
-                <select class="input-block-level form-control" data-validate="{required: true, messages:{required:'请输入采购人'}}" name="buyer" id="buyer" autocomplete="off" value="" >
+                <select class="input-block-level form-control" name="buyer" id="buyer" autocomplete="off" value=""
+                        data-rule-required="true">
                     {{range .Buyers}}
                         <option value="{{.Sn}}">{{.Name}}</option>
                     {{end}}
@@ -82,19 +86,22 @@
         <div class="form-group">
             <label class="col-sm-3 control-label">下单日期</label>
             <div class="col-sm-6">
-                <input type="text" class="input-block-level form-control datetimepicker" data-validate="{required: true, messages:{required:'请输入下单日期!'}}" name="placedate" id="placedate" autocomplete="off" value="curtime" />
+                <input type="text" class="input-block-level form-control datetimepicker" name="placedate" id="placedate" autocomplete="off" value="curtime"
+                       data-rule-required="true"/>
             </div>
         </div>
         <div class="form-group">
             <label class="col-sm-3 control-label">需用日期</label>
             <div class="col-sm-6">
-                <input type="text" class="input-block-level form-control datetimepicker" data-validate="{required: true, messages:{required:'请输入需用日期!'}}" name="requireddate" id="requireddate" autocomplete="off" value="" />
+                <input type="text" class="input-block-level form-control datetimepicker" name="requireddate" id="requireddate" autocomplete="off" value=""
+                       data-rule-required="true" data-rule-date="true"/>
             </div>
         </div>
         <div class="form-group">
             <label class="col-sm-3 control-label">申请部门</label>
             <div class="col-sm-6">
-                <input type="text" class="input-block-level form-control" data-validate="{required: true, messages:{required:'请输入申请部门!'}}" name="requireddepartment" id="requireddepartment" autocomplete="off" value="" />
+                <input type="text" class="input-block-level form-control" name="requireddepartment" id="requireddepartment" autocomplete="off" value=""
+                       data-rule-required="true"/>
             </div>
         </div>
         <div class="form-group">
@@ -106,17 +113,16 @@
     </form>
 </div>
 
-<script src="../../asserts/3rd/jquery/jquery.js"></script>
-<script src="../../asserts/3rd/bootstrap/js/bootstrap.min.js"></script>
-<script src="../../asserts/3rd/jquery/jquery.form.js"></script>
-<script src="../../asserts/3rd/jquery/validate/jquery.metadata.js"></script>
-<script src="../../asserts/3rd/jquery/validate/jquery.validate.js"></script>
-<script src="../../asserts/3rd/uploadify/jquery.uploadify.js"></script>
-<script src="../../asserts/3rd/datetimepicker/jquery.datetimepicker.js"></script>
-<script src="../../asserts/3rd/jquery-ui/jquery-ui.min.js"></script>
-<script src="../../asserts/js/validateExtend.js"></script>
-<script src="../../asserts/js/ui.js"></script>
-<script src="../../asserts/webo/util.js"></script>
+<script src="../../lib/3rd/jquery/jquery.js"></script>
+<script src="../../lib/3rd/bootstrap/js/bootstrap.min.js"></script>
+<script src="../../lib/3rd/jquery/jquery.form.js"></script>
+<script src="../../lib/3rd/jquery/validate/jquery.validate.min.js"></script>
+<script src="../../lib/3rd/uploadify/jquery.uploadify.js"></script>
+<script src="../../lib/3rd/datetimepicker/jquery.datetimepicker.js"></script>
+<script src="../../lib/3rd/jquery-ui/jquery-ui.min.js"></script>
+<script src="../../lib/webo/js/validateExtend.js"></script>
+<script src="../../lib/webo/js/ui.js"></script>
+<script src="../../lib/webo/util.js"></script>
 
 <script>
     cateNoName = {
@@ -127,7 +133,8 @@
     cateNameValues = wbGetMapValue(cateNoName)
     var $productName = $('#productname')
     var $power = $("#power")
-
+    var $category = $("#category")
+    var $form = $("#item_form")
     function showResponse(resp) {
         if(resp.ret == "success"){
             top.hideTopModal()
@@ -141,10 +148,10 @@
         if(options.refreshContent){
             refreshContent = options.refreshContent
         }
-        if (! $("#item_form").valid()){
+        if (! $form.valid()){
             return
         }
-        $("#item_form").ajaxSubmit({
+        $form.ajaxSubmit({
             type: "post",
             url: "{{.Service}}",
             success: showResponse
@@ -178,6 +185,7 @@
         $('#category').change(function(){
             clearProductValues()
             var selectCate = $('#category').val()
+            $("#model").autocomplete("option", "source", "/item/autocomplete/product?category=" + selectCate)
             if(selectCate in cateNoName){
                 $productName.val(cateNoName[selectCate]);
                 $productName.attr("readonly", true)
@@ -195,7 +203,7 @@
         })
         $("#model").autocomplete({
             source: "/item/autocomplete/product?category=" + $("#category").val(),
-            autoFocus:true,
+            autoFocus:false,
             focus: function( event, ui ) {
                 setProductValues(ui.item)
                 return false;
@@ -207,7 +215,13 @@
                 return false;
             },
             change: function( event, ui ) {
-
+                if(!ui.item){
+                    $("#product").val("");
+                    $("#productprice").val("")
+                    $("#supplier").val("")
+                    $("#brand").val("")
+                    $power.val("")
+                }
             }
         }).autocomplete( "instance" )._renderItem = function( ul, item ) {
             return $( "<li>" )
@@ -215,8 +229,8 @@
                     .appendTo( ul );
         };
 
-        $("#placedate").datetimepicker({timepicker:false,format:'Y.m.d',lang:'zh',value:new Date()})
-        $("#requireddate").datetimepicker({timepicker:false,format:'Y.m.d',lang:'zh'})
+        $("#placedate").datetimepicker({timepicker:false,format:'Y.m.d',lang:'zh',value:new Date(), scrollMonth:false})
+        $("#requireddate").datetimepicker({timepicker:false,format:'Y.m.d',lang:'zh', scrollMonth:false})
     });
 </script>
 </body>

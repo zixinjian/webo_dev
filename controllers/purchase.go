@@ -73,7 +73,7 @@ func (this *PurchaseController) UiCurList() {
 	oItemDef, _ := itemDef.EntityDefMap[item]
 	this.Data["thlist"] = ui.BuildListThs(oItemDef)
 	this.Data["sortOrder"] = s.Asc
-	this.TplNames = "purchase/list.html"
+	this.TplNames = "purchase/list.tpl"
 }
 
 //历史订单列表
@@ -104,8 +104,20 @@ func (this *PurchaseController) UiAdd() {
 //管理者修改
 func (this *PurchaseController) UiUpdate() {
 	statusMap := map[string]string{
-		s.PaymentAmount:	  s.ReadOnly,
-		s.PaymentDate:	  	  s.ReadOnly,
+		s.Sn:                 s.Disabled,
+		s.Category:           s.Disabled,
+		s.Product:            s.Disabled,
+		s.ProductName:        s.Disabled,
+		s.Model:              s.Disabled,
+		s.Brand:			  s.Disabled,
+		s.Num:				  s.Disabled,
+		s.PlaceDate:          s.Disabled,
+		s.Requireddate:       s.Disabled,
+		s.Requireddepartment: s.Disabled,
+		s.ProductPrice:       s.Disabled,
+		s.Power:       		  s.Disabled,
+		s.PaymentAmount:	  s.Disabled,
+		s.PaymentDate:	  	  s.Disabled,
 	}
 	this.UiUpdateWithStatus(statusMap)
 }
@@ -116,7 +128,10 @@ func (this *PurchaseController) UiUserUpdate() {
 		s.Sn:                 s.Disabled,
 		s.Category:           s.Disabled,
 		s.Product:            s.Disabled,
+		s.ProductName:        s.Disabled,
 		s.Model:              s.Disabled,
+		s.Brand:			  s.Disabled,
+		s.Num:				  s.Disabled,
 		s.PlaceDate:          s.Disabled,
 		s.Requireddate:       s.Disabled,
 		s.Requireddepartment: s.Disabled,
@@ -165,7 +180,7 @@ func (this *PurchaseController) UiUpdateWithStatus(statusMap map[string]string) 
 		}else{
 			this.Data["PuchaseItem"] = fmt.Sprintf(oldValueFormat, "{}")
 		}
-		this.TplNames = "purchase/update.html"
+		this.TplNames = "purchase/update.tpl"
 	} else {
 		this.Ctx.WriteString(stat.ItemNotFound)
 	}

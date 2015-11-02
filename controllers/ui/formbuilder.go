@@ -105,7 +105,7 @@ var autocompleteFormat = `    <div class="form-group">
 var hiddenFormat = `<input type="hidden" id="%s" name="%s" value="%s">
 `
 var initDatePickerFormat = `
-$("#%s").datetimepicker({%sformat:'Y.m.d',lang:'zh',%s})
+$("#%s").datetimepicker({%sformat:'Y.m.d',scrollMonth:false, lang:'zh'%s})
 `
 var initAutocompleteFormat = `
 	$("#%s_key").autocomplete({
@@ -152,7 +152,7 @@ func BuildAddOnLoadJs(oItemDef itemDef.ItemDef) string {
 		case "date":
 			defaultDate := ""
 			if strings.EqualFold(field.Default.(string), "curtime") {
-				defaultDate = "value:new Date()"
+				defaultDate = ",value:new Date()"
 			}
 			OnLoadJs = OnLoadJs + fmt.Sprintf(initDatePickerFormat, field.Name, "timepicker:false,", defaultDate)
 		case s.Autocomplete:

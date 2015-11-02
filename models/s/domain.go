@@ -5,6 +5,7 @@ const (
 	User     = "user"
 	Journal	 = "journal"
 	Product  = "product"
+	ProductName  = "productname"
 	Supplier = "supplier"
 	Purchase = "purchase"
 	Travel   = "travel"
@@ -47,7 +48,7 @@ const (
 	Flag               = "flag"
 	FlagAvailable	   =  "flag_available"
 	Mark               = "mark"
-	AccountCurrent     = "accountcurrent"
+	Account     	   = "account"
 	Department         = "department"
 	PlaceDate          = "placedate"
 	Requireddate       = "requireddate"
@@ -64,6 +65,8 @@ const (
 	Approver           = "approver"
 	ApproverSn         = "approversn"
 	ApproverName       = "approvername"
+	Payer			   = "payer"
+	PayerName		   = "payername"
 )
 
 // Type定义目前支持这几种类型
