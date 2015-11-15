@@ -10,7 +10,14 @@
 <div class="container-fluid">
     <form class="form-horizontal" id="item_form">
         {{str2html .Form_sn}}
-        {{str2html .Form_category}}
+        <div class="form-group">
+            <label class="col-sm-3 control-label">类别</label>
+            <div class="col-sm-6">
+                <select class="input-block-level form-control" data-validate="{required: true, messages:{required:'请输入类别'}}" name="category" id="category" autocomplete="off" value="" disabled>
+                    {{str2html .CategoryOptions}}
+                </select>
+            </div>
+        </div>
         {{str2html .Form_productname}}
         {{str2html .Form_product}}
         {{str2html .Form_brand}}

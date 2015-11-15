@@ -27,6 +27,7 @@ const (
 	Name               = "name"
 	Role			   = "role"
 	Key				   = "key"
+	Label              = "label"
 	UserName           = "username"
 	Category           = "category"
 	Brand			   = "brand"

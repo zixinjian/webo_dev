@@ -10,6 +10,7 @@ import (
 	"webo/controllers"
 	_ "webo/models/lang"
 	_ "webo/routers"
+	"webo/models/wbconf"
 )
 
 func initDb() {
@@ -37,6 +38,8 @@ var FilterUser = func(ctx *context.Context) {
 func main() {
 	initDb()
 	beego.InsertFilter("/*", beego.BeforeRouter, FilterUser)
+	wbconf.LoadCategory()
 	beego.SetLogger("file", `{"filename":"logs/running.log", "level":6 }`)
 	beego.Run()
+
 }

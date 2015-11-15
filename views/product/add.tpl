@@ -80,6 +80,8 @@
                 }else{
                     showError("添加失败! 重复的" + resp.result +  "。")
                 }
+            }else{
+                showError("添加失败! " + resp.result +  "。")
             }
         }
     }
@@ -98,7 +100,7 @@
         });
     }
     $(function(){
-        initCatagory($("#name"))
+        initCategory($("#name"))
         $("#calc").click(calRetailPrice)
     })
 </script>

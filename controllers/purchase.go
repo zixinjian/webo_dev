@@ -97,8 +97,8 @@ func (this *PurchaseController) UiAdd() {
 	buyers := userMgr.GetUsersByDepartment("department_purchase")
 	this.Data["sn"] = u.TUId()
 	this.Data["Buyers"] = buyers
-	_, catagorys := svc.GetAll(s.Category)
-	this.Data["CategoryOptions"] = ui.BuildSelectOptions(catagorys, "", s.Key, s.Name, s.Flag)
+	_, categorys := svc.GetAll(s.Category)
+	this.Data["CategoryOptions"] = ui.BuildSelectOptions(categorys, "", s.Key, s.Name, s.Flag)
 	this.TplNames = "purchase/add.tpl"
 }
 
@@ -183,10 +183,11 @@ func (this *PurchaseController) UiUpdateWithStatus(statusMap map[string]string) 
 			_, suppliers:= supplierMgr.GetSupplierListByProductSn(productSn)
 			this.Data["SupplierOptions"] = ui.BuildSelectOptions(suppliers, oldValueMap[s.Supplier] , s.Sn, s.Keyword)
 			this.Data["NeedSupplier"] = true
-			_, catagorys := svc.GetAll(s.Category)
-			this.Data["CategoryOptions"] = ui.BuildSelectOptions(catagorys, "", s.Key, s.Name, s.Flag)
 		}
 	}
+	_, categorys := svc.GetAll(s.Category)
+	categoryOptions:= ui.BuildSelectOptions(categorys, oldValueMap[s.Category], s.Key, s.Name, s.Flag)
+	this.Data["CategoryOptions"] = categoryOptions
 	fields := oItemDef.Fields
 	newFields := make([]itemDef.Field, 0)
 	for _, field := range fields{

@@ -167,7 +167,7 @@
         $("#power").wrapAll('<div class="input-group"></div>')
         $("#power").after('<span class="input-group-addon">KW</span>')
         $("#retailprice").after('<span class="input-group-addon">计算</span>')
-        initCatagory($productName)
+        initCategory($productName)
 
         $("#model").autocomplete({
             source: "/item/autocomplete/product?category=" + $("#category").val(),

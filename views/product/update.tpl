@@ -74,7 +74,15 @@
             top.hideTopModal()
             refreshContent()
         }else{
-            showError("更新失败!")
+            if(resp.ret == "duplicated_value"){
+                if (resp.result == "product.model, product.name"){
+                    showError("添加失败! 重复的" + "型号" +  "。")
+                }else{
+                    showError("添加失败! 重复的" + resp.result +  "。")
+                }
+            }else{
+                showError("添加失败! " + resp.result +  "。")
+            }
         }
     }
     var refreshContent
@@ -93,7 +101,7 @@
         return "not"
     }
     $(function(){
-        initCatagory($("#name"))
+        initCategory($("#name"))
         $('[data-wb-c-supplier]').on("click", function(evt){
             $(evt.target).parents(".supplierBtnGroup").remove()
         })

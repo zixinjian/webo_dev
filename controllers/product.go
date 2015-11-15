@@ -23,8 +23,8 @@ func (this *ProductController) UiAdd() {
 	oItemDef, _ := itemDef.EntityDefMap[item]
 	this.Data["Service"] = "/item/add/" + oItemDef.Name
 	this.FillFormElement(ui.BuildFormElement(oItemDef, t.Params{s.Sn:u.TUId()}, map[string]string{}))
-	_, catagorys := svc.GetAll(s.Category)
-	this.Data["CategoryOptions"] = ui.BuildSelectOptions(catagorys, "", s.Key, s.Name, s.Flag)
+	_, categorys := svc.GetAll(s.Category)
+	this.Data["CategoryOptions"] = ui.BuildSelectOptions(categorys, "", s.Key, s.Name, s.Flag)
 	this.TplNames = "product/add.tpl"
 }
 func (this *ProductController) UiSetting() {
@@ -57,8 +57,8 @@ func (this *ProductController) UiUpdate() {
 		this.FillFormElement(ui.BuildFormElement(oItemDef, oldValueMap,map[string]string{}))
 		_, suppliers := supplierMgr.GetSupplierListByProductSn(sn)
 		this.Data["supplierList"] = suppliers
-		_, catagorys := svc.GetAll(s.Category)
-		this.Data["CategoryOptions"] = ui.BuildSelectOptions(catagorys, "", s.Key, s.Name, s.Flag)
+		_, categorys := svc.GetAll(s.Category)
+		this.Data["CategoryOptions"] = ui.BuildSelectOptions(categorys, "", s.Key, s.Name, s.Flag)
 		this.TplNames = "product/update.tpl"
 	} else {
 		this.Ctx.WriteString(stat.ItemNotFound)

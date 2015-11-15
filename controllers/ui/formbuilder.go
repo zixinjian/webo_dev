@@ -312,13 +312,13 @@ func createFromGroup(field itemDef.Field, valueMap map[string]interface{}, statu
 	return fromGroup
 }
 
-func BuildSelectElement(name, label, require, status string, valueMaps []map[string]interface{}, defaultValue interface{}, valueField string, labelField string)string{
-	options := BuildSelectOptions(valueMaps, defaultValue , valueField, labelField)
-	return fmt.Sprintf(selectFormat, label, require, label, name, name, u.ToStr(defaultValue), status, options)
-}
+//func BuildSelectElement(name, label, require, status string, valueMaps []map[string]interface{}, defaultValue interface{}, valueField string, labelField string)string{
+//	options := BuildSelectOptions(valueMaps, defaultValue , valueField, labelField)
+//	return fmt.Sprintf(selectFormat, label, require, label, name, name, u.ToStr(defaultValue), status, options)
+//}
 
 func BuildSelectOptions(valueMaps []map[string]interface{}, defaultValue interface{}, valueField string, labelField string, addFields ...string)string{
-	var options string
+	options :=""
 	for _, valueMap := range valueMaps {
 		optionValue, ok := valueMap[valueField]
 		if !ok {

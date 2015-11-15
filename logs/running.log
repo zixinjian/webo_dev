@@ -223,3 +223,297 @@
 2015/11/15 16:56:17 [language.go:48] [E] GetLang error key:cata_engine 
 2015/11/15 16:56:17 [language.go:48] [E] GetLang error key:cata_engine 
 2015/11/15 16:56:17 [language.go:48] [E] GetLang error key:cata_engine 
+2015/11/15 17:19:27 [language.go:48] [E] GetLang error key:yes 
+2015/11/15 17:19:27 [language.go:48] [E] GetLang error key:yes 
+2015/11/15 17:19:27 [language.go:48] [E] GetLang error key:no 
+2015/11/15 17:19:27 [language.go:48] [E] GetLang error key:yes 
+2015/11/15 17:19:27 [language.go:48] [E] GetLang error key:no 
+2015/11/15 17:19:27 [language.go:48] [E] GetLang error key:no 
+2015/11/15 17:19:27 [language.go:48] [E] GetLang error key:yes 
+2015/11/15 19:17:01 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/15 19:26:12 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/15 19:26:36 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/15 19:27:10 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/15 19:30:39 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/15 19:32:35 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/15 19:33:03 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/15 19:33:53 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/15 19:35:00 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/15 19:35:12 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/15 19:38:17 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/15 19:38:23 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/15 19:38:30 [purchase.go:59] [I] UiCurList 
+2015/11/15 19:38:41 [language.go:47] [E] GetLang error key:cata_engine 
+2015/11/15 19:38:41 [language.go:47] [E] GetLang error key:cata_engine 
+2015/11/15 19:38:41 [language.go:47] [E] GetLang error key:cata_engine 
+2015/11/15 19:38:44 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 19:38:44 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 19:38:44 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 19:40:33 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 19:40:33 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 19:40:33 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 19:49:16 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 19:49:16 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 19:49:16 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 19:52:27 [language.go:47] [E] GetLang error key:cata_engine 
+2015/11/15 19:52:27 [language.go:47] [E] GetLang error key:cata_engine 
+2015/11/15 19:52:27 [language.go:47] [E] GetLang error key:cata_engine 
+2015/11/15 19:52:27 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 19:52:27 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 19:52:27 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 19:58:59 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 19:58:59 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 19:58:59 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 19:59:28 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 19:59:28 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 19:59:28 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:00:06 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/15 20:00:18 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:00:18 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:00:18 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:00:39 [language.go:47] [E] GetLang error key:cata_engine 
+2015/11/15 20:00:39 [language.go:47] [E] GetLang error key:cata_engine 
+2015/11/15 20:00:39 [language.go:47] [E] GetLang error key:cata_engine 
+2015/11/15 20:00:41 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:00:41 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:00:41 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:00:43 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:00:43 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:00:43 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:00:48 [language.go:47] [E] GetLang error key:cata_engine 
+2015/11/15 20:00:48 [language.go:47] [E] GetLang error key:cata_engine 
+2015/11/15 20:00:48 [language.go:47] [E] GetLang error key:cata_engine 
+2015/11/15 20:00:50 [language.go:47] [E] GetLang error key:cata_engine 
+2015/11/15 20:00:50 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:00:50 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:00:50 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:00:54 [language.go:47] [E] GetLang error key:cata_engine 
+2015/11/15 20:00:54 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:00:54 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:00:54 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:00:58 [language.go:47] [E] GetLang error key:cata_engine 
+2015/11/15 20:00:59 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:00:59 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:00:59 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:01:09 [language.go:47] [E] GetLang error key:cata_engine 
+2015/11/15 20:01:09 [language.go:47] [E] GetLang error key:cata_engine 
+2015/11/15 20:01:34 [language.go:47] [E] GetLang error key:cata_engine 
+2015/11/15 20:01:34 [language.go:47] [E] GetLang error key:cata_engine 
+2015/11/15 20:01:36 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:01:36 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:01:36 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:02:12 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 20:02:12 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 20:02:12 [language.go:47] [E] GetLang error key:no 
+2015/11/15 20:02:12 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 20:02:12 [language.go:47] [E] GetLang error key:no 
+2015/11/15 20:02:12 [language.go:47] [E] GetLang error key:no 
+2015/11/15 20:02:12 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 20:02:25 [svc.go:123] [E] [{sn string 编号 none false false sn []   {true false  false} false} {key string 关键字 text true true text []   {true true  true} false} {name string 类别名称 text true true text []   {true true  true} false} {flag string 商品与类别同名 select true false enum [{yes yes yes} {no no no}]   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/15 20:02:25 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 20:02:25 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 20:02:25 [language.go:47] [E] GetLang error key:no 
+2015/11/15 20:02:25 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 20:02:25 [language.go:47] [E] GetLang error key:no 
+2015/11/15 20:02:25 [language.go:47] [E] GetLang error key:no 
+2015/11/15 20:02:25 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 20:02:25 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 20:02:34 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 20:02:34 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 20:02:34 [language.go:47] [E] GetLang error key:no 
+2015/11/15 20:02:34 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 20:02:34 [language.go:47] [E] GetLang error key:no 
+2015/11/15 20:02:34 [language.go:47] [E] GetLang error key:no 
+2015/11/15 20:02:34 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 20:02:34 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 20:04:21 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 20:04:21 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 20:04:21 [language.go:47] [E] GetLang error key:no 
+2015/11/15 20:04:21 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 20:04:21 [language.go:47] [E] GetLang error key:no 
+2015/11/15 20:04:21 [language.go:47] [E] GetLang error key:no 
+2015/11/15 20:04:21 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 20:04:21 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 20:04:28 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:04:28 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:04:28 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:04:35 [language.go:47] [E] GetLang error key:cata_engine 
+2015/11/15 20:04:35 [language.go:47] [E] GetLang error key:cata_engine 
+2015/11/15 20:04:37 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:04:37 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:04:37 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:04:41 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:04:41 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:04:41 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:05:45 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:05:45 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:05:45 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:08:00 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:08:00 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:08:00 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:11:42 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/15 20:11:47 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/15 20:11:53 [router.go:879] [C] the request url is  /ui/purchase/update 
+2015/11/15 20:11:53 [router.go:880] [C] Handler crashed with error template: purchase/update.tpl:17:31: executing "purchase/update.tpl" at <.CategoryOptions>: invalid value; expected string 
+2015/11/15 20:11:53 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:437 
+2015/11/15 20:11:53 [router.go:886] [C] /usr/local/go/src/runtime/panic.go:423 
+2015/11/15 20:11:53 [router.go:886] [C] /Users/rick/go/src/github.com/astaxie/beego/router.go:811 
+2015/11/15 20:11:53 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1862 
+2015/11/15 20:11:53 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1361 
+2015/11/15 20:11:53 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:1696 
+2015/11/15 20:12:10 [router.go:879] [C] the request url is  /ui/purchase/update 
+2015/11/15 20:12:10 [router.go:880] [C] Handler crashed with error template: purchase/update.tpl:17:31: executing "purchase/update.tpl" at <.CategoryOptions>: invalid value; expected string 
+2015/11/15 20:12:10 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:437 
+2015/11/15 20:12:10 [router.go:886] [C] /usr/local/go/src/runtime/panic.go:423 
+2015/11/15 20:12:10 [router.go:886] [C] /Users/rick/go/src/github.com/astaxie/beego/router.go:811 
+2015/11/15 20:12:10 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1862 
+2015/11/15 20:12:10 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1361 
+2015/11/15 20:12:10 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:1696 
+2015/11/15 20:13:25 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/15 20:13:30 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/15 20:13:33 [router.go:879] [C] the request url is  /ui/purchase/update 
+2015/11/15 20:13:33 [router.go:880] [C] Handler crashed with error template: purchase/update.tpl:17:31: executing "purchase/update.tpl" at <.CategoryOptions>: invalid value; expected string 
+2015/11/15 20:13:33 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:437 
+2015/11/15 20:13:33 [router.go:886] [C] /usr/local/go/src/runtime/panic.go:423 
+2015/11/15 20:13:33 [router.go:886] [C] /Users/rick/go/src/github.com/astaxie/beego/router.go:811 
+2015/11/15 20:13:33 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1862 
+2015/11/15 20:13:33 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1361 
+2015/11/15 20:13:33 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:1696 
+2015/11/15 20:14:14 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/15 20:14:19 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/15 20:14:23 [router.go:879] [C] the request url is  /ui/purchase/update 
+2015/11/15 20:14:23 [router.go:880] [C] Handler crashed with error template: purchase/update.tpl:17:31: executing "purchase/update.tpl" at <.CategoryOptions>: invalid value; expected string 
+2015/11/15 20:14:23 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:437 
+2015/11/15 20:14:23 [router.go:886] [C] /usr/local/go/src/runtime/panic.go:423 
+2015/11/15 20:14:23 [router.go:886] [C] /Users/rick/go/src/github.com/astaxie/beego/router.go:811 
+2015/11/15 20:14:23 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1862 
+2015/11/15 20:14:23 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1361 
+2015/11/15 20:14:23 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:1696 
+2015/11/15 20:15:54 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/15 20:16:00 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/15 20:16:06 [router.go:879] [C] the request url is  /ui/purchase/update 
+2015/11/15 20:16:06 [router.go:880] [C] Handler crashed with error template: purchase/update.tpl:17:31: executing "purchase/update.tpl" at <.CategoryOptions>: invalid value; expected string 
+2015/11/15 20:16:06 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:437 
+2015/11/15 20:16:06 [router.go:886] [C] /usr/local/go/src/runtime/panic.go:423 
+2015/11/15 20:16:06 [router.go:886] [C] /Users/rick/go/src/github.com/astaxie/beego/router.go:811 
+2015/11/15 20:16:06 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1862 
+2015/11/15 20:16:06 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1361 
+2015/11/15 20:16:06 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:1696 
+2015/11/15 20:16:26 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/15 20:16:31 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/15 20:16:34 [router.go:879] [C] the request url is  /ui/purchase/update 
+2015/11/15 20:16:34 [router.go:880] [C] Handler crashed with error template: purchase/update.tpl:17:31: executing "purchase/update.tpl" at <.CategoryOptions>: invalid value; expected string 
+2015/11/15 20:16:34 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:437 
+2015/11/15 20:16:34 [router.go:886] [C] /usr/local/go/src/runtime/panic.go:423 
+2015/11/15 20:16:34 [router.go:886] [C] /Users/rick/go/src/github.com/astaxie/beego/router.go:811 
+2015/11/15 20:16:34 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1862 
+2015/11/15 20:16:34 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1361 
+2015/11/15 20:16:34 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:1696 
+2015/11/15 20:17:30 [router.go:879] [C] the request url is  /ui/purchase/update 
+2015/11/15 20:17:30 [router.go:880] [C] Handler crashed with error template: purchase/update.tpl:17:31: executing "purchase/update.tpl" at <.CategoryOptions>: invalid value; expected string 
+2015/11/15 20:17:30 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:437 
+2015/11/15 20:17:30 [router.go:886] [C] /usr/local/go/src/runtime/panic.go:423 
+2015/11/15 20:17:30 [router.go:886] [C] /Users/rick/go/src/github.com/astaxie/beego/router.go:811 
+2015/11/15 20:17:30 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1862 
+2015/11/15 20:17:30 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1361 
+2015/11/15 20:17:30 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:1696 
+2015/11/15 20:18:33 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/15 20:18:38 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/15 20:23:13 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:23:13 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:23:13 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:23:19 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:23:19 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:23:19 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:52:07 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/15 20:52:13 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/15 20:52:19 [ui.go:43] [E] item_param_error 
+2015/11/15 20:52:22 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:52:22 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:52:22 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:52:30 [ui.go:43] [E] item_param_error 
+2015/11/15 20:53:24 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/15 20:53:29 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/15 20:53:31 [language.go:47] [E] GetLang error key:cata_engine 
+2015/11/15 20:53:31 [language.go:47] [E] GetLang error key:cata_engine 
+2015/11/15 20:53:33 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:53:33 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 20:53:33 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 21:03:55 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 21:03:55 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 21:03:55 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 21:05:07 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 21:05:08 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 21:05:08 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 21:06:26 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 21:06:26 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 21:06:26 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 21:07:01 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/15 21:07:03 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:07:03 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:07:03 [language.go:47] [E] GetLang error key:no 
+2015/11/15 21:07:03 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:07:03 [language.go:47] [E] GetLang error key:no 
+2015/11/15 21:07:03 [language.go:47] [E] GetLang error key:no 
+2015/11/15 21:07:03 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:07:09 [svc.go:123] [E] [{sn string 编号 none false false sn []   {true false  false} false} {key string 关键字 text true true text []   {true true  true} false} {name string 类别名称 text true true text []   {true true  true} false} {flag string 商品与类别同名 select true false enum [{yes yes yes} {no no no}]   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/15 21:07:09 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:07:09 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:07:09 [language.go:47] [E] GetLang error key:no 
+2015/11/15 21:07:09 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:07:09 [language.go:47] [E] GetLang error key:no 
+2015/11/15 21:07:09 [language.go:47] [E] GetLang error key:no 
+2015/11/15 21:07:09 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:07:09 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:07:22 [svc.go:123] [E] [{sn string 编号 none false false sn []   {true false  false} false} {key string 关键字 text true true text []   {true true  true} false} {name string 类别名称 text true true text []   {true true  true} false} {flag string 商品与类别同名 select true false enum [{yes yes yes} {no no no}]   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/15 21:07:22 [svc.go:170] [E] Add error UNIQUE constraint failed: category.key 
+2015/11/15 21:07:27 [svc.go:123] [E] [{sn string 编号 none false false sn []   {true false  false} false} {key string 关键字 text true true text []   {true true  true} false} {name string 类别名称 text true true text []   {true true  true} false} {flag string 商品与类别同名 select true false enum [{yes yes yes} {no no no}]   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/15 21:07:27 [svc.go:170] [E] Add error UNIQUE constraint failed: category.key 
+2015/11/15 21:07:32 [svc.go:123] [E] [{sn string 编号 none false false sn []   {true false  false} false} {key string 关键字 text true true text []   {true true  true} false} {name string 类别名称 text true true text []   {true true  true} false} {flag string 商品与类别同名 select true false enum [{yes yes yes} {no no no}]   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/15 21:07:32 [svc.go:170] [E] Add error UNIQUE constraint failed: category.key 
+2015/11/15 21:07:44 [svc.go:123] [E] [{sn string 编号 none false false sn []   {true false  false} false} {key string 关键字 text true true text []   {true true  true} false} {name string 类别名称 text true true text []   {true true  true} false} {flag string 商品与类别同名 select true false enum [{yes yes yes} {no no no}]   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/15 21:07:44 [svc.go:170] [E] Add error UNIQUE constraint failed: category.key 
+2015/11/15 21:07:48 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/15 21:07:49 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:07:49 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:07:49 [language.go:47] [E] GetLang error key:no 
+2015/11/15 21:07:49 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:07:49 [language.go:47] [E] GetLang error key:no 
+2015/11/15 21:07:49 [language.go:47] [E] GetLang error key:no 
+2015/11/15 21:07:49 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:07:49 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:07:53 [svc.go:123] [E] [{sn string 编号 none false false sn []   {true false  false} false} {key string 关键字 text true true text []   {true true  true} false} {name string 类别名称 text true true text []   {true true  true} false} {flag string 商品与类别同名 select true false enum [{yes yes yes} {no no no}]   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/15 21:07:53 [svc.go:170] [E] Add error UNIQUE constraint failed: category.key 
+2015/11/15 21:07:59 [svc.go:123] [E] [{sn string 编号 none false false sn []   {true false  false} false} {key string 关键字 text true true text []   {true true  true} false} {name string 类别名称 text true true text []   {true true  true} false} {flag string 商品与类别同名 select true false enum [{yes yes yes} {no no no}]   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/15 21:07:59 [svc.go:170] [E] Add error UNIQUE constraint failed: category.key 
+2015/11/15 21:08:34 [svc.go:123] [E] [{sn string 编号 none false false sn []   {true false  false} false} {key string 关键字 text true true text []   {true true  true} false} {name string 类别名称 text true true text []   {true true  true} false} {flag string 商品与类别同名 select true false enum [{yes yes yes} {no no no}]   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/15 21:08:34 [svc.go:170] [E] Add error UNIQUE constraint failed: category.key 
+2015/11/15 21:08:50 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/15 21:08:52 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:08:52 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:08:52 [language.go:47] [E] GetLang error key:no 
+2015/11/15 21:08:52 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:08:52 [language.go:47] [E] GetLang error key:no 
+2015/11/15 21:08:52 [language.go:47] [E] GetLang error key:no 
+2015/11/15 21:08:52 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:08:52 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:08:55 [svc.go:123] [E] [{sn string 编号 none false false sn []   {true false  false} false} {key string 关键字 text true true text []   {true true  true} false} {name string 类别名称 text true true text []   {true true  true} false} {flag string 商品与类别同名 select true false enum [{yes yes yes} {no no no}]   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/15 21:08:55 [svc.go:170] [E] Add error UNIQUE constraint failed: category.key 
+2015/11/15 21:08:57 [svc.go:123] [E] [{sn string 编号 none false false sn []   {true false  false} false} {key string 关键字 text true true text []   {true true  true} false} {name string 类别名称 text true true text []   {true true  true} false} {flag string 商品与类别同名 select true false enum [{yes yes yes} {no no no}]   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/15 21:08:57 [svc.go:170] [E] Add error UNIQUE constraint failed: category.key 
+2015/11/15 21:09:00 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:09:00 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:09:00 [language.go:47] [E] GetLang error key:no 
+2015/11/15 21:09:00 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:09:00 [language.go:47] [E] GetLang error key:no 
+2015/11/15 21:09:00 [language.go:47] [E] GetLang error key:no 
+2015/11/15 21:09:00 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:09:00 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:09:04 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:09:04 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:09:04 [language.go:47] [E] GetLang error key:no 
+2015/11/15 21:09:04 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:09:04 [language.go:47] [E] GetLang error key:no 
+2015/11/15 21:09:04 [language.go:47] [E] GetLang error key:no 
+2015/11/15 21:09:04 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:09:04 [language.go:47] [E] GetLang error key:yes 

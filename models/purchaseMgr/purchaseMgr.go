@@ -133,8 +133,8 @@ func transPurchaseMap(oldMap orm.Params) t.ItemMap {
 	if userName, ok := oldMap["user_name"]; ok {
 		retMap["buyer"] = userName
 	}
-	catagory, _ := retMap[s.Category].(string)
-	retMap[s.Category] = lang.GetLabel(catagory)
+	category, _ := retMap[s.Category].(string)
+	retMap[s.Category] = lang.GetLabel(category)
 	if supplierSn, ok := retMap[s.Supplier]; ok && !u.IsNullStr(supplierSn) {
 		if supplierMap, sok := supplierMgr.Get(supplierSn.(string)); sok {
 			retMap[s.Supplier + s.EName] = u.GetStringValue(supplierMap, s.Name)
