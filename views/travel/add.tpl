@@ -24,7 +24,7 @@
 <script src="../../lib/3rd/jquery-ui/jquery-ui.min.js"></script>
 <script src="../../lib/webo/js/validateExtend.js"></script>
 <script src="../../lib/webo/js/ui.js"></script>
-<script src="../../lib/webo/util.js"></script>
+<script src="../../lib/webo/js/util.js"></script>
 <script src="../../lib/webo/js/travel.js"></script>
 <script>
     function showResponse(resp) {

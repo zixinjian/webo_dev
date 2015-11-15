@@ -91,10 +91,13 @@ const (
 
 
 const (
-	EKey   = "_key"
-	EName  = "_name"
-	EPrice = "_price"
+	Ext	   	= "_"
+	List  	= "list"
+	EKey   	= "_key"
+	EName  	= "_name"
+	EPrice 	= "_price"
 )
+
 
 const (
 	Disabled = "disabled"

@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="../../lib/3rd/bootstrap-table/bootstrap-table.css">
 <link rel="stylesheet" href="../../lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css">
 <link rel="stylesheet" href="../../lib/3rd/jquery-ui/jquery-ui.min.css">
-<link rel="stylesheet" href="../../lib/webo/css/overwrite.css">
+<link rel="stylesheet" href="../../lib/webo/css/ui.css">
 </head>
 <body>
 <div>
@@ -55,7 +55,7 @@
 <script src="../../lib/3rd/bootstrap-table/locale/bootstrap-table-zh-CN.js"></script>
 <script src="../../lib/3rd/jquery-ui/jquery-ui.min.js"></script>
 <script src="../../lib/moment/moment.js"></script>
-<script src="../../lib/webo/util.js"></script>
+<script src="../../lib/webo/js/util.js"></script>
 <script src="../../lib/webo/js/ui.js"></script>
 <script src="../../lib/webo/js/purchase.js"></script>
 <script>

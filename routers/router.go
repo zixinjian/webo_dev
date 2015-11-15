@@ -33,9 +33,12 @@ func init() {
 
 	//产品管理
 	beego.Router("/ui/product/add", &controllers.ProductController{}, "*:UiAdd")
+	beego.Router("/ui/product/setting", &controllers.ProductController{}, "*:UiSetting")
 	beego.Router("/ui/product/list", &controllers.ProductController{}, "*:UiList")
 	beego.Router("/ui/product/update", &controllers.ProductController{}, "*:UiUpdate")
 	beego.Router("/item/product/list", &controllers.ProductController{}, "*:List")
+	beego.Router("/item/product/add", &controllers.ProductController{}, "*:Add")
+	beego.Router("/item/product/update", &controllers.ProductController{}, "*:Update")
 
 	//采购管理
 	beego.Router("/ui/purchase/mycreate", &controllers.PurchaseController{}, "*:UiMyCreate")
@@ -56,6 +59,8 @@ func init() {
 	beego.Router("/purchase/list/buyertimely", &controllers.PurchaseController{}, "*:BuyerTimelyList")
 	beego.Router("/purchase/calc/producttimely", &controllers.PurchaseController{}, "*:CalcProductTimely")
 	beego.Router("/purchase/list/suppliertimely", &controllers.PurchaseController{}, "*:SupplierTimelyList")
+
+//	beego.Router("/ui/setting", &controllers.SettingController{}, "*:List")
 
 	//账目
 	beego.Router("/ui/expense/list", &controllers.PurchaseController{}, "*:ExpenseList")

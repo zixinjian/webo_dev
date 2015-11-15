@@ -1,0 +1,650 @@
+2015/11/11 08:37:50 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/11 08:37:51 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/11 08:53:16 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/11 08:54:01 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/11 08:54:18 [crud.go:119] [E] [{sn string 编号 none false false sn []   {true false  false} false} {product string product none true true text []   {true true  true} false} {supplier string supplier none true true text []   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/11 08:54:18 [crud.go:119] [E] [{sn string 编号 none false false sn []   {true false  false} false} {product string product none true true text []   {true true  true} false} {supplier string supplier none true true text []   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/11 08:54:18 [crud.go:119] [E] [{sn string 编号 none false false sn []   {true false  false} false} {product string product none true true text []   {true true  true} false} {supplier string supplier none true true text []   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/11 08:54:18 [crud.go:119] [E] [{sn string 编号 none false false sn []   {true false  false} false} {category string 类别 select true false enum [{cate_engine cate_engine 柴油机} {cate_generator cate_generator 电机} {cate_waterbox cate_waterbox 水箱} {cate_epart cate_epart 电器件} {cate_parts cate_parts 配件} {cate_other cate_other 其他} {cate_newpdt cate_newpdt 新产品}]  cate_engine {true true asc true} false} {name string 名称 text true true text []   {true true asc true} false} {brand string 品牌 text true false text []   {true true asc true} false} {model string 型号 text true false text []   {true true  true} false} {power float 功率 float true false text []   {true true  true} false} {keyword string 关键词 none true true text []   {true true asc false} false} {price float 参考价格 money true false text []   {true true asc true} false} {size string 尺寸重量 text false false text []   {true true  true} false} {freight float 预计运费 money false false text []   {true true  true} false} {profitrat float 调价比例 percent false false text []   {true true  true} false} {retailprice float 卖价 money false false text []   {true true  true} false} {supplier string 供应商 autocomplete true false text [] /item/autocomplete/supplier  {true true  true} false} {detail string 产品详情 text false false text []   {true true asc true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/11 09:00:46 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/11 09:00:55 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/11 09:21:21 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/11 09:31:21 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/11 09:31:29 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/11 09:33:54 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/11 09:57:50 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/11 09:57:51 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/11 09:57:52 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/11 10:24:00 [purchase.go:60] [I] UiCurList 
+2015/11/11 10:24:00 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/11 10:24:00 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/11 10:49:53 [router.go:879] [C] the request url is  /ui/product/update 
+2015/11/11 10:49:53 [router.go:880] [C] Handler crashed with error template: product/update.tpl:14:19: executing "product/update.tpl" at <.Form_sn>: invalid value; expected string 
+2015/11/11 10:49:53 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:437 
+2015/11/11 10:49:53 [router.go:886] [C] /usr/local/go/src/runtime/panic.go:423 
+2015/11/11 10:49:53 [router.go:886] [C] /Users/rick/go/src/github.com/astaxie/beego/router.go:811 
+2015/11/11 10:49:53 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1862 
+2015/11/11 10:49:53 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1361 
+2015/11/11 10:49:53 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:1696 
+2015/11/11 10:50:12 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/11 10:50:53 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/11 15:10:10 [ui.go:74] [E] ui.Update sn_param_is_none 
+2015/11/11 15:38:30 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/11 15:38:37 [main.go:28] [I] User:gdj login as role:role_manager 
+2015/11/11 16:10:46 [main.go:28] [I] User:gdj login as role:role_manager 
+2015/11/11 16:59:44 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/11 17:00:16 [main.go:28] [I] User:gdj login as role:role_manager 
+2015/11/11 17:00:23 [crud.go:119] [E] [{sn string 编号 none false false sn []   {true false  false} false} {product string product none true true text []   {true true  true} false} {supplier string supplier none true true text []   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/11 17:00:23 [crud.go:119] [E] [{sn string 编号 none false false sn []   {true false  false} false} {product string product none true true text []   {true true  true} false} {supplier string supplier none true true text []   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/11 17:00:26 [crud.go:119] [E] [{sn string 编号 none false false sn []   {true false  false} false} {product string product none true true text []   {true true  true} false} {supplier string supplier none true true text []   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/11 17:00:26 [crud.go:119] [E] [{sn string 编号 none false false sn []   {true false  false} false} {product string product none true true text []   {true true  true} false} {supplier string supplier none true true text []   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/11 17:00:30 [crud.go:119] [E] [{sn string 编号 none false false sn []   {true false  false} false} {product string product none true true text []   {true true  true} false} {supplier string supplier none true true text []   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/11 17:00:30 [crud.go:119] [E] [{sn string 编号 none false false sn []   {true false  false} false} {product string product none true true text []   {true true  true} false} {supplier string supplier none true true text []   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/11 17:03:16 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/11 17:03:37 [crud.go:119] [E] [{sn string 编号 none false false sn []   {true false  false} false} {product string product none true true text []   {true true  true} false} {supplier string supplier none true true text []   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/11 17:03:37 [crud.go:119] [E] [{sn string 编号 none false false sn []   {true false  false} false} {product string product none true true text []   {true true  true} false} {supplier string supplier none true true text []   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/11 17:06:42 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/11 17:07:53 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/11 17:08:30 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/11 17:13:06 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/11 17:14:29 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/11 17:14:44 [crud.go:119] [E] [{sn string 编号 none false false sn []   {true false  false} false} {product string product none true true text []   {true true  true} false} {supplier string supplier none true true text []   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/11 17:15:36 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/11 17:16:02 [crud.go:119] [E] [{sn string 编号 none false false sn []   {true false  false} false} {product string product none true true text []   {true true  true} false} {supplier string supplier none true true text []   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/11 17:32:20 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/11 17:33:16 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/11 17:34:00 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/11 17:38:52 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/12 09:29:35 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/12 09:29:41 [main.go:28] [I] User:gdj login as role:role_manager 
+2015/11/12 09:29:44 [router.go:879] [C] the request url is  /ui/product/update 
+2015/11/12 09:29:44 [router.go:880] [C] Handler crashed with error template: product/update.tpl:17:19: executing "product/update.tpl" at <.Form_sn>: invalid value; expected string 
+2015/11/12 09:29:44 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:437 
+2015/11/12 09:29:44 [router.go:886] [C] /usr/local/go/src/runtime/panic.go:423 
+2015/11/12 09:29:44 [router.go:886] [C] /Users/rick/go/src/github.com/astaxie/beego/router.go:811 
+2015/11/12 09:29:44 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1862 
+2015/11/12 09:29:44 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1361 
+2015/11/12 09:29:44 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:1696 
+2015/11/12 09:42:19 [crud.go:119] [E] [{sn string 编号 none false false sn []   {true true asc true} false} {category string 类别 select true false enum [{cate_engine cate_engine 柴油机} {cate_generator cate_generator 电机} {cate_waterbox cate_waterbox 水箱} {cate_parts cate_parts 配件} {cate_epart cate_epart 电器件} {cate_other cate_other 其他} {cate_newpdt cate_newpdt 新产品}]   {true true  true} false} {productname string 商品名称 text true false text []   {true true  true} false} {product string sn none true false text []   {true true  true} false} {brand string 品牌 text true false text []   {true true  true} false} {model string 型号 text true false text []   {true true  true} false} {power float 功率 float true false text []   {true true  true} false} {num string 数量 text true false text []  1 {true true  true} false} {placedate string 下单日期 date true false text []  curtime {true true  true} false} {requireddate string 需用日期 date true false text []   {true true  true} false} {requireddepartment string 申请部门 text true false text []   {true true  true} false} {unitprice float 单价 money false false text []   {true true  true} false} {productprice float 参考价 money false false text []   {true true  true} false} {totalprice float 总价 money false false text []   {true true  true} false} {freightprice float 运费 money false false text []   {true true  true} false} {supplier string 供应商关键词 text true false text []   {true true  true} false} {buyer string 采购人 select true false enum [{20150729203140000 admin admin} {20150804174916001 gdj 郭东进}]   {true true  true} false} {orderdate string 订货日期 date false false text []   {true true desc true} false} {predictdeliverydate string 预计发货日期 date false false text []   {true true  true} false} {actualdeliverydate string 实际发货日 date false false text []   {true true  true} false} {arrivaldate string 到货日期 date false false text []   {true true  true} false} {godowndate string 入库日期 date false false text []   {true true  true} false} {paymentamount string 付款金额 money false false text []   {true true asc false} false} {paymentdate string 付款日期 date false false text []   {true true asc false} false} {file string 附件 upload false false upload []   {true true asc false} false} {mark string 备注 text false false text []   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/12 09:48:31 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/12 10:00:36 [crud.go:119] [E] [{sn string 编号 none false false sn []   {true true asc true} false} {category string 类别 select true false enum [{cate_engine cate_engine 柴油机} {cate_generator cate_generator 电机} {cate_waterbox cate_waterbox 水箱} {cate_parts cate_parts 配件} {cate_epart cate_epart 电器件} {cate_other cate_other 其他} {cate_newpdt cate_newpdt 新产品}]   {true true  true} false} {productname string 商品名称 text true false text []   {true true  true} false} {product string sn none true false text []   {true true  true} false} {brand string 品牌 text true false text []   {true true  true} false} {model string 型号 text true false text []   {true true  true} false} {power float 功率 float true false text []   {true true  true} false} {num string 数量 text true false text []  1 {true true  true} false} {placedate string 下单日期 date true false text []  curtime {true true  true} false} {requireddate string 需用日期 date true false text []   {true true  true} false} {requireddepartment string 申请部门 text true false text []   {true true  true} false} {unitprice float 单价 money false false text []   {true true  true} false} {productprice float 参考价 money false false text []   {true true  true} false} {totalprice float 总价 money false false text []   {true true  true} false} {freightprice float 运费 money false false text []   {true true  true} false} {supplier string 供应商关键词 text true false text []   {true true  true} false} {buyer string 采购人 select true false enum [{20150729203140000 admin admin} {20150804174916001 gdj 郭东进}]   {true true  true} false} {orderdate string 订货日期 date false false text []   {true true desc true} false} {predictdeliverydate string 预计发货日期 date false false text []   {true true  true} false} {actualdeliverydate string 实际发货日 date false false text []   {true true  true} false} {arrivaldate string 到货日期 date false false text []   {true true  true} false} {godowndate string 入库日期 date false false text []   {true true  true} false} {paymentamount string 付款金额 money false false text []   {true true asc false} false} {paymentdate string 付款日期 date false false text []   {true true asc false} false} {file string 附件 upload false false upload []   {true true asc false} false} {mark string 备注 text false false text []   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/12 10:35:55 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/12 10:41:21 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/12 10:47:45 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/12 10:50:33 [crud.go:119] [E] [{sn string 编号 none false false sn []   {true true asc true} false} {category string 类别 select true false enum [{cate_engine cate_engine 柴油机} {cate_generator cate_generator 电机} {cate_waterbox cate_waterbox 水箱} {cate_parts cate_parts 配件} {cate_epart cate_epart 电器件} {cate_other cate_other 其他} {cate_newpdt cate_newpdt 新产品}]   {true true  true} false} {productname string 商品名称 text true false text []   {true true  true} false} {product string sn none true false text []   {true true  true} false} {brand string 品牌 text true false text []   {true true  true} false} {model string 型号 text true false text []   {true true  true} false} {power float 功率 float true false text []   {true true  true} false} {num string 数量 text true false text []  1 {true true  true} false} {placedate string 下单日期 date true false text []  curtime {true true  true} false} {requireddate string 需用日期 date true false text []   {true true  true} false} {requireddepartment string 申请部门 text true false text []   {true true  true} false} {unitprice float 单价 money false false text []   {true true  true} false} {productprice float 参考价 money false false text []   {true true  true} false} {totalprice float 总价 money false false text []   {true true  true} false} {freightprice float 运费 money false false text []   {true true  true} false} {supplier string 供应商关键词 text true false text []   {true true  true} false} {buyer string 采购人 select true false enum [{20150729203140000 admin admin} {20150804174916001 gdj 郭东进}]   {true true  true} false} {orderdate string 订货日期 date false false text []   {true true desc true} false} {predictdeliverydate string 预计发货日期 date false false text []   {true true  true} false} {actualdeliverydate string 实际发货日 date false false text []   {true true  true} false} {arrivaldate string 到货日期 date false false text []   {true true  true} false} {godowndate string 入库日期 date false false text []   {true true  true} false} {paymentamount string 付款金额 money false false text []   {true true asc false} false} {paymentdate string 付款日期 date false false text []   {true true asc false} false} {file string 附件 upload false false upload []   {true true asc false} false} {mark string 备注 text false false text []   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/12 10:50:36 [router.go:879] [C] the request url is  /ui/purchase/update 
+2015/11/12 10:50:36 [router.go:880] [C] Handler crashed with error template: purchase/update.tpl:34:31: executing "purchase/update.tpl" at <.SupplierOptions>: invalid value; expected string 
+2015/11/12 10:50:36 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:437 
+2015/11/12 10:50:36 [router.go:886] [C] /usr/local/go/src/runtime/panic.go:423 
+2015/11/12 10:50:36 [router.go:886] [C] /Users/rick/go/src/github.com/astaxie/beego/router.go:811 
+2015/11/12 10:50:36 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1862 
+2015/11/12 10:50:36 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1361 
+2015/11/12 10:50:36 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:1696 
+2015/11/12 10:51:17 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/12 10:51:35 [router.go:879] [C] the request url is  /ui/purchase/update 
+2015/11/12 10:51:35 [router.go:880] [C] Handler crashed with error template: purchase/update.tpl:34:31: executing "purchase/update.tpl" at <.SupplierOptions>: invalid value; expected string 
+2015/11/12 10:51:35 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:437 
+2015/11/12 10:51:35 [router.go:886] [C] /usr/local/go/src/runtime/panic.go:423 
+2015/11/12 10:51:35 [router.go:886] [C] /Users/rick/go/src/github.com/astaxie/beego/router.go:811 
+2015/11/12 10:51:35 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1862 
+2015/11/12 10:51:35 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1361 
+2015/11/12 10:51:35 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:1696 
+2015/11/12 10:51:58 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/12 10:52:05 [router.go:879] [C] the request url is  /ui/purchase/update 
+2015/11/12 10:52:05 [router.go:880] [C] Handler crashed with error template: purchase/update.tpl:34:31: executing "purchase/update.tpl" at <.SupplierOptions>: invalid value; expected string 
+2015/11/12 10:52:05 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:437 
+2015/11/12 10:52:05 [router.go:886] [C] /usr/local/go/src/runtime/panic.go:423 
+2015/11/12 10:52:05 [router.go:886] [C] /Users/rick/go/src/github.com/astaxie/beego/router.go:811 
+2015/11/12 10:52:05 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1862 
+2015/11/12 10:52:05 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1361 
+2015/11/12 10:52:05 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:1696 
+2015/11/12 10:53:16 [router.go:879] [C] the request url is  /ui/purchase/update 
+2015/11/12 10:53:16 [router.go:880] [C] Handler crashed with error template: purchase/update.tpl:34:31: executing "purchase/update.tpl" at <.SupplierOptions>: invalid value; expected string 
+2015/11/12 10:53:16 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:437 
+2015/11/12 10:53:16 [router.go:886] [C] /usr/local/go/src/runtime/panic.go:423 
+2015/11/12 10:53:16 [router.go:886] [C] /Users/rick/go/src/github.com/astaxie/beego/router.go:811 
+2015/11/12 10:53:16 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1862 
+2015/11/12 10:53:16 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1361 
+2015/11/12 10:53:16 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:1696 
+2015/11/12 10:53:25 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/12 10:54:15 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/12 11:06:54 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/12 11:08:30 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/12 11:14:33 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/12 11:24:30 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/12 11:24:32 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/12 11:24:32 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 08:53:19 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/13 08:53:29 [main.go:28] [I] User:gdj login as role:role_manager 
+2015/11/13 13:44:48 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/13 13:44:58 [main.go:28] [I] User:gdj login as role:role_manager 
+2015/11/13 13:45:03 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 13:45:03 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 13:45:03 [language.go:46] [E] GetLang error key:no 
+2015/11/13 13:45:03 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 13:45:03 [language.go:46] [E] GetLang error key:no 
+2015/11/13 13:45:03 [language.go:46] [E] GetLang error key:no 
+2015/11/13 13:45:03 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 13:54:42 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 13:54:42 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 13:54:42 [language.go:46] [E] GetLang error key:no 
+2015/11/13 13:54:42 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 13:54:42 [language.go:46] [E] GetLang error key:no 
+2015/11/13 13:54:42 [language.go:46] [E] GetLang error key:no 
+2015/11/13 13:54:42 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 15:04:31 [router.go:879] [C] the request url is  /ui/product/update 
+2015/11/13 15:04:31 [router.go:880] [C] Handler crashed with error template: product/update.tpl:17:19: executing "product/update.tpl" at <.Form_sn>: invalid value; expected string 
+2015/11/13 15:04:31 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:437 
+2015/11/13 15:04:31 [router.go:886] [C] /usr/local/go/src/runtime/panic.go:423 
+2015/11/13 15:04:31 [router.go:886] [C] /Users/rick/go/src/github.com/astaxie/beego/router.go:811 
+2015/11/13 15:04:31 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1862 
+2015/11/13 15:04:31 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1361 
+2015/11/13 15:04:31 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:1696 
+2015/11/13 15:05:14 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/13 15:05:23 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 15:05:23 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 15:05:23 [language.go:46] [E] GetLang error key:no 
+2015/11/13 15:05:23 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 15:05:23 [language.go:46] [E] GetLang error key:no 
+2015/11/13 15:05:23 [language.go:46] [E] GetLang error key:no 
+2015/11/13 15:05:23 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 15:05:51 [Item.go:88] [E] item_param_error 
+2015/11/13 15:05:52 [Item.go:88] [E] item_param_error 
+2015/11/13 15:06:10 [Item.go:88] [E] item_param_error 
+2015/11/13 15:10:09 [Item.go:57] [E] item_param_error 
+2015/11/13 15:10:16 [Item.go:57] [E] item_param_error 
+2015/11/13 15:18:15 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/13 15:18:37 [svc.go:123] [E] [{sn string 编号 none false false sn []   {true false  false} false} {product string product none true true text []   {true true  true} false} {supplier string supplier none true true text []   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/13 15:18:37 [svc.go:123] [E] [{sn string 编号 none false false sn []   {true false  false} false} {product string product none true true text []   {true true  true} false} {supplier string supplier none true true text []   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/13 15:18:37 [svc.go:123] [E] [{sn string 编号 none false false sn []   {true false  false} false} {category string 类别 select true false enum [{cate_engine cate_engine 柴油机} {cate_generator cate_generator 电机} {cate_waterbox cate_waterbox 水箱} {cate_epart cate_epart 电器件} {cate_parts cate_parts 配件} {cate_other cate_other 其他} {cate_newpdt cate_newpdt 新产品}]  cate_engine {true true asc true} false} {name string 名称 text true true text []   {true true asc true} false} {brand string 品牌 text true false text []   {true true asc true} false} {model string 型号 text true false text []   {true true  true} false} {power float 功率 float true false text []   {true true  true} false} {keyword string 关键词 none true true text []   {true true asc false} false} {price float 参考价格 money true false text []   {true true asc true} false} {size string 尺寸重量 text false false text []   {true true  true} false} {freight float 预计运费 money false false text []   {true true  true} false} {profitrat float 调价比例 percent false false text []   {true true  true} false} {retailprice float 卖价 money false false text []   {true true  true} false} {supplier string 供应商 autocomplete true false text [] /item/autocomplete/supplier  {true true  true} false} {detail string 产品详情 text false false text []   {true true asc true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/13 15:22:42 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 15:22:42 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 15:22:42 [language.go:46] [E] GetLang error key:no 
+2015/11/13 15:22:42 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 15:22:42 [language.go:46] [E] GetLang error key:no 
+2015/11/13 15:22:42 [language.go:46] [E] GetLang error key:no 
+2015/11/13 15:22:42 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 15:22:46 [purchase.go:59] [I] UiCurList 
+2015/11/13 15:22:46 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 15:22:46 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 15:22:47 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 15:22:47 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 15:22:47 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 15:22:48 [purchase.go:59] [I] UiCurList 
+2015/11/13 15:22:48 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 15:22:48 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 15:22:48 [purchase.go:59] [I] UiCurList 
+2015/11/13 15:22:48 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 15:22:48 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 15:22:50 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 15:22:50 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 15:22:50 [language.go:46] [E] GetLang error key:no 
+2015/11/13 15:22:50 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 15:22:50 [language.go:46] [E] GetLang error key:no 
+2015/11/13 15:22:50 [language.go:46] [E] GetLang error key:no 
+2015/11/13 15:22:50 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 15:22:52 [purchase.go:59] [I] UiCurList 
+2015/11/13 15:22:52 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 15:22:52 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 15:22:52 [purchase.go:59] [I] UiCurList 
+2015/11/13 15:22:52 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 15:22:52 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 15:22:53 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 15:22:53 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 15:22:54 [purchase.go:59] [I] UiCurList 
+2015/11/13 15:22:54 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 15:22:54 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 15:22:55 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 15:22:55 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 15:22:55 [language.go:46] [E] GetLang error key:no 
+2015/11/13 15:22:55 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 15:22:55 [language.go:46] [E] GetLang error key:no 
+2015/11/13 15:22:55 [language.go:46] [E] GetLang error key:no 
+2015/11/13 15:22:55 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 15:22:59 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/11/13 15:22:59 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 15:22:59 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 15:22:59 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/11/13 15:22:59 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 15:22:59 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 15:23:01 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 15:23:01 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 15:23:02 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 15:23:02 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 15:23:03 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 15:23:03 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 15:23:04 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 15:23:04 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 15:23:04 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 15:23:04 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 15:32:30 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 15:32:30 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 15:32:39 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/13 15:32:49 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/11/13 15:32:49 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 15:32:49 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 15:32:53 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 15:32:53 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 15:32:56 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 15:32:56 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 15:33:26 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/11/13 15:33:27 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 15:33:27 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 15:33:28 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 15:33:28 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 15:33:30 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 15:33:30 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 15:33:42 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 15:33:42 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 15:35:13 [main.go:28] [I] User:gdj login as role:role_manager 
+2015/11/13 16:01:48 [main.go:28] [I] User:gdj login as role:role_manager 
+2015/11/13 16:02:05 [main.go:28] [I] User:gdj login as role:role_manager 
+2015/11/13 16:02:08 [main.go:28] [I] User:gdj login as role:role_manager 
+2015/11/13 16:02:10 [main.go:28] [I] User:gdj login as role:role_manager 
+2015/11/13 16:02:11 [main.go:28] [I] User:gdj login as role:role_manager 
+2015/11/13 16:02:13 [main.go:28] [I] User:gdj login as role:role_manager 
+2015/11/13 16:02:31 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/13 16:02:36 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 16:03:44 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 16:03:51 [purchase.go:59] [I] UiCurList 
+2015/11/13 16:03:52 [purchase.go:59] [I] UiCurList 
+2015/11/13 16:03:54 [purchase.go:59] [I] UiCurList 
+2015/11/13 16:03:56 [purchase.go:59] [I] UiCurList 
+2015/11/13 16:04:02 [purchase.go:59] [I] UiCurList 
+2015/11/13 16:04:17 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/13 16:04:22 [main.go:49] [I] User:gdj login as role:role_manager 
+2015/11/13 16:05:02 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/13 16:05:07 [main.go:49] [I] User:gdj login as role:role_manager 
+2015/11/13 16:06:09 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/13 16:06:15 [main.go:49] [I] User:gdj login as role:role_manager 
+2015/11/13 16:07:48 [main.go:49] [I] User:gdj login as role:role_manager 
+2015/11/13 16:07:55 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/13 16:08:01 [main.go:49] [I] User:gdj login as role:role_manager 
+2015/11/13 16:08:48 [main.go:49] [I] User:gdj login as role:role_manager 
+2015/11/13 16:09:24 [purchase.go:59] [I] UiCurList 
+2015/11/13 16:09:26 [purchase.go:59] [I] UiCurList 
+2015/11/13 16:09:30 [purchase.go:59] [I] UiCurList 
+2015/11/13 16:09:38 [main.go:49] [I] User:gdj login as role:role_manager 
+2015/11/13 16:09:41 [purchase.go:59] [I] UiCurList 
+2015/11/13 16:09:59 [main.go:49] [I] User:gdj login as role:role_manager 
+2015/11/13 16:10:22 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/13 16:10:27 [main.go:41] [I] User:gdj login as role:role_manager 
+2015/11/13 16:10:52 [main.go:41] [I] User:gdj login as role:role_manager 
+2015/11/13 16:11:54 [main.go:41] [I] User:gdj login as role:role_manager 
+2015/11/13 16:12:01 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/13 16:12:05 [main.go:49] [I] User:gdj login as role:role_manager 
+2015/11/13 16:22:07 [main.go:49] [I] User:gdj login as role:role_manager 
+2015/11/13 16:22:30 [purchase.go:59] [I] UiCurList 
+2015/11/13 16:23:25 [main.go:49] [I] User:gdj login as role:role_manager 
+2015/11/13 16:23:33 [purchase.go:59] [I] UiCurList 
+2015/11/13 16:23:48 [purchase.go:59] [I] UiCurList 
+2015/11/13 16:23:48 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 16:23:48 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 16:23:49 [purchase.go:59] [I] UiCurList 
+2015/11/13 16:23:49 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 16:23:49 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 16:23:50 [purchase.go:59] [I] UiCurList 
+2015/11/13 16:24:06 [main.go:49] [I] User:gdj login as role:role_manager 
+2015/11/13 16:24:12 [main.go:49] [I] User:gdj login as role:role_manager 
+2015/11/13 16:24:30 [main.go:49] [I] User:gdj login as role:role_manager 
+2015/11/13 16:25:05 [main.go:49] [I] User:gdj login as role:role_manager 
+2015/11/13 16:26:00 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/13 16:26:07 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 16:26:14 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 16:26:14 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 16:26:14 [language.go:46] [E] GetLang error key:no 
+2015/11/13 16:26:14 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 16:26:14 [language.go:46] [E] GetLang error key:no 
+2015/11/13 16:26:14 [language.go:46] [E] GetLang error key:no 
+2015/11/13 16:26:14 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 16:26:51 [purchase.go:59] [I] UiCurList 
+2015/11/13 16:26:54 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 16:26:54 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 16:26:54 [language.go:46] [E] GetLang error key:no 
+2015/11/13 16:26:54 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 16:26:54 [language.go:46] [E] GetLang error key:no 
+2015/11/13 16:26:54 [language.go:46] [E] GetLang error key:no 
+2015/11/13 16:26:54 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 16:26:56 [purchase.go:59] [I] UiCurList 
+2015/11/13 16:26:56 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 16:26:56 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 16:26:57 [purchase.go:59] [I] UiCurList 
+2015/11/13 16:26:57 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 16:26:57 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 16:27:00 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 16:27:02 [purchase.go:59] [I] UiCurList 
+2015/11/13 16:27:03 [purchase.go:59] [I] UiCurList 
+2015/11/13 16:27:17 [purchase.go:59] [I] UiCurList 
+2015/11/13 16:31:41 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/13 16:48:29 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 16:53:43 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 16:54:07 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 17:03:54 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/13 17:04:00 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 17:04:06 [purchase.go:59] [I] UiCurList 
+2015/11/13 17:10:57 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/13 17:11:02 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 17:11:23 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 17:11:43 [purchase.go:59] [I] UiCurList 
+2015/11/13 17:11:44 [purchase.go:59] [I] UiCurList 
+2015/11/13 17:17:06 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 17:17:17 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 17:17:17 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 17:17:17 [language.go:46] [E] GetLang error key:no 
+2015/11/13 17:17:17 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 17:17:17 [language.go:46] [E] GetLang error key:no 
+2015/11/13 17:17:17 [language.go:46] [E] GetLang error key:no 
+2015/11/13 17:17:17 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 17:17:49 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 17:18:08 [purchase.go:59] [I] UiCurList 
+2015/11/13 17:18:09 [purchase.go:59] [I] UiCurList 
+2015/11/13 17:18:11 [purchase.go:59] [I] UiCurList 
+2015/11/13 17:18:17 [purchase.go:59] [I] UiCurList 
+2015/11/13 17:18:17 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 17:18:17 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 17:18:18 [purchase.go:59] [I] UiCurList 
+2015/11/13 17:18:18 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 17:18:18 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 17:18:19 [purchase.go:59] [I] UiCurList 
+2015/11/13 17:18:19 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 17:18:19 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 17:18:26 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 17:18:26 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 17:18:26 [language.go:46] [E] GetLang error key:no 
+2015/11/13 17:18:26 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 17:18:26 [language.go:46] [E] GetLang error key:no 
+2015/11/13 17:18:26 [language.go:46] [E] GetLang error key:no 
+2015/11/13 17:18:26 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 17:19:20 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 17:20:25 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/13 17:20:31 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 17:22:36 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 17:22:55 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 17:22:55 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 17:22:55 [language.go:46] [E] GetLang error key:no 
+2015/11/13 17:22:55 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 17:22:55 [language.go:46] [E] GetLang error key:no 
+2015/11/13 17:22:55 [language.go:46] [E] GetLang error key:no 
+2015/11/13 17:22:55 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 17:25:01 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 17:26:25 [purchase.go:59] [I] UiCurList 
+2015/11/13 17:26:25 [purchase.go:59] [I] UiCurList 
+2015/11/13 17:26:45 [purchase.go:59] [I] UiCurList 
+2015/11/13 17:26:46 [purchase.go:59] [I] UiCurList 
+2015/11/13 17:26:46 [purchase.go:59] [I] UiCurList 
+2015/11/13 17:26:48 [purchase.go:59] [I] UiCurList 
+2015/11/13 17:26:48 [purchase.go:59] [I] UiCurList 
+2015/11/13 17:26:49 [purchase.go:59] [I] UiCurList 
+2015/11/13 17:26:52 [purchase.go:59] [I] UiCurList 
+2015/11/13 17:26:54 [purchase.go:59] [I] UiCurList 
+2015/11/13 17:26:54 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 17:26:54 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 17:26:55 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 17:27:00 [purchase.go:59] [I] UiCurList 
+2015/11/13 17:27:03 [purchase.go:59] [I] UiCurList 
+2015/11/13 17:27:03 [purchase.go:59] [I] UiCurList 
+2015/11/13 17:27:06 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 17:27:06 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 17:27:08 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 17:27:08 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 17:27:09 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 17:33:51 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 17:35:07 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 17:35:10 [purchase.go:59] [I] UiCurList 
+2015/11/13 17:35:11 [purchase.go:59] [I] UiCurList 
+2015/11/13 17:36:19 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 17:39:03 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 17:42:21 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 17:46:13 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 17:46:24 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 17:46:46 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 17:48:30 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/11/13 17:48:31 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/11/13 17:49:07 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/11/13 17:49:18 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/11/13 17:51:25 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 17:51:27 [purchase.go:59] [I] UiCurList 
+2015/11/13 17:51:29 [purchase.go:59] [I] UiCurList 
+2015/11/13 17:51:39 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/11/13 17:51:39 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/11/13 17:53:18 [login.go:49] [E] User:%s login error code: %s gdj item_not_found 
+2015/11/13 17:53:22 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 17:54:42 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/13 17:54:48 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 17:54:53 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 17:59:55 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/13 18:00:00 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 18:00:07 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:00:11 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 18:00:13 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:00:23 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/13 18:00:45 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/11/13 18:00:52 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/13 18:00:57 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/11/13 18:02:00 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/11/13 18:02:21 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/11/13 18:02:49 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/11/13 18:02:55 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/11/13 18:03:07 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/11/13 18:03:11 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 18:06:45 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 18:08:41 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 18:08:41 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 18:08:41 [language.go:46] [E] GetLang error key:no 
+2015/11/13 18:08:41 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 18:08:41 [language.go:46] [E] GetLang error key:no 
+2015/11/13 18:08:41 [language.go:46] [E] GetLang error key:no 
+2015/11/13 18:08:41 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 18:08:44 [staticfile.go:61] [W] Can't find the file: static/files/category/2015111009301203 stat static/files/category/2015111009301203: no such file or directory 
+2015/11/13 18:17:44 [staticfile.go:61] [W] Can't find the file: static/files/product/2015111108541819 stat static/files/product/2015111108541819: no such file or directory 
+2015/11/13 18:37:42 [wblog.go:14] [W] deleter:  20150804174916001  item:  {"actualdeliverydate":"","arrivaldate":"","brand":"sf","buyer":"20150729203140000","category":"cate_epart","creater":"20150804174916001","createtime":"1446192527","flag":"role_available","freightprice":"","godowndate":"","id":"71","mark":"","model":"xadf","num":"1","orderdate":"","paymentamount":"","paymentdate":"","placedate":"2015.10.30","power":"","predictdeliverydate":"","product":"","productname":"abc","productprice":"","requireddate":"2015.10.31","requireddepartment":"afd","sn":"2015103016083605","supplier":"2015100911085200","suppliername":null,"totalprice":"","unitprice":""} 
+2015/11/13 18:37:44 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:37:47 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:38:41 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:38:59 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:39:00 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:39:04 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 18:39:05 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:39:06 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:39:11 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:39:15 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:40:34 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:40:34 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 18:40:34 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 18:40:41 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 18:40:41 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 18:40:41 [language.go:46] [E] GetLang error key:no 
+2015/11/13 18:40:41 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 18:40:41 [language.go:46] [E] GetLang error key:no 
+2015/11/13 18:40:41 [language.go:46] [E] GetLang error key:no 
+2015/11/13 18:40:41 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 18:40:49 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:40:51 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:40:53 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:40:53 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 18:40:53 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 18:40:54 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:40:54 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 18:40:54 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 18:41:35 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 18:41:42 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/11/13 18:42:16 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/11/13 18:42:24 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 18:42:32 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:42:33 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:42:36 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 18:42:36 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 18:42:38 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:42:38 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 18:42:38 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 18:42:40 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:42:40 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 18:42:40 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 18:42:45 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:42:45 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 18:42:45 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 18:42:46 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:42:46 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 18:42:46 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 18:42:48 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:42:48 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 18:42:48 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 18:42:58 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:42:58 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:43:08 [staticfile.go:61] [W] Can't find the file: static/files/product/2015102615545000 stat static/files/product/2015102615545000: no such file or directory 
+2015/11/13 18:46:04 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:46:09 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:46:12 [staticfile.go:61] [W] Can't find the file: static/files/product/2015102615545000 stat static/files/product/2015102615545000: no such file or directory 
+2015/11/13 18:47:26 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:47:42 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:47:43 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:47:44 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:47:45 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:47:45 [purchase.go:59] [I] UiCurList 
+2015/11/13 18:47:55 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 18:47:57 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 18:48:04 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 18:48:06 [purchase.go:59] [I] UiCurList 
+2015/11/13 21:00:18 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 21:01:00 [login.go:49] [E] User:%s login error code: %s gdj item_not_found 
+2015/11/13 21:01:04 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 21:09:32 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 21:14:37 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 21:14:42 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 21:18:32 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 21:18:34 [purchase.go:59] [I] UiCurList 
+2015/11/13 21:18:35 [purchase.go:59] [I] UiCurList 
+2015/11/13 21:18:37 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 21:18:39 [purchase.go:59] [I] UiCurList 
+2015/11/13 21:18:40 [purchase.go:59] [I] UiCurList 
+2015/11/13 21:18:40 [purchase.go:59] [I] UiCurList 
+2015/11/13 21:20:51 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 21:23:52 [login.go:49] [E] User:%s login error code: %s GSM item_not_found 
+2015/11/13 21:24:29 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 21:24:52 [purchase.go:59] [I] UiCurList 
+2015/11/13 21:26:04 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 21:42:08 [purchase.go:59] [I] UiCurList 
+2015/11/13 21:42:11 [purchase.go:59] [I] UiCurList 
+2015/11/13 21:42:16 [purchase.go:59] [I] UiCurList 
+2015/11/13 21:42:16 [purchase.go:59] [I] UiCurList 
+2015/11/13 21:42:16 [purchase.go:59] [I] UiCurList 
+2015/11/13 21:42:17 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 21:42:18 [purchase.go:59] [I] UiCurList 
+2015/11/13 21:42:26 [login.go:49] [E] User:%s login error code: %s gdj item_not_found 
+2015/11/13 21:42:32 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 21:53:05 [purchase.go:59] [I] UiCurList 
+2015/11/13 21:53:06 [purchase.go:59] [I] UiCurList 
+2015/11/13 21:53:07 [purchase.go:59] [I] UiCurList 
+2015/11/13 21:53:07 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 21:53:07 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/13 21:53:07 [purchase.go:59] [I] UiCurList 
+2015/11/13 21:53:09 [purchase.go:59] [I] UiCurList 
+2015/11/13 21:57:02 [purchase.go:59] [I] UiCurList 
+2015/11/13 21:57:43 [purchase.go:59] [I] UiCurList 
+2015/11/13 21:59:56 [purchase.go:59] [I] UiCurList 
+2015/11/13 22:00:53 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 22:00:56 [purchase.go:59] [I] UiCurList 
+2015/11/13 22:05:13 [staticfile.go:61] [W] Can't find the file: static/files/product/2015111108541819 stat static/files/product/2015111108541819: no such file or directory 
+2015/11/13 22:05:16 [staticfile.go:61] [W] Can't find the file: static/files/product/2015102615582602 stat static/files/product/2015102615582602: no such file or directory 
+2015/11/13 22:09:51 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 22:09:51 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 22:09:51 [language.go:46] [E] GetLang error key:no 
+2015/11/13 22:09:51 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 22:09:51 [language.go:46] [E] GetLang error key:no 
+2015/11/13 22:09:51 [language.go:46] [E] GetLang error key:no 
+2015/11/13 22:09:51 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 22:09:58 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 22:09:58 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 22:09:58 [language.go:46] [E] GetLang error key:no 
+2015/11/13 22:09:58 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 22:09:58 [language.go:46] [E] GetLang error key:no 
+2015/11/13 22:09:58 [language.go:46] [E] GetLang error key:no 
+2015/11/13 22:09:58 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 22:14:31 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 22:14:31 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 22:14:31 [language.go:46] [E] GetLang error key:no 
+2015/11/13 22:14:31 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 22:14:31 [language.go:46] [E] GetLang error key:no 
+2015/11/13 22:14:31 [language.go:46] [E] GetLang error key:no 
+2015/11/13 22:14:31 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 22:15:18 [purchase.go:59] [I] UiCurList 
+2015/11/13 22:17:18 [purchase.go:59] [I] UiCurList 
+2015/11/13 22:17:19 [purchase.go:59] [I] UiCurList 
+2015/11/13 22:17:38 [purchase.go:59] [I] UiCurList 
+2015/11/13 22:17:39 [purchase.go:59] [I] UiCurList 
+2015/11/13 22:18:34 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 22:20:14 [purchase.go:59] [I] UiCurList 
+2015/11/13 22:20:15 [purchase.go:59] [I] UiCurList 
+2015/11/13 22:21:43 [purchase.go:59] [I] UiCurList 
+2015/11/13 22:32:06 [purchase.go:59] [I] UiCurList 
+2015/11/13 22:34:03 [purchase.go:59] [I] UiCurList 
+2015/11/13 22:34:10 [purchase.go:59] [I] UiCurList 
+2015/11/13 22:34:10 [purchase.go:59] [I] UiCurList 
+2015/11/13 22:34:29 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 22:36:46 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 22:47:54 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/13 22:47:59 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 22:48:15 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 22:52:33 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/11/13 22:52:33 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/11/13 23:03:33 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 23:03:41 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 23:03:41 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 23:03:41 [language.go:46] [E] GetLang error key:no 
+2015/11/13 23:03:41 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 23:03:41 [language.go:46] [E] GetLang error key:no 
+2015/11/13 23:03:41 [language.go:46] [E] GetLang error key:no 
+2015/11/13 23:03:41 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 23:10:40 [purchase.go:59] [I] UiCurList 
+2015/11/13 23:10:43 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/13 23:10:46 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 23:10:46 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 23:10:46 [language.go:46] [E] GetLang error key:no 
+2015/11/13 23:10:46 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 23:10:46 [language.go:46] [E] GetLang error key:no 
+2015/11/13 23:10:46 [language.go:46] [E] GetLang error key:no 
+2015/11/13 23:10:46 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 23:10:49 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 23:11:00 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 23:11:05 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 23:12:06 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 23:12:56 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 23:12:58 [purchase.go:59] [I] UiCurList 
+2015/11/13 23:13:01 [purchase.go:59] [I] UiCurList 
+2015/11/13 23:13:04 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 23:14:03 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 23:14:03 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 23:14:03 [language.go:46] [E] GetLang error key:no 
+2015/11/13 23:14:03 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 23:14:03 [language.go:46] [E] GetLang error key:no 
+2015/11/13 23:14:03 [language.go:46] [E] GetLang error key:no 
+2015/11/13 23:14:03 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 23:14:21 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/11/13 23:14:21 [travel.go:22] [I] User:gdj login as role:role_manager 
+2015/11/13 23:14:47 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/13 23:14:50 [purchase.go:59] [I] UiCurList 
+2015/11/13 23:16:12 [staticfile.go:61] [W] Can't find the file: static/files/purchase/2015111210502201 stat static/files/purchase/2015111210502201: no such file or directory 
+2015/11/13 23:16:57 [purchase.go:59] [I] UiCurList 
+2015/11/13 23:16:58 [purchase.go:59] [I] UiCurList 
+2015/11/13 23:16:59 [purchase.go:59] [I] UiCurList 
+2015/11/13 23:49:01 [staticfile.go:61] [W] Can't find the file: static/files/product/2015111108541819 stat static/files/product/2015111108541819: no such file or directory 
+2015/11/13 23:49:37 [purchase.go:59] [I] UiCurList 
+2015/11/13 23:49:48 [purchase.go:59] [I] UiCurList 
+2015/11/13 23:49:56 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 23:49:56 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 23:49:56 [language.go:46] [E] GetLang error key:no 
+2015/11/13 23:49:56 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 23:49:56 [language.go:46] [E] GetLang error key:no 
+2015/11/13 23:49:56 [language.go:46] [E] GetLang error key:no 
+2015/11/13 23:49:56 [language.go:46] [E] GetLang error key:yes 
+2015/11/13 23:55:20 [purchase.go:59] [I] UiCurList 
+2015/11/13 23:57:35 [router.go:879] [C] the request url is  /ui/purchase/add 
+2015/11/13 23:57:35 [router.go:880] [C] Handler crashed with error template: purchase/add.tpl:27:31: executing "purchase/add.tpl" at <.CategoryOptions>: invalid value; expected string 
+2015/11/13 23:57:35 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:437 
+2015/11/13 23:57:35 [router.go:886] [C] /usr/local/go/src/runtime/panic.go:423 
+2015/11/13 23:57:35 [router.go:886] [C] /Users/rick/go/src/github.com/astaxie/beego/router.go:811 
+2015/11/13 23:57:35 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1862 
+2015/11/13 23:57:35 [router.go:886] [C] /usr/local/go/src/net/http/server.go:1361 
+2015/11/13 23:57:35 [router.go:886] [C] /usr/local/go/src/runtime/asm_amd64.s:1696 
+2015/11/13 23:58:41 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/13 23:58:46 [main.go:46] [I] User:gdj login as role:role_manager 

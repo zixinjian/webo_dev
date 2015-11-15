@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="../../lib/3rd/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="../../lib/3rd/bootstrap-table/bootstrap-table.css">
 <link rel="stylesheet" href="../../lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css">
-<link rel="stylesheet" href="../../lib/webo/css/overwrite.css">
+<link rel="stylesheet" href="../../lib/webo/css/ui.css">
 </head>
 <body>
 <div>
@@ -29,8 +29,8 @@
 <script src="../../lib/3rd/bootstrap/js/bootstrap.min.js"></script>
 <script src="../../lib/3rd/bootstrap-table/bootstrap-table.js"></script>
 <script src="../../lib/3rd/bootstrap-table/locale/bootstrap-table-zh-CN.js"></script>
-<script src="../../lib/webo/poplayer.js"></script>
-<script src="../../lib/webo/util.js"></script>
+<script src="../../lib/webo/js/poplayer.js"></script>
+<script src="../../lib/webo/js/util.js"></script>
 <script src="../../lib/webo/js/ui.js"></script>
 <script>
     var $table = $("#item_table")

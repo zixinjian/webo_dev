@@ -138,9 +138,9 @@ var initAutocompleteFormat = `
 	};
 `
 var initFileUploadJs = `$('#%s_upload').uploadify({
-            'swf'      : '../../asserts/3rd/uploadify/uploadify.swf',
+            'swf'      : '../../lib/3rd/uploadify/uploadify.swf',
             'uploader' : '/item/upload/%s?sn=' + $("#sn").val(),
-            'cancelImg': '../../asserts/3rd/uploadify/uploadify-cancel.png',
+            'cancelImg': '../../lib/3rd/uploadify/uploadify-cancel.png',
             'fileObjName':'uploadFile'
         });
 `
@@ -204,9 +204,35 @@ func BuildUpdatedFormWithStatus(oItemDef itemDef.ItemDef, oldValueMap map[string
 	return form
 }
 
+func BuildFormElement(oItemDef itemDef.ItemDef, oldValueMap map[string]interface{}, statusMap map[string]string) map[string]string {
+	retMap:=make(map[string]string)
+	sn, ok := oldValueMap[s.Sn]
+	if !ok {
+		beego.Error("BuildUPdatedFrom: param sn is none")
+		return retMap
+	}
+	for _, field := range oItemDef.Fields {
+		if _, ok := oldValueMap[field.Name]; !ok {
+			oldValueMap[field.Name] = field.Default
+		}
+		fmt.Println(fmt.Sprintf("{{str2html .Form_%s}}", field.Name))
+	}
+	for _, field := range oItemDef.Fields {
+		retMap[field.Name] = createFromGroup(field, oldValueMap, statusMap)
+	}
+	retMap[s.Sn] = fmt.Sprintf(`<input type="hidden" id="sn" name="sn" value="%s">`, sn)
+	return retMap
+}
+
 func BuildAddForm(oItemDef itemDef.ItemDef, sn string) string {
 	return BuildAddFormWithStatus(oItemDef, sn, make(map[string]string))
 }
+
+//func BuildAddFormElement(oItemDef itemDef.ItemDef, sn string) map[string]string{
+//	oldValueMap := make(map[string]interface{})
+//	oldValueMap[s.Sn] = sn
+//	return BuildFormElement(oItemDef, oldValueMap, make(map[string]string))
+//}
 
 func BuildAddFormWithStatus(oItemDef itemDef.ItemDef, sn string, statusMap map[string]string) string {
 	oldValueMap := make(map[string]interface{})
@@ -277,5 +303,32 @@ func createFromGroup(field itemDef.Field, valueMap map[string]interface{}, statu
 	return fromGroup
 }
 
+func BuildSelectElement(name, label, require, status string, valueMaps []map[string]interface{}, defaultValue interface{}, valueField string, labelField string)string{
+	options := BuildSelectOptions(valueMaps, defaultValue , valueField, labelField)
+	return fmt.Sprintf(selectFormat, label, require, label, name, name, u.ToStr(defaultValue), status, options)
+}
 
-//func BuildSelectOptions()
+func BuildSelectOptions(valueMaps []map[string]interface{}, defaultValue interface{}, valueField string, labelField string, addFields ...string)string{
+	var options string
+	for _, valueMap := range valueMaps {
+		optionValue, ok := valueMap[valueField]
+		if !ok {
+			continue
+		}
+		optionValueStr := u.ToStr(optionValue)
+		optionLabel, _:= valueMap[labelField]
+
+		optionDatas := ""
+		for _, addField := range addFields{
+			addData := u.GetStringValue(valueMap, addField)
+			optionDatas = optionDatas + fmt.Sprintf(`data-wb-a-%s = "%s" `, addField, addData)
+		}
+
+		if optionValue == defaultValue {
+			options = options + fmt.Sprintf(`<option value="%s" %s selected>%s</option>`, optionValueStr, optionDatas, optionLabel)
+			continue
+		}
+		options = options + fmt.Sprintf(`<option value="%s" %s>%s</option>`, optionValueStr, optionDatas, optionLabel)
+	}
+	return options
+}

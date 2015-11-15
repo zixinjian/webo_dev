@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../../lib/app/css/app.min.css" type="text/css" />
+    <link rel="stylesheet" href="../../lib/app/css/app.min.css" type="text/css">
     <link rel="stylesheet" href="../../lib/3rd/bootstrap-table/bootstrap-table.css">
-    <link rel="stylesheet" href="../../lib/webo/css/overwrite.css">
+    <link rel="stylesheet" href="../../lib/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="../../lib/webo/css/ui.css">
     </head>
 <body>
 <div>
@@ -14,6 +15,7 @@
            data-show-refresh="true"
            data-show-columns="true"
            data-page-size="25"
+           data-sortable="false"
            data-toolbar=".toolbar">
         <thead>
             <tr>
@@ -35,7 +37,7 @@
     var $table = $("#item_table")
     $(function(){
         $table.bootstrapTable({url:"{{.listUrl}}", method:"post", sidePagination:"server", pagination:true,
-            height:getTableHeight(), rowStyle:rowStyle, sortName:"flag", sortOrder:"asc"});
+            height:getTableHeight(), rowStyle:rowStyle, sortName:"flag", sortOrder:"asc",fixedColumns: true,fixedNumber:1});
         $("#add_item").on("click", function(){
             top.showTopModal({url:"{{.addUrl}}", refreshContent:refreshContent});
         })
@@ -51,7 +53,7 @@
     }
     function actionFormatter(value, row) {
         return [
-            '<a class="update" href="javascript:" title="修改" style="margin-right: 5px;"><i class="glyphicon glyphicon-edit"></i></a>',
+            '<a class="update" href="javascript:" title="修改" style="margin-right: 5px;"><i class="icon-note text-primary-dker"></i></a>',
         ].join('');
     }
     window.actionEvents = {

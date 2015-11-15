@@ -38,7 +38,9 @@ func readFromCsv(filePath string) {
 		langMap_cn[key] = value
 	}
 }
-
+func AddLabel(key, label string){
+	langMap_cn[key]=label
+}
 func GetLabel(key string) string {
 	if v, ok := langMap_cn[key]; ok {
 		return v
