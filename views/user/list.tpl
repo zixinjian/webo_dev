@@ -2,7 +2,7 @@
 <html>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../../lib/app/css/app.min.css" type="text/css">
-    <link rel="stylesheet" href="../../lib/3rd/bootstrap-table/bootstrap-table.css">
+    <link rel="stylesheet" href="../../lib/bootstrap-table/bootstrap-table.css">
     <link rel="stylesheet" href="../../lib/simple-line-icons/css/simple-line-icons.css">
     <link rel="stylesheet" href="../../lib/webo/css/ui.css">
     </head>
@@ -30,8 +30,8 @@
     </table>
 </div>
 <script src="../../lib/app/js/app.min.js"></script>
-<script src="../../lib/3rd/bootstrap-table/bootstrap-table.js"></script>
-<script src="../../lib/3rd/bootstrap-table/locale/bootstrap-table-zh-CN.js"></script>
+<script src="../../lib/bootstrap-table/bootstrap-table.js"></script>
+<script src="../../lib/bootstrap-table/locale/bootstrap-table-zh-CN.js"></script>
 <script src="../../lib/webo/js/ui.js"></script>
 <script>
     var $table = $("#item_table")

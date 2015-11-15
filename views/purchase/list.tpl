@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <link rel="stylesheet" href="../../lib/simple-line-icons/css/simple-line-icons.css" type="text/css" />
 <link rel="stylesheet" href="../../lib/app/css/app.min.css" type="text/css" />
-<link rel="stylesheet" href="../../lib/3rd/bootstrap-table/bootstrap-table.css">
+<link rel="stylesheet" href="../../lib/bootstrap-table/bootstrap-table.css">
 <link rel="stylesheet" href="../../lib/webo/css/ui.css">
 </head>
 <body>
@@ -30,8 +30,8 @@
                 data-events="actionEvents"
                 data-sortable="false"
                 data-width="75px">  [ 操作 ]  </th>
-            <th data-field="sn"  data-sortable="true" data-visible="false">编号</th>
-            <th data-field="category"  data-sortable="true">类&nbsp&nbsp&nbsp&nbsp别</th>
+            <th data-field="sn"  data-sortable="true" data-visible="false">[ 编号 ]</th>
+            <th data-field="category"  data-sortable="true">类别</th>
             <th data-field="productname"  data-sortable="false">商品名称</th>
             <th data-field="brand"  data-sortable="false">品牌</th>
             <th data-field="model"  data-sortable="false" data-formatter="modelFormatter">型号</th>
@@ -61,8 +61,8 @@
     </table>
 </div>
 <script src="../../lib/app/js/app.min.js"></script>
-<script src="../../lib/3rd/bootstrap-table/bootstrap-table.js"></script>
-<script src="../../lib/3rd/bootstrap-table/locale/bootstrap-table-zh-CN.js"></script>
+<script src="../../lib/bootstrap-table/bootstrap-table.js"></script>
+<script src="../../lib/bootstrap-table/locale/bootstrap-table-zh-CN.js"></script>
 <script src="../../lib/moment/moment.js"></script>
 <script src="../../lib/webo/js/util.js"></script>
 <script src="../../lib/webo/js/ui.js"></script>

@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="../../lib/font-awesome/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="../../lib/simple-line-icons/css/simple-line-icons.css" type="text/css" />
     <link rel="stylesheet" href="../../lib/app/css/app.min.css" type="text/css" />
-    <link rel="stylesheet" href="../../lib/3rd/datetimepicker/jquery.datetimepicker.css">
-    <link rel="stylesheet" href="../../lib/3rd/uploadify/uploadify.css" />
-    <link rel="stylesheet" href="../../lib/3rd/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="../../lib/jquery/datetimepicker/jquery.datetimepicker.css">
+    <link rel="stylesheet" href="../../lib/uploadify/uploadify/uploadify.css" />
+    <link rel="stylesheet" href="../../lib/jquery/jquery-ui/jquery-ui.min.css">
     <link rel="stylesheet" href="../../lib/webo/css/ui.css">
 </head>
 <body>
@@ -57,12 +57,12 @@
 </div>
 
 <script src="../../lib/app/js/app.min.js"></script>
-<script src="../../lib/3rd/jquery/jquery.form.js"></script>
-<script src="../../lib/3rd/jquery/validate/jquery.metadata.js"></script>
-<script src="../../lib/3rd/jquery/validate/jquery.validate.js"></script>
-<script src="../../lib/3rd/uploadify/jquery.uploadify.js"></script>
-<script src="../../lib/3rd/datetimepicker/jquery.datetimepicker.js"></script>
-<script src="../../lib/3rd/jquery-ui/jquery-ui.min.js"></script>
+<script src="../../lib/jquery/jquery/jquery.form.js"></script>
+<script src="../../lib/jquery/jquery/validate/jquery.metadata.js"></script>
+<script src="../../lib/jquery/jquery/validate/jquery.validate.js"></script>
+<script src="../../lib/uploadify/uploadify/jquery.uploadify.js"></script>
+<script src="../../lib/jquery/datetimepicker/jquery.datetimepicker.js"></script>
+<script src="../../lib/jquery/jquery-ui/jquery-ui.min.js"></script>
 <script src="../../lib/webo/js/validateExtend.js"></script>
 <script src="../../lib/webo/js/ui.js"></script>
 <script src="../../lib/webo/js/util.js"></script>
@@ -97,6 +97,8 @@
         $('[data-wb-c-supplier]').on("click", function(evt){
             $(evt.target).parents(".supplierBtnGroup").remove()
         })
+        $("#retailprice").after('<a class="btn btn-sm input-group-addon" id="calc">计算</a>')
+        $("#calc").click(calRetailPrice)
     })
 </script>
 </body>

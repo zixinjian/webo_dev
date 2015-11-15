@@ -16,6 +16,7 @@ var textFormat = `    <div class="form-group">
 			<label class="col-sm-3 control-label">%s</label>
 			<div class="col-sm-6">
 				<input type="text" class="input-block-level form-control" data-validate="{required: %s, messages:{required:'请输入正确的%s!'}}" name="%s" id="%s" autocomplete="off" value="%s" %s/>
+				<span class="help-block" id="%sHelpBlock"></span>
 			</div>
 		</div>
     	`
@@ -32,6 +33,7 @@ var moneyFormat = `    <div class="form-group">
 			<label class="col-sm-3 control-label">%s</label>
 			<div class="col-sm-6">
 				<div class="input-group"><span class="input-group-addon">￥</span><input type="text" class="input-block-level form-control" data-validate="{required: %s, number:true, messages:{required:'请输入正确的%s!'}}" name="%s" id="%s" autocomplete="off" value="%s" %s/></div>
+				<span class="help-block" id="%sHelpBlock"></span>
 			</div>
 		</div>
     	`
@@ -39,6 +41,7 @@ var percentFormat = `    <div class="form-group">
 			<label class="col-sm-3 control-label">%s</label>
 			<div class="col-sm-6">
 				<div class="input-group"><input type="text" class="input-block-level form-control" data-validate="{required: %s, number:true, messages:{required:'请输入正确的%s!'}}" name="%s" id="%s" autocomplete="off" value="%s" %s/><span class="input-group-addon">％</span></div>
+				<span class="help-block" id="%sHelpBlock"></span>
 			</div>
 		</div>
     	`
@@ -46,6 +49,7 @@ var floatFormat = `    <div class="form-group">
 			<label class="col-sm-3 control-label">%s</label>
 			<div class="col-sm-6">
 				<input type="text" class="input-block-level form-control" data-validate="{required: %s, number:true, messages:{required:'请输入正确的%s!'}}" name="%s" id="%s" autocomplete="off" value="%s" %s/>
+				<span class="help-block" id="%sHelpBlock"></span>
 			</div>
 		</div>
     	`
@@ -53,6 +57,7 @@ var textareaFormat = `    <div class="form-group">
 			<label class="col-sm-3 control-label">%s</label>
 			<div class="col-sm-6">
 				<textarea class="form-control" rows="3" class="input-block-level form-control" data-validate="{required: %s, messages:{required:'请输入%s!'}}" name="%s" id="%s" autocomplete="off" %s>%s</textarea>
+				<span class="help-block" id="%sHelpBlock"></span>
 			</div>
 		</div>
     	`
@@ -60,6 +65,7 @@ var datetimeFormat = `    <div class="form-group">
         	<label class="col-sm-3 control-label">%s</label>
         	<div class="col-sm-6">
             	<input type="text" class="input-block-level form-control" data-validate="{required: %s, messages:{required:'请输入%s!'}}" name="%s" id="%s" autocomplete="off" value="%s" %s/>
+        		<span class="help-block" id="%sHelpBlock"></span>
         	</div>
     	</div>
     	`
@@ -67,6 +73,7 @@ var dateFormate = `    <div class="form-group">
 			<label class="col-sm-3 control-label">%s</label>
 			<div class="col-sm-6">
 				<input type="text" class="input-block-level form-control datetimepicker" data-validate="{required: %s, messages:{required:'请输入%s!'}}" name="%s" id="%s" autocomplete="off" value="%s" %s/>
+				<span class="help-block" id="%sHelpBlock"></span>
 			</div>
 		</div>
     	`
@@ -74,6 +81,7 @@ var passwordFormat = `    <div class="form-group">
 			<label class="col-sm-3 control-label">%s</label>
 			<div class="col-sm-6">
 				<input type="password" class="input-block-level form-control" data-validate="{required: %s, messages:{required:'请输入%s'}}" name="%s" id="%s" autocomplete="off" value="%s" %s/>
+				<span class="help-block" id="%sHelpBlock"></span>
 			</div>
 		</div>
     	`
@@ -83,6 +91,7 @@ var selectFormat = `    <div class="form-group">
 				<select class="input-block-level form-control" data-validate="{required: %s, messages:{required:'请输入%s'}}" name="%s" id="%s" autocomplete="off" value="%s" %s>
 				%s
 				</select>
+				<span class="help-block" id="%sHelpBlock"></span>
 			</div>
 		</div>
     	`
@@ -252,22 +261,22 @@ func createFromGroup(field itemDef.Field, valueMap map[string]interface{}, statu
 	var fromGroup string
 	switch field.Input {
 	case "textarea":
-		fromGroup = fmt.Sprintf(textareaFormat, field.Label, field.Require, field.Label, field.Name, field.Name, status, value)
+		fromGroup = fmt.Sprintf(textareaFormat, field.Label, field.Require, field.Label, field.Name, field.Name, status, value, field.Name)
 	case "text":
-		fromGroup = fmt.Sprintf(textFormat, field.Label, field.Require, field.Label, field.Name, field.Name, u.ToStr(value), status)
+		fromGroup = fmt.Sprintf(textFormat, field.Label, field.Require, field.Label, field.Name, field.Name, u.ToStr(value), status, field.Name)
 	case "static":
 		fromGroup = fmt.Sprintf(staticFormat, field.Label, value)
 	case "money":
-		fromGroup = fmt.Sprintf(moneyFormat, field.Label, field.Require, field.Label, field.Name, field.Name, u.ToStr(value), status)
+		fromGroup = fmt.Sprintf(moneyFormat, field.Label, field.Require, field.Label, field.Name, field.Name, u.ToStr(value), status, field.Name)
 	case s.TFloat:
-		fromGroup = fmt.Sprintf(floatFormat, field.Label, field.Require, field.Label, field.Name, field.Name, u.ToStr(value), status)
+		fromGroup = fmt.Sprintf(floatFormat, field.Label, field.Require, field.Label, field.Name, field.Name, u.ToStr(value), status, field.Name)
 	case s.Percent:
-		fromGroup = fmt.Sprintf(percentFormat, field.Label, field.Require, field.Label, field.Name, field.Name, u.ToStr(value), status)
+		fromGroup = fmt.Sprintf(percentFormat, field.Label, field.Require, field.Label, field.Name, field.Name, u.ToStr(value), status, field.Name)
 	case "date", "datetime":
 		//		fmt.Println("date", field.Name, value)
-		fromGroup = fmt.Sprintf(dateFormate, field.Label, field.Require, field.Label, field.Name, field.Name, value, status)
+		fromGroup = fmt.Sprintf(dateFormate, field.Label, field.Require, field.Label, field.Name, field.Name, value, status, field.Name)
 	case s.Password:
-		fromGroup = fmt.Sprintf(passwordFormat, field.Label, field.Require, field.Label, field.Name, field.Name, "*****", status)
+		fromGroup = fmt.Sprintf(passwordFormat, field.Label, field.Require, field.Label, field.Name, field.Name, "*****", status, field.Name)
 	case s.Hidden:
 		fromGroup = fmt.Sprintf(hiddenFormat, field.Name, field.Name, value)
 	case "select":
@@ -279,7 +288,7 @@ func createFromGroup(field itemDef.Field, valueMap map[string]interface{}, statu
 			}
 			options = options + fmt.Sprintf(`<option value="%s">%s</option>`, option.Sn, option.Label)
 		}
-		fromGroup = fmt.Sprintf(selectFormat, field.Label, field.Require, field.Label, field.Name, field.Name, field.Default, status, options)
+		fromGroup = fmt.Sprintf(selectFormat, field.Label, field.Require, field.Label, field.Name, field.Name, field.Default, status, options, field.Name)
 	case s.Autocomplete:
 		key, kok := valueMap[field.Name+s.EKey]
 		if !kok {

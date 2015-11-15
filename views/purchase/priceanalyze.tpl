@@ -2,8 +2,8 @@
 <html>
 <head lang="zh">
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../../lib/3rd/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="../../lib/3rd/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../../lib/jquery/jquery-ui/jquery-ui.min.css">
     <link rel="stylesheet" href="../../lib/webo/css/ui.css">
 </head>
 <body>
@@ -22,10 +22,10 @@
     <div id="analyzeCharts" style="height: 500px;margin-top:20px"></div>
 </div>
 
-<script src="../../lib/3rd/jquery/jquery.js"></script>
-<script src="../../lib/3rd/bootstrap/js/bootstrap.min.js"></script>
-<script src="../../lib/3rd/echart/echarts-all.js"></script>
-<script src="../../lib/3rd/jquery-ui/jquery-ui.min.js"></script>
+<script src="../../lib/jquery/jquery/jquery.js"></script>
+<script src="../../lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="../../lib/echart/echarts-all.js"></script>
+<script src="../../lib/jquery/jquery-ui/jquery-ui.min.js"></script>
 <script src="../../lib/webo/js/ui.js"></script>
 <script>
 //    PNotify.prototype.options.styling = "bootstrap3";

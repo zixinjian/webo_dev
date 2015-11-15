@@ -63,3 +63,163 @@
 2015/11/14 10:13:20 [purchase.go:59] [I] UiCurList 
 2015/11/14 10:13:20 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
 2015/11/14 10:13:20 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/15 15:55:44 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/15 15:56:29 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/15 15:56:30 [purchase.go:59] [I] UiCurList 
+2015/11/15 15:56:31 [purchase.go:59] [I] UiCurList 
+2015/11/15 15:56:32 [purchase.go:59] [I] UiCurList 
+2015/11/15 15:56:35 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/15 15:56:36 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/15 15:56:37 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/15 15:56:38 [purchase.go:59] [I] UiCurList 
+2015/11/15 15:56:38 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/15 15:56:38 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/15 15:57:00 [purchase.go:59] [I] UiCurList 
+2015/11/15 15:57:03 [purchase.go:59] [I] UiCurList 
+2015/11/15 15:57:06 [purchase.go:59] [I] UiCurList 
+2015/11/15 15:57:08 [purchase.go:59] [I] UiCurList 
+2015/11/15 15:57:12 [purchase.go:59] [I] UiCurList 
+2015/11/15 15:57:14 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/15 15:57:15 [purchase.go:59] [I] UiCurList 
+2015/11/15 15:57:15 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/15 15:57:15 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/15 15:57:30 [purchase.go:59] [I] UiCurList 
+2015/11/15 15:57:30 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/15 15:57:30 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/15 15:57:36 [purchase.go:59] [I] UiCurList 
+2015/11/15 15:57:37 [purchase.go:59] [I] UiCurList 
+2015/11/15 15:57:38 [purchase.go:59] [I] UiCurList 
+2015/11/15 15:57:54 [purchase.go:59] [I] UiCurList 
+2015/11/15 15:58:14 [purchase.go:59] [I] UiCurList 
+2015/11/15 15:58:37 [purchase.go:59] [I] UiCurList 
+2015/11/15 15:58:59 [purchase.go:59] [I] UiCurList 
+2015/11/15 15:59:00 [purchase.go:59] [I] UiCurList 
+2015/11/15 15:59:02 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/15 15:59:04 [purchase.go:59] [I] UiCurList 
+2015/11/15 15:59:04 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/15 15:59:04 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/15 15:59:05 [purchase.go:59] [I] UiCurList 
+2015/11/15 15:59:05 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/15 15:59:05 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/15 15:59:11 [purchase.go:59] [I] UiCurList 
+2015/11/15 15:59:11 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/15 15:59:11 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/15 15:59:12 [purchase.go:59] [I] UiCurList 
+2015/11/15 15:59:12 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/15 15:59:12 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/15 16:03:52 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:03:52 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:03:52 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:05:26 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:05:26 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:05:26 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:06:58 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:06:58 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:06:58 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:07:49 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/15 16:07:53 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:07:53 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:07:53 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:08:43 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:08:43 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:08:43 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:08:51 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:08:51 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:08:51 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:11:15 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:11:15 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:11:15 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:12:08 [svc.go:123] [E] [{sn string 编号 none false false sn []   {true false  false} false} {product string product none true true text []   {true true  true} false} {supplier string supplier none true true text []   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/15 16:12:08 [svc.go:123] [E] [{sn string 编号 none false false sn []   {true false  false} false} {product string product none true true text []   {true true  true} false} {supplier string supplier none true true text []   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/15 16:12:08 [svc.go:123] [E] [{sn string 编号 none false false sn []   {true false  false} false} {product string product none true true text []   {true true  true} false} {supplier string supplier none true true text []   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/15 16:12:08 [svc.go:123] [E] [{sn string 编号 none false false sn []   {true false  false} false} {product string product none true true text []   {true true  true} false} {supplier string supplier none true true text []   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/15 16:12:08 [svc.go:123] [E] [{sn string 编号 none false false sn []   {true false  false} false} {category string 类别 select true false enum [{cate_engine cate_engine 柴油机} {cate_generator cate_generator 电机} {cate_waterbox cate_waterbox 水箱} {cate_epart cate_epart 电器件} {cate_parts cate_parts 配件} {cate_other cate_other 其他} {cate_newpdt cate_newpdt 新产品}]  cate_engine {true true asc true} false} {name string 名称 text true true text []   {true true asc true} false} {brand string 品牌 text true false text []   {true true asc true} false} {model string 型号 text true false text []   {true true  true} false} {power float 功率 float true false text []   {true true  true} false} {keyword string 关键词 none true true text []   {true true asc false} false} {price float 参考价格 money true false text []   {true true asc true} false} {size string 尺寸重量 text false false text []   {true true  true} false} {freight float 预计运费 money false false text []   {true true  true} false} {profitrat float 调价比例 percent false false text []   {true true  true} false} {retailprice float 卖价 money false false text []   {true true  true} false} {supplier string 供应商 autocomplete true false text [] /item/autocomplete/supplier  {true true  true} false} {detail string 产品详情 text false false text []   {true true asc true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/15 16:12:08 [language.go:48] [E] GetLang error key:cata_engine 
+2015/11/15 16:12:12 [language.go:48] [E] GetLang error key:cata_engine 
+2015/11/15 16:12:12 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:12:12 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:12:12 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:12:24 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:12:24 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:12:24 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:12:26 [language.go:48] [E] GetLang error key:cata_engine 
+2015/11/15 16:12:26 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:12:26 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:12:26 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:12:29 [language.go:48] [E] GetLang error key:cata_engine 
+2015/11/15 16:12:43 [purchase.go:59] [I] UiCurList 
+2015/11/15 16:13:23 [language.go:48] [E] GetLang error key:cata_engine 
+2015/11/15 16:14:10 [language.go:48] [E] GetLang error key:cata_engine 
+2015/11/15 16:14:12 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:14:12 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:14:12 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:14:23 [language.go:48] [E] GetLang error key:cata_engine 
+2015/11/15 16:14:23 [language.go:48] [E] GetLang error key:cata_engine 
+2015/11/15 16:33:04 [language.go:48] [E] GetLang error key:cata_engine 
+2015/11/15 16:33:04 [language.go:48] [E] GetLang error key:cata_engine 
+2015/11/15 16:33:05 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:33:05 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:33:05 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:33:12 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/15 16:33:15 [language.go:48] [E] GetLang error key:cata_engine 
+2015/11/15 16:33:15 [language.go:48] [E] GetLang error key:cata_engine 
+2015/11/15 16:33:16 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:33:16 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:33:16 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:33:31 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:33:31 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:33:31 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:33:46 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:33:46 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:33:46 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:34:15 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/15 16:34:19 [language.go:48] [E] GetLang error key:cata_engine 
+2015/11/15 16:34:19 [language.go:48] [E] GetLang error key:cata_engine 
+2015/11/15 16:34:21 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:34:21 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:34:21 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:37:34 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:37:34 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:37:34 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:37:45 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:37:45 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:37:45 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:38:24 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:38:24 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:38:24 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:39:54 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:39:54 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:39:54 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:42:39 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:42:39 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:42:39 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:47:17 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:47:17 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:47:17 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:53:20 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/15 16:53:25 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/15 16:53:29 [language.go:48] [E] GetLang error key:cata_engine 
+2015/11/15 16:53:29 [language.go:48] [E] GetLang error key:cata_engine 
+2015/11/15 16:53:31 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:53:31 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:53:31 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:54:10 [language.go:48] [E] GetLang error key:cata_engine 
+2015/11/15 16:54:10 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:54:10 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:54:10 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:55:37 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/15 16:55:43 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/15 16:55:45 [language.go:48] [E] GetLang error key:cata_engine 
+2015/11/15 16:55:45 [language.go:48] [E] GetLang error key:cata_engine 
+2015/11/15 16:55:47 [language.go:48] [E] GetLang error key:cata_engine 
+2015/11/15 16:55:47 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:55:47 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:55:47 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:56:06 [language.go:48] [E] GetLang error key:cata_engine 
+2015/11/15 16:56:06 [language.go:48] [E] GetLang error key:cata_engine 
+2015/11/15 16:56:08 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:56:08 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:56:08 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/15 16:56:17 [language.go:48] [E] GetLang error key:cata_engine 
+2015/11/15 16:56:17 [language.go:48] [E] GetLang error key:cata_engine 
+2015/11/15 16:56:17 [language.go:48] [E] GetLang error key:cata_engine 
