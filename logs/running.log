@@ -517,3 +517,8 @@
 2015/11/15 21:09:04 [language.go:47] [E] GetLang error key:no 
 2015/11/15 21:09:04 [language.go:47] [E] GetLang error key:yes 
 2015/11/15 21:09:04 [language.go:47] [E] GetLang error key:yes 
+2015/11/15 21:23:53 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/15 21:23:56 [purchase.go:59] [I] UiCurList 
+2015/11/15 21:24:06 [purchase.go:59] [I] UiCurList 
+2015/11/15 21:24:08 [purchase.go:59] [I] UiCurList 
+2015/11/15 21:24:08 [purchase.go:59] [I] UiCurList 
