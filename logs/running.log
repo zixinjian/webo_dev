@@ -522,3 +522,73 @@
 2015/11/15 21:24:06 [purchase.go:59] [I] UiCurList 
 2015/11/15 21:24:08 [purchase.go:59] [I] UiCurList 
 2015/11/15 21:24:08 [purchase.go:59] [I] UiCurList 
+2015/11/16 14:25:33 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/16 14:25:38 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/16 14:25:39 [purchase.go:59] [I] UiCurList 
+2015/11/16 14:25:40 [purchase.go:59] [I] UiCurList 
+2015/11/16 14:25:40 [purchase.go:59] [I] UiCurList 
+2015/11/16 14:25:47 [language.go:47] [E] GetLang error key:yes 
+2015/11/16 14:25:47 [language.go:47] [E] GetLang error key:yes 
+2015/11/16 14:25:47 [language.go:47] [E] GetLang error key:no 
+2015/11/16 14:25:47 [language.go:47] [E] GetLang error key:yes 
+2015/11/16 14:25:47 [language.go:47] [E] GetLang error key:no 
+2015/11/16 14:25:47 [language.go:47] [E] GetLang error key:no 
+2015/11/16 14:25:47 [language.go:47] [E] GetLang error key:yes 
+2015/11/16 14:25:47 [language.go:47] [E] GetLang error key:yes 
+2015/11/16 14:25:49 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/16 14:25:49 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/16 14:25:49 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/16 14:25:59 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/16 14:25:59 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/16 14:25:59 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/16 14:27:08 [purchase.go:59] [I] UiCurList 
+2015/11/16 14:27:15 [language.go:47] [E] GetLang error key:yes 
+2015/11/16 14:27:15 [language.go:47] [E] GetLang error key:yes 
+2015/11/16 14:27:15 [language.go:47] [E] GetLang error key:no 
+2015/11/16 14:27:15 [language.go:47] [E] GetLang error key:yes 
+2015/11/16 14:27:15 [language.go:47] [E] GetLang error key:no 
+2015/11/16 14:27:15 [language.go:47] [E] GetLang error key:no 
+2015/11/16 14:27:15 [language.go:47] [E] GetLang error key:yes 
+2015/11/16 14:27:15 [language.go:47] [E] GetLang error key:yes 
+2015/11/16 14:27:17 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/16 14:27:17 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/16 14:27:17 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/16 14:28:36 [svc.go:123] [E] [{sn string 编号 none false false sn []   {true false  false} false} {category string 类别 select true false enum [{cate_engine cate_engine cate_engine} {cate_generator cate_generator cate_generator} {cate_epart cate_epart cate_epart} {cate_waterbox cate_waterbox cate_waterbox} {cate_parts cate_parts cate_parts} {cate_other cate_other cate_other} {cate_newpdt cate_newpdt cate_newpdt}]  cate_engine {true true asc true} false} {name string 名称 text true true text []   {true true asc true} false} {keyword string 关键字 text true true text []   {true true asc true} false} {spscope string 经营范围 text true false text []   {true true asc true} false} {url string 网址 text false false text []   {true true asc false} false} {contact string 联系人 text true false text []   {true true asc true} false} {jobtitle string 职位 text true false text []   {true true asc true} false} {phone string 电话 text true false text []   {true true asc true} false} {qq string QQ text false false text []   {true true asc true} false} {webchat string 微信 text false false text []   {true true asc true} false} {file string 资料 upload false false upload []   {true true asc false} false} {contact2 string 联系人2 text false false text []   {true true asc false} false} {jobtitle2 string 职位2 text false false text []   {true true asc false} false} {phone2 string 电话2 text false false text []   {true true asc false} false} {qq2 string QQ2 text false false text []   {true true asc false} false} {webchat2 string 微信2 text false false text []   {true true asc false} false} {contact3 string 联系人3 text false false text []   {true true asc false} false} {jobtitle3 string 职位3 text false false text []   {true true asc false} false} {phone3 string 电话3 text false false text []   {true true asc false} false} {qq3 string QQ3 text false false text []   {true true asc false} false} {webchat3 string 微信3 text false false text []   {true true asc false} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/16 14:28:54 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/16 14:28:54 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/16 14:28:54 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/16 14:29:24 [svc.go:123] [E] [{sn string 编号 none false false sn []   {true false  false} false} {product string product none true true text []   {true true  true} false} {supplier string supplier none true true text []   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/16 14:29:24 [svc.go:123] [E] [{sn string 编号 none false false sn []   {true false  false} false} {category string 类别 select true false enum [{cate_engine cate_engine cate_engine} {cate_generator cate_generator cate_generator} {cate_waterbox cate_waterbox cate_waterbox} {cate_epart cate_epart cate_epart} {cate_parts cate_parts cate_parts} {cate_other cate_other cate_other} {cate_newpdt cate_newpdt cate_newpdt}]  cate_engine {true true asc true} false} {name string 名称 text true true text []   {true true asc true} false} {brand string 品牌 text true false text []   {true true asc true} false} {model string 型号 text true false text []   {true true  true} false} {power float 功率 float true false text []   {true true  true} false} {keyword string 关键词 none true true text []   {true true asc false} false} {price float 参考价格 money true false text []   {true true asc true} false} {size string 尺寸重量 text false false text []   {true true  true} false} {freight float 预计运费 money false false text []   {true true  true} false} {profitrat float 调价比例 percent false false text []   {true true  true} false} {retailprice float 卖价 money false false text []   {true true  true} false} {supplier string 供应商 autocomplete true false text [] /item/autocomplete/supplier  {true true  true} false} {detail string 产品详情 text false false text []   {true true asc true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/16 14:38:27 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/16 14:38:33 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/16 14:39:47 [svc.go:123] [E] [{sn string 编号 none false false sn []   {true true asc true} false} {category string 类别 select true false enum [{cate_engine cate_engine cate_engine} {cate_generator cate_generator cate_generator} {cate_waterbox cate_waterbox cate_waterbox} {cate_parts cate_parts cate_parts} {cate_epart cate_epart cate_epart} {cate_other cate_other cate_other} {cate_newpdt cate_newpdt cate_newpdt}]   {true true  true} false} {productname string 商品名称 text true false text []   {true true  true} false} {product string sn none true false text []   {true true  true} false} {brand string 品牌 text true false text []   {true true  true} false} {model string 型号 text true false text []   {true true  true} false} {power float 功率 float true false text []   {true true  true} false} {num string 数量 text true false text []  1 {true true  true} false} {placedate string 下单日期 date true false text []  curtime {true true  true} false} {requireddate string 需用日期 date true false text []   {true true  true} false} {requireddepartment string 申请部门 text true false text []   {true true  true} false} {unitprice float 单价 money false false text []   {true true  true} false} {productprice float 参考价 money false false text []   {true true  true} false} {totalprice float 总价 money false false text []   {true true  true} false} {freightprice float 运费 money false false text []   {true true  true} false} {supplier string 供应商关键字 text true false text []   {true true  true} false} {suppliername string 供应商 text true false text []   {true true  true} false} {buyer string 采购人 select true false enum []   {true true  true} false} {orderdate string 订货日期 date false false text []   {true true desc true} false} {predictdeliverydate string 预计发货日期 date false false text []   {true true  true} false} {actualdeliverydate string 实际发货日 date false false text []   {true true  true} false} {arrivaldate string 到货日期 date false false text []   {true true  true} false} {godowndate string 入库日期 date false false text []   {true true  true} false} {paymentamount string 付款金额 money false false text []   {true true asc false} false} {paymentdate string 付款日期 date false false text []   {true true asc false} false} {file string 附件 upload false false upload []   {true true asc false} false} {mark string 备注 text false false text []   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/16 14:39:49 [staticfile.go:61] [W] Can't find the file: static/files/product/2015111614292408 stat static/files/product/2015111614292408: no such file or directory 
+2015/11/16 14:40:06 [purchase.go:59] [I] UiCurList 
+2015/11/16 14:40:16 [purchase.go:59] [I] UiCurList 
+2015/11/16 14:40:16 [purchase.go:59] [I] UiCurList 
+2015/11/16 14:40:19 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/16 14:40:19 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/16 14:40:19 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/16 14:40:59 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/16 14:40:59 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/16 14:40:59 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/16 14:41:31 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/16 14:41:36 [language.go:47] [E] GetLang error key:yes 
+2015/11/16 14:41:36 [language.go:47] [E] GetLang error key:yes 
+2015/11/16 14:41:36 [language.go:47] [E] GetLang error key:no 
+2015/11/16 14:41:36 [language.go:47] [E] GetLang error key:yes 
+2015/11/16 14:41:36 [language.go:47] [E] GetLang error key:no 
+2015/11/16 14:41:36 [language.go:47] [E] GetLang error key:no 
+2015/11/16 14:41:36 [language.go:47] [E] GetLang error key:yes 
+2015/11/16 14:41:36 [language.go:47] [E] GetLang error key:yes 
+2015/11/16 14:41:49 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/16 14:41:49 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/16 14:41:49 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/16 14:41:53 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/16 14:41:53 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/16 14:41:53 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/16 14:43:09 [staticfile.go:61] [W] Can't find the file: lib/3rd/uploadify/uploadify.swf stat lib/3rd/uploadify/uploadify.swf: no such file or directory 
+2015/11/16 14:44:21 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/16 14:44:27 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/16 14:44:32 [staticfile.go:61] [W] Can't find the file: static/files/product/2015111614292408 stat static/files/product/2015111614292408: no such file or directory 
+2015/11/16 14:45:05 [staticfile.go:61] [W] Can't find the file: static/files/product/2015111614292408 stat static/files/product/2015111614292408: no such file or directory 

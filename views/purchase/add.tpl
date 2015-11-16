@@ -170,7 +170,7 @@
         initCategory($productName)
 
         $("#model").autocomplete({
-            source: "/item/autocomplete/product?category=" + $("#category").val(),
+            source: "/item/autocomplete/product",
             autoFocus:false,
             focus: function( event, ui ) {
                 setProductValues(ui.item)

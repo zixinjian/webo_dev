@@ -147,9 +147,9 @@ var initAutocompleteFormat = `
 	};
 `
 var initFileUploadJs = `$('#%s_upload').uploadify({
-            'swf'      : '../../lib/3rd/uploadify/uploadify.swf',
+            'swf'      : '../../lib/uploadify/uploadify/uploadify.swf',
             'uploader' : '/item/upload/%s?sn=' + $("#sn").val(),
-            'cancelImg': '../../lib/3rd/uploadify/uploadify-cancel.png',
+            'cancelImg': '../../lib/uploadify/uploadify/uploadify-cancel.png',
             'fileObjName':'uploadFile'
         });
 `
