@@ -3,16 +3,20 @@
 <head lang="zh">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="../../lib/app/css/app.min.css"/>
     <link rel="stylesheet" href="../../lib/font-awesome/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="../../lib/simple-line-icons/css/simple-line-icons.css" type="text/css" />
-    <link rel="stylesheet" href="../../lib/app/css/app.min.css" type="text/css" />
     <link rel="stylesheet" href="../../lib/jquery/datetimepicker/jquery.datetimepicker.css">
     <link rel="stylesheet" href="../../lib/uploadify/uploadify/uploadify.css" />
     <link rel="stylesheet" href="../../lib/jquery/jquery-ui/jquery-ui.min.css">
     <link rel="stylesheet" href="../../lib/webo/css/ui.css">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="../../lib/html5shiv.min.js"></script>
+    <![endif]-->
 </head>
 <body>
-<div class="container-fluid" style="background-color: white">
+<div class="container-fluid bg-white">
     <form class="form-horizontal" id="item_form" enctype="multipart/form-data">
         {{str2html .Form_sn}}
         <div class="form-group">

@@ -179,3 +179,191 @@
 2015/11/18 11:32:44 [purchase.go:59] [I] UiCurList 
 2015/11/18 11:33:47 [main.go:46] [I] User:gdj login as role:role_manager 
 2015/11/18 11:34:00 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 11:37:14 [purchase.go:59] [I] UiCurList 
+2015/11/18 11:37:26 [purchase.go:59] [I] UiCurList 
+2015/11/18 11:37:27 [purchase.go:59] [I] UiCurList 
+2015/11/18 11:38:53 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 11:41:17 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/18 11:41:18 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/18 11:41:20 [purchase.go:59] [I] UiCurList 
+2015/11/18 11:41:22 [purchase.go:59] [I] UiCurList 
+2015/11/18 11:42:39 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 11:42:43 [purchase.go:59] [I] UiCurList 
+2015/11/18 11:42:44 [purchase.go:59] [I] UiCurList 
+2015/11/18 11:42:47 [purchase.go:59] [I] UiCurList 
+2015/11/18 11:43:17 [purchase.go:59] [I] UiCurList 
+2015/11/18 11:43:18 [purchase.go:59] [I] UiCurList 
+2015/11/18 11:43:19 [purchase.go:59] [I] UiCurList 
+2015/11/18 11:43:19 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/18 11:43:19 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/18 11:43:42 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 11:44:05 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 11:44:14 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 11:44:18 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 11:48:39 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 11:48:40 [staticfile.go:61] [W] Can't find the file: lib/bootstrap/js/bootstrap.min.js stat lib/bootstrap/js/bootstrap.min.js: no such file or directory 
+2015/11/18 11:49:31 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 11:49:48 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 11:50:30 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 11:52:04 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 11:52:25 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 11:53:19 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 12:00:11 [purchase.go:59] [I] UiCurList 
+2015/11/18 12:00:11 [staticfile.go:61] [W] Can't find the file: lib/bootstrap/css/bootstrap.min.css stat lib/bootstrap/css/bootstrap.min.css: no such file or directory 
+2015/11/18 12:00:11 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/18 12:00:11 [staticfile.go:61] [W] Can't find the file: lib/bootstrap/js/bootstrap.min.js stat lib/bootstrap/js/bootstrap.min.js: no such file or directory 
+2015/11/18 12:00:11 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/18 12:00:12 [purchase.go:59] [I] UiCurList 
+2015/11/18 12:00:13 [purchase.go:59] [I] UiCurList 
+2015/11/18 12:00:14 [purchase.go:59] [I] UiCurList 
+2015/11/18 12:00:14 [purchase.go:59] [I] UiCurList 
+2015/11/18 12:00:14 [staticfile.go:61] [W] Can't find the file: lib/bootstrap/css/bootstrap.min.css stat lib/bootstrap/css/bootstrap.min.css: no such file or directory 
+2015/11/18 12:00:14 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/18 12:00:14 [staticfile.go:61] [W] Can't find the file: lib/bootstrap/js/bootstrap.min.js stat lib/bootstrap/js/bootstrap.min.js: no such file or directory 
+2015/11/18 12:00:14 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/18 12:04:58 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:04:58 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:04:58 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:04:58 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:04:58 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:04:58 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:04:58 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:04:58 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:05:48 [purchase.go:59] [I] UiCurList 
+2015/11/18 12:05:51 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:05:51 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:05:51 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:05:51 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:05:51 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:05:51 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:05:51 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:05:51 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:06:20 [svc.go:123] [E] [{sn string 编号 none false false sn []   {true false  false} false} {product string product none true true text []   {true true  true} false} {supplier string supplier none true true text []   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/18 12:06:20 [svc.go:123] [E] [{sn string 编号 none false false sn []   {true false  false} false} {category string 类别 select true false enum [{cate_engine cate_engine cate_engine} {cate_generator cate_generator cate_generator} {cate_waterbox cate_waterbox cate_waterbox} {cate_epart cate_epart cate_epart} {cate_parts cate_parts cate_parts} {cate_other cate_other cate_other} {cate_newpdt cate_newpdt cate_newpdt}]  cate_engine {true true asc true} false} {name string 名称 text true true text []   {true true asc true} false} {brand string 品牌 text true false text []   {true true asc true} false} {model string 型号 text true false text []   {true true  true} false} {power float 功率 float true false text []   {true true  true} false} {keyword string 关键词 none true true text []   {true true asc false} false} {price float 参考价格 money true false text []   {true true asc true} false} {size string 尺寸重量 text false false text []   {true true  true} false} {freight float 预计运费 money false false text []   {true true  true} false} {profitrat float 调价比例 percent false false text []   {true true  true} false} {retailprice float 卖价 money false false text []   {true true  true} false} {supplier string 供应商 autocomplete true false text [] /item/autocomplete/supplier  {true true  true} false} {detail string 产品详情 text false false text []   {true true asc true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/18 12:06:20 [svc.go:170] [E] Add error UNIQUE constraint failed: product.model, product.name 
+2015/11/18 12:06:25 [svc.go:123] [E] [{sn string 编号 none false false sn []   {true false  false} false} {product string product none true true text []   {true true  true} false} {supplier string supplier none true true text []   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/18 12:06:25 [svc.go:123] [E] [{sn string 编号 none false false sn []   {true false  false} false} {category string 类别 select true false enum [{cate_engine cate_engine cate_engine} {cate_generator cate_generator cate_generator} {cate_waterbox cate_waterbox cate_waterbox} {cate_epart cate_epart cate_epart} {cate_parts cate_parts cate_parts} {cate_other cate_other cate_other} {cate_newpdt cate_newpdt cate_newpdt}]  cate_engine {true true asc true} false} {name string 名称 text true true text []   {true true asc true} false} {brand string 品牌 text true false text []   {true true asc true} false} {model string 型号 text true false text []   {true true  true} false} {power float 功率 float true false text []   {true true  true} false} {keyword string 关键词 none true true text []   {true true asc false} false} {price float 参考价格 money true false text []   {true true asc true} false} {size string 尺寸重量 text false false text []   {true true  true} false} {freight float 预计运费 money false false text []   {true true  true} false} {profitrat float 调价比例 percent false false text []   {true true  true} false} {retailprice float 卖价 money false false text []   {true true  true} false} {supplier string 供应商 autocomplete true false text [] /item/autocomplete/supplier  {true true  true} false} {detail string 产品详情 text false false text []   {true true asc true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/18 12:06:53 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 12:22:09 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/18 12:22:15 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 12:22:24 [purchase.go:59] [I] UiCurList 
+2015/11/18 12:22:26 [purchase.go:59] [I] UiCurList 
+2015/11/18 12:22:27 [purchase.go:59] [I] UiCurList 
+2015/11/18 12:22:28 [purchase.go:59] [I] UiCurList 
+2015/11/18 12:22:29 [staticfile.go:61] [W] Can't find the file: static/files/purchase/2015111810394601 stat static/files/purchase/2015111810394601: no such file or directory 
+2015/11/18 12:27:03 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 12:27:14 [purchase.go:59] [I] UiCurList 
+2015/11/18 12:28:32 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 12:29:23 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 12:30:39 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 12:31:38 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 12:31:44 [purchase.go:59] [I] UiCurList 
+2015/11/18 12:31:45 [purchase.go:59] [I] UiCurList 
+2015/11/18 12:31:46 [purchase.go:59] [I] UiCurList 
+2015/11/18 12:31:48 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 12:31:55 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:31:55 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:31:55 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:31:55 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:31:55 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:31:55 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:31:55 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:31:55 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:32:06 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 12:36:46 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 12:38:02 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 12:38:10 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 12:41:27 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 12:41:31 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 12:42:30 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 12:42:50 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 12:42:57 [purchase.go:59] [I] UiCurList 
+2015/11/18 12:44:02 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:44:02 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:44:02 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:44:02 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:44:02 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:44:02 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:44:02 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:44:02 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:44:14 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/18 12:44:21 [purchase.go:59] [I] UiCurList 
+2015/11/18 12:44:39 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:44:39 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:44:39 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:44:39 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:44:39 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:44:39 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:44:39 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:44:39 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:44:59 [purchase.go:59] [I] UiCurList 
+2015/11/18 12:45:39 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/18 12:45:42 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:45:42 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:45:42 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:45:42 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:45:42 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:45:42 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:45:42 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:45:42 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:45:43 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:45:43 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:45:43 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:45:43 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:45:43 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:45:43 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:45:43 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:45:43 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:45:44 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:45:44 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:45:44 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:45:44 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:45:44 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:45:44 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:45:44 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:45:44 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:46:00 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:46:00 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:46:00 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:46:00 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:46:00 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:46:00 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:46:00 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:46:00 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:46:01 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:46:01 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:46:01 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:46:01 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:46:01 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:46:01 [language.go:47] [E] GetLang error key:no 
+2015/11/18 12:46:01 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:46:01 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 12:46:38 [staticfile.go:61] [W] Can't find the file: static/files/purchase/2015111810394601 stat static/files/purchase/2015111810394601: no such file or directory 
+2015/11/18 12:46:46 [purchase.go:59] [I] UiCurList 
+2015/11/18 12:46:50 [purchase.go:59] [I] UiCurList 
+2015/11/18 12:46:54 [purchase.go:59] [I] UiCurList 
+2015/11/18 12:46:56 [purchase.go:59] [I] UiCurList 
+2015/11/18 12:46:57 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/18 12:46:58 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/18 12:46:59 [purchase.go:59] [I] UiCurList 
+2015/11/18 12:46:59 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/18 12:47:00 [purchase.go:59] [I] UiCurList 
+2015/11/18 12:47:00 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/18 12:47:00 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/18 12:47:03 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/18 12:50:34 [purchase.go:59] [I] UiCurList 
+2015/11/18 12:50:42 [purchase.go:59] [I] UiCurList 
+2015/11/18 12:51:55 [purchase.go:59] [I] UiCurList 
+2015/11/18 15:48:36 [svc.go:123] [E] [{sn string 编号 none false false sn []   {true true asc true} false} {category string 类别 select true false enum [{cate_engine cate_engine cate_engine} {cate_generator cate_generator cate_generator} {cate_waterbox cate_waterbox cate_waterbox} {cate_parts cate_parts cate_parts} {cate_epart cate_epart cate_epart} {cate_other cate_other cate_other} {cate_newpdt cate_newpdt cate_newpdt}]   {true true  true} false} {productname string 商品名称 text true false text []   {true true  true} false} {product string sn none true false text []   {true true  true} false} {brand string 品牌 text true false text []   {true true  true} false} {model string 型号 text true false text []   {true true  true} false} {power float 功率 float true false text []   {true true  true} false} {num string 数量 text true false text []  1 {true true  true} false} {placedate string 下单日期 date true false text []  curtime {true true  true} false} {requireddate string 需用日期 date true false text []   {true true  true} false} {requireddepartment string 申请部门 text true false text []   {true true  true} false} {unitprice float 单价 money false false text []   {true true  true} false} {productprice float 参考价 money false false text []   {true true  true} false} {totalprice float 总价 money false false text []   {true true  true} false} {freightprice float 运费 money false false text []   {true true  true} false} {supplier string 供应商关键字 text true false text []   {true true  true} false} {suppliername string 供应商 text true false text []   {true true  true} false} {buyer string 采购人 select true false enum [{20150729203140000 admin admin} {20150804174916001 gdj 郭东进}]   {true true  true} false} {orderdate string 订货日期 date false false text []   {true true desc true} false} {predictdeliverydate string 预计发货日期 date false false text []   {true true  true} false} {actualdeliverydate string 实际发货日 date false false text []   {true true  true} false} {arrivaldate string 到货日期 date false false text []   {true true  true} false} {godowndate string 入库日期 date false false text []   {true true  true} false} {paymentamount string 付款金额 money false false text []   {true true asc false} false} {paymentdate string 付款日期 date false false text []   {true true asc false} false} {file string 附件 upload false false upload []   {true true asc false} false} {mark string 备注 text false false text []   {true true  true} false} {creater string 创建人 none false false curuser []   {false false  false} false} {createtime time 创建时间 none false false curtime []   {false false  false} false}] 
+2015/11/18 15:49:34 [purchase.go:59] [I] UiCurList 
+2015/11/18 15:50:45 [purchase.go:59] [I] UiCurList 
+2015/11/18 15:50:46 [purchase.go:59] [I] UiCurList 
+2015/11/18 15:52:04 [purchase.go:59] [I] UiCurList 
+2015/11/18 15:52:07 [purchase.go:59] [I] UiCurList 
+2015/11/18 15:53:23 [purchase.go:59] [I] UiCurList 
+2015/11/18 15:53:24 [purchase.go:59] [I] UiCurList 
+2015/11/18 15:53:26 [purchase.go:59] [I] UiCurList 
+2015/11/18 15:53:31 [purchase.go:59] [I] UiCurList 
+2015/11/18 15:54:27 [purchase.go:59] [I] UiCurList 
+2015/11/18 15:54:34 [purchase.go:59] [I] UiCurList 
+2015/11/18 15:54:36 [purchase.go:59] [I] UiCurList 

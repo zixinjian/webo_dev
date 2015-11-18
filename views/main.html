@@ -149,9 +149,9 @@
         <iframe class="bg-light " name="main" src="{{.activeUrl}}" layout-auto-height="-50" style="width:100%;border:none"></iframe>
     </div>
     <div id="topModal" class="app-content" role="main">
-        <iframe id="topModalContent" class="bg-light " name="topContent" src="" layout-auto-height="-100" style="width:100%;border:none"></iframe>
-        <div class="bg-black">
-            <span class="col-sm-2 col-sm-offset-2">
+        <iframe id="topModalContent" class="bg-light " name="topContent" layout-auto-height="-100" style="width:100%;border:none"></iframe>
+        <div>
+            <span class="col-sm-10 pull-right">
                 <button type="button" class="btn btn-primary" id="topModalBtnOk" >确定</button>
                 <button type="button" class="btn btn-default" id="topModalBtnCancel">取消</button>
             </span>
@@ -176,8 +176,9 @@
     function hideTopModal(){
         if($("#content").is(":hidden")){
             $("#topModalBtnOk").off("click")
-            $("#topModalContent").attr({src:""});
             $('#topModal').hide();
+            $("#topModalContent").replaceWith('<iframe id="topModalContent" class="bg-light " name="topContent" layout-auto-height="-100" style="width:100%;border:none"></iframe>');
+            layoutAutoHeight()
             $("#content").show()
         }
     }

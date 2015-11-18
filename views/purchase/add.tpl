@@ -6,6 +6,12 @@
     <link rel="stylesheet" href="../../lib/jquery/datetimepicker/jquery.datetimepicker.css">
     <link rel="stylesheet" href="../../lib/uploadify/uploadify/uploadify.css" />
     <link rel="stylesheet" href="../../lib/jquery/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="../../lib/webo/css/ui.css">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="../../lib/html5shiv.min.js"></script>
+    <![endif]-->
+
     <style>
         .ui-autocomplete-loading {
             background: white url("../../lib/webo/images/ui-anim_basic_16x16.gif") right center no-repeat;
@@ -14,8 +20,6 @@
 </head>
 <body>
 <div class="container-fluid">
-    <div class="panel panel-default m-t">
-    <div class="panel-body">
     <form class="form-horizontal" id="item_form">
         <input type="hidden" id="sn" name="sn" value="{{.sn}}">
         <div class="form-group">
@@ -111,8 +115,7 @@
     </div>
 </div>
 
-<script src="../../lib/jquery/jquery/jquery.js"></script>
-<script src="../../lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="../../lib/app/js/app.min.js"></script>
 <script src="../../lib/jquery/jquery/jquery.form.js"></script>
 <script src="../../lib/jquery/jquery/validate/jquery.validate.min.js"></script>
 <script src="../../lib/uploadify/uploadify/jquery.uploadify.js"></script>
