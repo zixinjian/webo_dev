@@ -11,8 +11,8 @@
     <form class="form-horizontal" id="item_form">
         {{str2html .Form_sn}}
         <div class="form-group">
-            <label class="col-sm-3 control-label">类别</label>
-            <div class="col-sm-6">
+            <label class="col-sm-2 control-label">类别</label>
+            <div class="col-sm-8">
                 <select class="input-block-level form-control" data-validate="{required: true, messages:{required:'请输入类别'}}" name="category" id="category" autocomplete="off" value="" disabled>
                     {{str2html .CategoryOptions}}
                 </select>
@@ -33,8 +33,8 @@
         {{str2html .Form_freightprice}}
         {{if .NeedSupplier}}
         <div class="form-group">
-            <label class="col-sm-3 control-label">供应商关键字</label>
-            <div class="col-sm-6">
+            <label class="col-sm-2 control-label">供应商关键字</label>
+            <div class="col-sm-8">
                 <select class="input-block-level form-control" name="supplier" id="supplier" autocomplete="off" value="{{.supplier}}" >
                     {{str2html .SupplierOptions}}
                 </select>
@@ -43,8 +43,8 @@
         </div>
         {{else}}
         <div class="form-group">
-            <label class="col-sm-3 control-label">供应商关键字</label>
-            <div class="col-sm-6">
+            <label class="col-sm-2 control-label">供应商关键字</label>
+            <div class="col-sm-8">
             <input type="text" class="input-block-level form-control" data-validate="{required: true, messages:{required:'请输入正确的供应商!'}}" name="suppliername" id="suppliername" autocomplete="off" value="{{.suppliername}}">
             <input type="hidden" name="supplier" id="supplier2" value="{{.supplier}}">
             </div>

@@ -16,8 +16,8 @@
     <form class="form-horizontal" id="item_form" enctype="multipart/form-data">
         {{str2html .Form_sn}}
         <div class="form-group">
-            <label class="col-sm-3 control-label">类别</label>
-            <div class="col-sm-6">
+            <label class="col-sm-2 control-label">类别</label>
+            <div class="col-sm-8">
                 <select class="input-block-level form-control" data-validate="{required: true, messages:{required:'请输入类别'}}" name="category" id="category" autocomplete="off" value="cate_engine" >
                     {{str2html .CategoryOptions}}
                 </select>
@@ -29,14 +29,14 @@
         {{str2html .Form_power}}
         {{str2html .Form_detail}}
         <div class="form-group">
-            <label class="col-sm-3 control-label">附件</label>
-            <div class="col-sm-6">
+            <label class="col-sm-2 control-label">附件</label>
+            <div class="col-sm-8">
                 <input type="file" name="fileUpload" id="file_upload" />
             </div>
         </div>
         <div class="form-group">
-            <label class="col-sm-3 control-label">供应商</label>
-            <div class="col-sm-6">
+            <label class="col-sm-2 control-label">供应商</label>
+            <div class="col-sm-8">
                 <input type="text" class=" form-control" id="supplier_key">
                 <span id="supplierList" class="help-block" style="margin-bottom: 0"></span>
             </div>
@@ -46,8 +46,8 @@
         {{str2html .Form_price}}
         {{str2html .Form_profitrat}}
         <div class="form-group">
-            <label class="col-sm-3 control-label">卖价</label>
-            <div class="col-sm-6">
+            <label class="col-sm-2 control-label">卖价</label>
+            <div class="col-sm-8">
                 <div class="input-group"><span class="input-group-addon">￥</span><input type="text" class="input-block-level form-control" data-validate="{required: false, number:true, messages:{required:'请输入正确的卖价!'}}" name="retailprice" id="retailprice" autocomplete="off" value="" />
                     <a class="btn btn-sm input-group-addon" id="calc">计算</a>
                 </div>

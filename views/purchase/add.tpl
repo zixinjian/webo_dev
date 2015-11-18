@@ -10,19 +10,17 @@
         .ui-autocomplete-loading {
             background: white url("../../lib/webo/images/ui-anim_basic_16x16.gif") right center no-repeat;
         }
-        .container-fluid{
-            background-color: white;
-        }
     </style>
 </head>
 <body>
 <div class="container-fluid">
-    <div class="alert" role="alert" style="display: none">添加成功！</div>
+    <div class="panel panel-default m-t">
+    <div class="panel-body">
     <form class="form-horizontal" id="item_form">
         <input type="hidden" id="sn" name="sn" value="{{.sn}}">
         <div class="form-group">
-            <label class="col-sm-3 control-label">类别</label>
-            <div class="col-sm-6">
+            <label class="col-sm-2 control-label">类别</label>
+            <div class="col-sm-8">
                 <select class="input-block-level form-control" data-validate="{required: true, messages:{required:'请输入类别'}}" name="category" id="category" autocomplete="off" value="cate_engine" >
                     {{str2html .CategoryOptions}}
                 </select>
@@ -31,41 +29,41 @@
         <input type="hidden" id="product" name="product" value="">
         <input type="hidden" id="supplier" name="supplier" value="">
         <div class="form-group">
-            <label class="col-sm-3 control-label">商品名称</label>
-            <div class="col-sm-6">
+            <label class="col-sm-2 control-label">商品名称</label>
+            <div class="col-sm-8">
                 <input type="text" class="input-block-level form-control" id="productname" name="productname" value=""
                        data-rule-required="true"/>
             </div>
         </div>
         <div class="form-group">
-            <label class="col-sm-3 control-label">型号</label>
-            <div class="col-sm-6">
+            <label class="col-sm-2 control-label">型号</label>
+            <div class="col-sm-8">
                 <input type="text" class="input-block-level form-control" name="model" id="model" autocomplete="off" value=""
                        data-rule-required="true"/>
             </div>
         </div>
         <div class="form-group">
-            <label class="col-sm-3 control-label">品牌</label>
-            <div class="col-sm-6">
+            <label class="col-sm-2 control-label">品牌</label>
+            <div class="col-sm-8">
                 <input type="text" class="input-block-level form-control" name="brand" id="brand" autocomplete="off" value="" />
             </div>
         </div>
         <div class="form-group">
-            <label class="col-sm-3 control-label">功率</label>
-            <div class="col-sm-6">
+            <label class="col-sm-2 control-label">功率</label>
+            <div class="col-sm-8">
                 <input type="text" class="input-block-level form-control" name="power" id="power" autocomplete="off" value="" readonly
                        data-rule-required="true" data-rule-number="true" data-msg-number="请输入正确的功率!" />
             </div>
         </div>
         <div class="form-group">
-            <label class="col-sm-3 control-label">参考价</label>
-            <div class="col-sm-6">
+            <label class="col-sm-2 control-label">参考价</label>
+            <div class="col-sm-8">
                 <input type="text" class="input-block-level form-control" name="productprice" id="productprice" autocomplete="off" value="" readonly='true'/>
             </div>
         </div>
         <div class="form-group">
-            <label class="col-sm-3 control-label">采购人</label>
-            <div class="col-sm-6">
+            <label class="col-sm-2 control-label">采购人</label>
+            <div class="col-sm-8">
                 <select class="input-block-level form-control" name="buyer" id="buyer" autocomplete="off" value=""
                         data-rule-required="true">
                     {{range .Buyers}}
@@ -75,39 +73,42 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="col-sm-3 control-label">数量</label>
-            <div class="col-sm-6">
+            <label class="col-sm-2 control-label">数量</label>
+            <div class="col-sm-8">
                 <input type="text" class="input-block-level form-control" data-validate="{required: true, messages:{required:'请输入正确的数量!'}}" name="num" id="num" autocomplete="off" value="1" />
             </div>
         </div>
         <div class="form-group">
-            <label class="col-sm-3 control-label">下单日期</label>
-            <div class="col-sm-6">
+            <label class="col-sm-2 control-label">下单日期</label>
+            <div class="col-sm-8">
                 <input type="text" class="input-block-level form-control datetimepicker" name="placedate" id="placedate" autocomplete="off" value="curtime"
                        data-rule-required="true"/>
             </div>
         </div>
         <div class="form-group">
-            <label class="col-sm-3 control-label">需用日期</label>
-            <div class="col-sm-6">
+            <label class="col-sm-2 control-label">需用日期</label>
+            <div class="col-sm-8">
                 <input type="text" class="input-block-level form-control datetimepicker" name="requireddate" id="requireddate" autocomplete="off" value=""
                        data-rule-required="true" data-rule-date="true"/>
             </div>
         </div>
         <div class="form-group">
-            <label class="col-sm-3 control-label">申请部门</label>
-            <div class="col-sm-6">
+            <label class="col-sm-2 control-label">申请部门</label>
+            <div class="col-sm-8">
                 <input type="text" class="input-block-level form-control" name="requireddepartment" id="requireddepartment" autocomplete="off" value=""
                        data-rule-required="true"/>
             </div>
         </div>
         <div class="form-group">
-            <label class="col-sm-3 control-label">备注</label>
-            <div class="col-sm-6">
+            <label class="col-sm-2 control-label">备注</label>
+            <div class="col-sm-8">
                 <input type="text" class="input-block-level form-control" name="mark" id="mark" autocomplete="off" value="" />
             </div>
         </div>
     </form>
+    </div>
+    </div>
+    </div>
 </div>
 
 <script src="../../lib/jquery/jquery/jquery.js"></script>

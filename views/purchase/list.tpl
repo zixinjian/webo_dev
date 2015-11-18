@@ -36,7 +36,7 @@
             <th data-field="brand"  data-sortable="false">品牌</th>
             <th data-field="model"  data-sortable="false" data-formatter="modelFormatter">型号</th>
             <th data-field="power"  data-sortable="false">功率(KW)</th>
-            <th data-field="num"  data-sortable="true">数量</th>
+            <th data-field="num"  data-sortable="true" data-width="50px" data-align="right">数量</th>
             <th data-field="placedate"  data-sortable="true">下单日期</th>
             <th data-field="requireddate"  data-sortable="true">需用日期</th>
             <th data-field="requireddepartment"  data-sortable="true">申请部门</th>
