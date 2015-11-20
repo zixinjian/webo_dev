@@ -367,3 +367,41 @@
 2015/11/18 15:54:27 [purchase.go:59] [I] UiCurList 
 2015/11/18 15:54:34 [purchase.go:59] [I] UiCurList 
 2015/11/18 15:54:36 [purchase.go:59] [I] UiCurList 
+2015/11/18 16:49:54 [asm_amd64.s:1696] [I] http server Running on :8080
+2015/11/18 16:53:23 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 16:53:37 [purchase.go:59] [I] UiCurList 
+2015/11/18 16:53:38 [purchase.go:59] [I] UiCurList 
+2015/11/18 16:53:40 [purchase.go:59] [I] UiCurList 
+2015/11/18 16:53:48 [purchase.go:59] [I] UiCurList 
+2015/11/18 16:53:49 [purchase.go:59] [I] UiCurList 
+2015/11/18 16:55:15 [purchase.go:59] [I] UiCurList 
+2015/11/18 16:55:17 [purchase.go:59] [I] UiCurList 
+2015/11/18 16:55:53 [purchase.go:59] [I] UiCurList 
+2015/11/18 20:41:16 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 20:41:27 [purchase.go:59] [I] UiCurList 
+2015/11/18 20:41:39 [purchase.go:59] [I] UiCurList 
+2015/11/18 20:41:42 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/18 20:41:43 [purchase.go:59] [I] UiCurList 
+2015/11/18 20:41:43 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css stat lib/3rd/bootstrap-editable/bootstrap3-editable/css/bootstrap-editable.css: no such file or directory 
+2015/11/18 20:41:43 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/18 20:41:44 [purchase.go:59] [I] UiCurList 
+2015/11/18 20:41:44 [staticfile.go:61] [W] Can't find the file: lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js stat lib/3rd/bootstrap-editable/bootstrap3-editable/js/bootstrap-editable.js: no such file or directory 
+2015/11/18 20:41:46 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 20:41:46 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 20:41:46 [language.go:47] [E] GetLang error key:no 
+2015/11/18 20:41:46 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 20:41:46 [language.go:47] [E] GetLang error key:no 
+2015/11/18 20:41:46 [language.go:47] [E] GetLang error key:no 
+2015/11/18 20:41:46 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 20:41:46 [language.go:47] [E] GetLang error key:yes 
+2015/11/18 20:41:48 [purchase.go:59] [I] UiCurList 
+2015/11/18 20:41:49 [purchase.go:59] [I] UiCurList 
+2015/11/18 20:41:50 [purchase.go:59] [I] UiCurList 
+2015/11/18 20:41:50 [purchase.go:59] [I] UiCurList 
+2015/11/18 20:41:52 [purchase.go:59] [I] UiCurList 
+2015/11/18 20:41:53 [purchase.go:59] [I] UiCurList 
+2015/11/18 20:42:10 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 20:42:22 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 20:42:35 [main.go:46] [I] User:gdj login as role:role_manager 
+2015/11/18 20:42:53 [purchase.go:59] [I] UiCurList 
+2015/11/18 20:44:09 [main.go:46] [I] User:gdj login as role:role_manager 
