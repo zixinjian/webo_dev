@@ -117,6 +117,7 @@ func Delete(item string, sn string, deleter string)string{
 }
 
 func Add(entity string, params t.Params) (string, string) {
+
 	Q := "'"
 	oEntityDef, ok := itemDef.EntityDefMap[entity]
 	beego.Error(oEntityDef.Fields)
